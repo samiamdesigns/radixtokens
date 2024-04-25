@@ -1,0 +1,20 @@
+{
+  "tokenSetOrder": [
+    "options/tailwind",
+    "options/font/satoshi",
+    "options/font/inter",
+    "primitive/colors",
+    "decisions/brand-wireframe",
+    "decisions/brand-Barbie",
+    "decisions/platform-iOs",
+    "decisions/platform-android",
+    "decisions/device-mobile",
+    "decisions/device-tv",
+    "decisions/themes/typography",
+    "decisions/themes/default",
+    "TEST",
+    "component/actions/toggle",
+    "component/actions/button",
+    "component/feedback/tooltip"
+  ]
+}

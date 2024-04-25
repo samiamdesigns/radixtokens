@@ -1,0 +1,74 @@
+{
+  "feedback": {
+    "tooltip": {
+      "typography": {
+        "value": "{theme-text-styles.system-status.default}",
+        "type": "typography"
+      },
+      "default": {
+        "border": {
+          "value": {
+            "color": "{feedback.tooltip.default.border-color}",
+            "width": "{feedback.tooltip.border-width}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "box-shadow": {
+          "value": "{test-shadow}",
+          "type": "boxShadow"
+        },
+        "bg-color": {
+          "value": "{theme-color.bg.neutral.inverse}",
+          "type": "color"
+        },
+        "arrow-fill": {
+          "value": "{theme-color.bg.neutral.inverse}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "{theme-color.bg.neutral.inverse}",
+          "type": "color"
+        },
+        "label": {
+          "color": {
+            "value": "{theme-color.fg.neutral.inverse}",
+            "type": "color"
+          }
+        }
+      },
+      "border-radius": {
+        "value": "{device.dimensions.border-radius.xs}",
+        "type": "dimension"
+      },
+      "border-width": {
+        "value": "1px",
+        "type": "dimension"
+      },
+      "gap": {
+        "value": "{device.dimensions.space.sm}",
+        "type": "dimension"
+      },
+      "height-max": {
+        "value": "300px",
+        "type": "dimension"
+      },
+      "padding": {
+        "value": "{device.dimensions.space.md}, {device.dimensions.space.lg}",
+        "type": "dimension"
+      },
+      "width-max": {
+        "value": "300px",
+        "type": "dimension"
+      },
+      "arrow-width": {
+        "value": "10px",
+        "type": "dimension"
+      },
+      "arrow-height": {
+        "value": "5px",
+        "type": "dimension"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "platform-fontFamily": {
+    "value": "{fontFamilies.satoshi}",
+    "type": "fontFamilies"
+  },
+  "platform-fontWeight": {
+    "normal": {
+      "value": "{fontWeights.satoshi-regular}",
+      "type": "fontWeights"
+    },
+    "semibold": {
+      "value": "{fontWeights.satoshi-medium}",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "{fontWeights.satoshi-bold}",
+      "type": "fontWeights"
+    }
+  },
+  "platform-colors": {
+    "success": {
+      "50": {
+        "value": "{colors.emerald.50}",
+        "type": "color"
+      },
+      "100": {
+        "value": "{colors.emerald.100}",
+        "type": "color"
+      },
+      "200": {
+        "value": "{colors.emerald.200}",
+        "type": "color"
+      },
+      "300": {
+        "value": "{colors.emerald.300}",
+        "type": "color"
+      },
+      "400": {
+        "value": "{colors.emerald.400}",
+        "type": "color"
+      },
+      "500": {
+        "value": "{colors.emerald.500}",
+        "type": "color"
+      },
+      "600": {
+        "value": "{colors.emerald.600}",
+        "type": "color"
+      },
+      "700": {
+        "value": "{colors.emerald.700}",
+        "type": "color"
+      },
+      "800": {
+        "value": "{colors.emerald.800}",
+        "type": "color"
+      },
+      "900": {
+        "value": "{colors.emerald.900}",
+        "type": "color"
+      }
+    },
+    "danger": {
+      "50": {
+        "value": "{colors.rose.50}",
+        "type": "color"
+      },
+      "100": {
+        "value": "{colors.rose.100}",
+        "type": "color"
+      },
+      "200": {
+        "value": "{colors.rose.200}",
+        "type": "color"
+      },
+      "300": {
+        "value": "{colors.rose.300}",
+        "type": "color"
+      },
+      "400": {
+        "value": "{colors.rose.400}",
+        "type": "color"
+      },
+      "500": {
+        "value": "{colors.rose.500}",
+        "type": "color"
+      },
+      "600": {
+        "value": "{colors.rose.600}",
+        "type": "color"
+      },
+      "700": {
+        "value": "{colors.rose.700}",
+        "type": "color"
+      },
+      "800": {
+        "value": "{colors.rose.800}",
+        "type": "color"
+      },
+      "900": {
+        "value": "{colors.rose.900}",
+        "type": "color"
+      }
+    }
+  }
+}

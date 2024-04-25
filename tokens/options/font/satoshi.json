@@ -1,0 +1,43 @@
+{
+  "fontFamilies": {
+    "satoshi": {
+      "value": "Satoshi Variable",
+      "type": "fontFamilies"
+    }
+  },
+  "fontWeights": {
+    "satoshi-bold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "satoshi-black": {
+      "value": "Black",
+      "type": "fontWeights"
+    },
+    "satoshi-medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "satoshi-regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "satoshi-light": {
+      "value": "Light",
+      "type": "fontWeights"
+    }
+  },
+  "Note": {
+    "typeface-download": {
+      "satoshi": {
+        "value": "https://www.fontshare.com/fonts/satoshi",
+        "type": "other",
+        "description": "This typeface was chosen as it looks great in darkmode, even at small font sizes. \n\nIt has limited styles which is why not all tailwind fontweights are populated. \n\nIt also has a variable font in it's package for more sophisticated responsive design tokens. "
+      }
+    }
+  },
+  "setname-typeface-satoshi": {
+    "value": "typeface-satoshi",
+    "type": "other"
+  }
+}
