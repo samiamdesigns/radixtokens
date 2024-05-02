@@ -1,105 +1,105 @@
 {
   "platform-fontFamily": {
-    "value": "{fontFamilies.inter}",
-    "type": "fontFamilies"
+    "type": "fontFamilies",
+    "value": "{fontFamilies.inter}"
   },
   "platform-fontWeight": {
     "normal": {
-      "value": "{fontWeights.inter-regular}",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "value": "{fontWeights.inter-regular}"
     },
     "semibold": {
-      "value": "{fontWeights.inter-semibold}",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "value": "{fontWeights.inter-semibold}"
     },
     "bold": {
-      "value": "{fontWeights.inter-bold}",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "value": "{fontWeights.inter-bold}"
     }
   },
   "platform-colors": {
     "success": {
       "50": {
-        "value": "{colors.lime.50}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.50}"
       },
       "100": {
-        "value": "{colors.lime.100}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.100}"
       },
       "200": {
-        "value": "{colors.lime.200}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.200}"
       },
       "300": {
-        "value": "{colors.lime.300}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.300}"
       },
       "400": {
-        "value": "{colors.lime.400}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.400}"
       },
       "500": {
-        "value": "{colors.lime.500}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.500}"
       },
       "600": {
-        "value": "{colors.lime.600}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.600}"
       },
       "700": {
-        "value": "{colors.lime.700}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.700}"
       },
       "800": {
-        "value": "{colors.lime.800}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.800}"
       },
       "900": {
-        "value": "{colors.lime.900}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.lime.900}"
       }
     },
     "danger": {
       "50": {
-        "value": "{colors.rose.50}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.50}"
       },
       "100": {
-        "value": "{colors.rose.100}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.100}"
       },
       "200": {
-        "value": "{colors.rose.200}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.200}"
       },
       "300": {
-        "value": "{colors.rose.300}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.300}"
       },
       "400": {
-        "value": "{colors.rose.400}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.400}"
       },
       "500": {
-        "value": "{colors.rose.500}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.500}"
       },
       "600": {
-        "value": "{colors.rose.600}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.600}"
       },
       "700": {
-        "value": "{colors.rose.700}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.700}"
       },
       "800": {
-        "value": "{colors.rose.800}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.800}"
       },
       "900": {
-        "value": "{colors.rose.900}",
-        "type": "color"
+        "type": "color",
+        "value": "{colors.rose.900}"
       }
     }
   }
