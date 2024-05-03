@@ -6,8 +6,7 @@
     "selectedTokenSets": {
       "options/font/satoshi": "enabled",
       "options/font/inter": "enabled",
-      "primitive/colors": "enabled",
-      "component/actions/icon-button": "disabled"
+      "primitive/colors": "enabled"
     },
     "group": "primitives"
   },
@@ -16,8 +15,7 @@
     "name": "always-on",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "TEST": "enabled",
-      "component/actions/icon-button": "disabled"
+      "TEST": "enabled"
     },
     "group": "components"
   },
@@ -26,8 +24,7 @@
     "name": "default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "decisions/brand-Barbie": "enabled",
-      "component/actions/icon-button": "disabled"
+      "decisions/brand-Barbie": "enabled"
     },
     "group": "brand"
   },
@@ -36,8 +33,7 @@
     "name": "wireframe",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "decisions/brand-wireframe": "enabled",
-      "component/actions/icon-button": "disabled"
+      "decisions/brand-wireframe": "enabled"
     },
     "group": "brand"
   },
@@ -46,8 +42,7 @@
     "name": "iOs",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "decisions/platform-iOs": "enabled",
-      "component/actions/icon-button": "disabled"
+      "decisions/platform-iOs": "enabled"
     },
     "group": "platform"
   },
@@ -56,8 +51,7 @@
     "name": "android",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "decisions/platform-android": "enabled",
-      "component/actions/icon-button": "disabled"
+      "decisions/platform-android": "enabled"
     },
     "group": "platform"
   },
@@ -66,8 +60,7 @@
     "name": "mobile",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "decisions/device-mobile": "enabled",
-      "component/actions/icon-button": "disabled"
+      "decisions/device-mobile": "enabled"
     },
     "group": "device"
   },
@@ -76,8 +69,7 @@
     "name": "tv",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "decisions/device-tv": "enabled",
-      "component/actions/icon-button": "disabled"
+      "decisions/device-tv": "enabled"
     },
     "group": "device"
   },
@@ -87,8 +79,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "decisions/themes/default": "enabled",
-      "decisions/themes/typography": "enabled",
-      "component/actions/icon-button": "disabled"
+      "decisions/themes/typography": "enabled"
     },
     "group": "theme"
   }
