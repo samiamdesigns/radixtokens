@@ -22,8 +22,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier1.toggle-off.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier1.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -46,8 +46,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier1.toggle-off.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier1.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -70,8 +70,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier1.toggle-off.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier1.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -94,8 +94,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier1.toggle-off.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier1.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -144,8 +144,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier1.toggle-on.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier1.toggle-on.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -168,8 +168,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier1.toggle-on.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier1.toggle-on.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -192,8 +192,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier1.toggle-on.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier1.toggle-on.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -216,8 +216,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier1.toggle-on.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier1.toggle-on.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -244,8 +244,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier2.toggle-off.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier2.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -268,8 +268,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier2.toggle-off.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier2.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -292,8 +292,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier2.toggle-off.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier2.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -316,8 +316,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier2.toggle-off.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier2.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -366,8 +366,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier2.toggle-on.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier2.toggle-on.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -390,8 +390,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier2.toggle-on.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier2.toggle-on.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -414,8 +414,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier2.toggle-on.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier2.toggle-on.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -438,8 +438,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier2.toggle-on.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier2.toggle-on.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -532,8 +532,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier3.toggle-off.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier3.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -556,8 +556,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier3.toggle-off.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier3.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -580,8 +580,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier3.toggle-off.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier3.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -604,8 +604,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier3.toggle-off.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier3.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -654,8 +654,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier3.toggle-on.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier3.toggle-on.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -678,8 +678,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier3.toggle-on.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier3.toggle-on.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -702,8 +702,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier3.toggle-on.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier3.toggle-on.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -726,8 +726,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.neutral.tier3.toggle-on.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.neutral.tier3.toggle-on.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -786,8 +786,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier1.toggle-off.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier1.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -810,8 +810,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier1.toggle-off.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier1.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -834,8 +834,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier1.toggle-off.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier1.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -858,8 +858,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier1.toggle-off.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier1.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -900,8 +900,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier1.toggle-on.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier1.toggle-on.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -924,8 +924,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier1.toggle-on.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier1.toggle-on.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -948,8 +948,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier1.toggle-on.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier1.toggle-on.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -972,8 +972,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier1.toggle-on.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier1.toggle-on.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1046,8 +1046,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier2.toggle-off.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier2.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1070,8 +1070,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier2.toggle-off.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier2.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1094,8 +1094,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier2.toggle-off.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier2.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1118,8 +1118,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier2.toggle-off.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier2.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1160,8 +1160,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier2.toggle-on.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier2.toggle-on.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1184,8 +1184,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier2.toggle-on.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier2.toggle-on.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1208,8 +1208,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier2.toggle-on.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier2.toggle-on.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1232,8 +1232,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier2.toggle-on.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier2.toggle-on.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1306,8 +1306,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier3.toggle-off.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier3.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1330,8 +1330,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier3.toggle-off.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier3.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1354,8 +1354,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier3.toggle-off.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier3.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1378,8 +1378,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier3.toggle-off.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier3.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1420,8 +1420,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier3.toggle-on.default.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier3.toggle-on.default.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1444,8 +1444,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier3.toggle-on.hover.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier3.toggle-on.hover.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1468,8 +1468,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier3.toggle-on.active.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier3.toggle-on.active.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
@@ -1492,8 +1492,8 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle.brand.tier3.toggle-on.disabled.border-color}",
-                  "width": "{actions.toggle.border-width}",
+                  "color": "{actions.icon-button.brand.tier3.toggle-on.disabled.border-color}",
+                  "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
               }
