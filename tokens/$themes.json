@@ -14,9 +14,7 @@
     "id": "e001386b7f7d45ad471747f4ceab3ee3e3c92731",
     "name": "always-on",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "TEST": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "components"
   },
   {
@@ -41,36 +39,28 @@
     "id": "cdfb4b488caeeeb4dd4061467e303167d12ad3be",
     "name": "iOs",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "decisions/platform-iOs": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "platform"
   },
   {
     "id": "b029feb7df6b58877192c9f4f42af65d894a254e",
     "name": "android",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "decisions/platform-android": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "platform"
   },
   {
     "id": "f418a53f9858760e235944c356aa7c81541f4c97",
     "name": "mobile",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "decisions/device-mobile": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "device"
   },
   {
     "id": "d04ef5cbe0270c7a39ee050fe027e05efd5c07e7",
     "name": "tv",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "decisions/device-tv": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "device"
   },
   {
