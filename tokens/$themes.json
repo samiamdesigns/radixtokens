@@ -69,7 +69,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "themes/typography": "enabled",
-      "themes/default": "enabled"
+      "themes/surface": "enabled"
     },
     "group": "theme"
   }

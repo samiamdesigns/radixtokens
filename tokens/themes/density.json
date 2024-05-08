@@ -1,69 +1,71 @@
 {
-  "device": {
+  "density": {
     "dimensions": {
-      "border-width": {
-        "sm": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "type": "dimension",
-          "value": "1px"
-        }
-      },
-      "space": {
-        "sm": {
-          "type": "dimension",
-          "value": "8px"
+      "interaction": {
+        "border-width": {
+          "default": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "1px"
+          }
         },
-        "md": {
-          "type": "dimension",
-          "value": "8px"
-        }
-      },
-      "size": {
-        "touchpoint": {
-          "type": "dimension",
-          "value": "44px"
-        }
-      },
-      "border-radius": {
-        "sm": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
+        "space": {
+          "sm": {
+            "type": "dimension",
+            "value": "8px"
           },
-          "type": "dimension",
-          "value": "1px"
+          "md": {
+            "type": "dimension",
+            "value": "8px"
+          }
         },
-        "md": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "type": "dimension",
-          "value": "4px"
+        "size": {
+          "touchpoint": {
+            "type": "dimension",
+            "value": "44px"
+          }
         },
-        "lg": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
+        "border-radius": {
+          "sm": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "1px"
           },
-          "type": "dimension",
-          "value": "8px"
-        },
-        "xl": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
+          "md": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "4px"
           },
-          "type": "dimension",
-          "value": "16px"
+          "lg": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "8px"
+          },
+          "xl": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "16px"
+          }
         }
       }
     }

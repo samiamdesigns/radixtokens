@@ -20,20 +20,20 @@
         },
         "bg-color": {
           "type": "color",
-          "value": "{theme-color.bg.neutral.inverse}"
+          "value": "{surface.color.bg.neutral.inverse}"
         },
         "arrow-fill": {
           "type": "color",
-          "value": "{theme-color.bg.neutral.inverse}"
+          "value": "{surface.color.bg.neutral.inverse}"
         },
         "border-color": {
           "type": "color",
-          "value": "{theme-color.bg.neutral.inverse}"
+          "value": "{surface.color.bg.neutral.inverse}"
         },
         "label": {
           "color": {
             "type": "color",
-            "value": "{theme-color.fg.neutral.inverse}"
+            "value": "{surface.color.fg.neutral.inverse}"
           }
         }
       },
@@ -47,7 +47,7 @@
       },
       "gap": {
         "type": "dimension",
-        "value": "{device.dimensions.space.sm}"
+        "value": "{density.dimensions.interaction.space.sm}"
       },
       "height-max": {
         "type": "dimension",
@@ -55,7 +55,7 @@
       },
       "padding": {
         "type": "dimension",
-        "value": "{device.dimensions.space.md}, {device.dimensions.space.lg}"
+        "value": "{density.dimensions.interaction.space.md}, {device.dimensions.space.lg}"
       },
       "width-max": {
         "type": "dimension",
