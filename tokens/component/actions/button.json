@@ -1927,7 +1927,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.feedback.success.glass}"
             },
             "icon": {
               "color": {
