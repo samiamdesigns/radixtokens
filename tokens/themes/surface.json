@@ -260,8 +260,13 @@
         }
       }
     },
-    "shadows": {
-      "20": {
+    "elevation": {
+      "xs": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
         "type": "boxShadow",
         "value": [
           {
@@ -282,7 +287,12 @@
           }
         ]
       },
-      "40": {
+      "sm": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
         "type": "boxShadow",
         "value": [
           {
@@ -303,7 +313,12 @@
           }
         ]
       },
-      "60": {
+      "md": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
         "type": "boxShadow",
         "value": [
           {
@@ -324,7 +339,12 @@
           }
         ]
       },
-      "80": {
+      "lg": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
         "type": "boxShadow",
         "value": [
           {
@@ -345,7 +365,12 @@
           }
         ]
       },
-      "100": {
+      "xl": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
         "type": "boxShadow",
         "value": [
           {
