@@ -917,11 +917,11 @@
           "in-progress": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.actions.neutral.default}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.actions.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1055,7 +1055,7 @@
           "disabled": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "border-color": {
               "type": "color",
@@ -1064,13 +1064,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
               }
             },
             "border": {
@@ -1097,7 +1097,7 @@
             },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "border-color": {
               "type": "color",
@@ -1123,7 +1123,7 @@
           "in-progress": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "border-color": {
               "type": "color",
@@ -1132,13 +1132,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.brand-primary.on-brand}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "border": {
@@ -1261,22 +1261,22 @@
           "disabled": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
               }
             },
             "border": {
@@ -1303,11 +1303,11 @@
             },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "icon": {
               "color": {
@@ -1329,16 +1329,16 @@
           "in-progress": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "label": {
