@@ -786,7 +786,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier1.default.border-color}",
+                  "color": "{actions.icon-button.info.tier1.default.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -810,7 +810,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier1.hover.border-color}",
+                  "color": "{actions.icon-button.info.tier1.hover.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -834,7 +834,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier1.active.border-color}",
+                  "color": "{actions.icon-button.info.tier1.active.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -858,7 +858,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier1.disabled.border-color}",
+                  "color": "{actions.icon-button.info.tier1.disabled.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1046,7 +1046,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier2.default.border-color}",
+                  "color": "{actions.icon-button.info.tier2.default.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1070,7 +1070,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier2.hover.border-color}",
+                  "color": "{actions.icon-button.info.tier2.hover.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1094,7 +1094,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier2.active.border-color}",
+                  "color": "{actions.icon-button.info.tier2.active.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1118,7 +1118,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier2.disabled.border-color}",
+                  "color": "{actions.icon-button.info.tier2.disabled.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1306,7 +1306,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier3.default.border-color}",
+                  "color": "{actions.icon-button.info.tier3.default.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1330,7 +1330,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier3.hover.border-color}",
+                  "color": "{actions.icon-button.info.tier3.hover.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1354,7 +1354,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier3.active.border-color}",
+                  "color": "{actions.icon-button.info.tier3.active.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1378,7 +1378,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.icon-button.brand.tier3.disabled.border-color}",
+                  "color": "{actions.icon-button.info.tier3.disabled.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
