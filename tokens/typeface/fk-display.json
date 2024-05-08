@@ -1,0 +1,19 @@
+{
+  "fontFamilies": {
+    "fk-display": {
+      "type": "fontFamilies",
+      "value": "FK Display"
+    }
+  },
+  "fontWeights": {
+    "fk-display-regular": {
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {}
+        }
+      },
+      "type": "fontWeights",
+      "value": "Regular"
+    }
+  }
+}

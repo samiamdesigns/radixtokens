@@ -1,17 +1,21 @@
 {
   "tokenSetOrder": [
-    "options/tailwind",
-    "options/font/satoshi",
-    "options/font/inter",
+    "template/typography-full",
+    "template/tailwind",
+    "typeface/satoshi",
+    "typeface/inter",
+    "typeface/fk-grotesk-neue",
+    "typeface/fk-display",
     "primitive/colors",
-    "brands/brand-wireframe",
-    "brands/brand-Barbie",
-    "themes/typography",
-    "themes/surface",
+    "primitive/scale",
+    "brands/hyma",
+    "brands/wireframe-1",
+    "brands/marketing",
     "themes/density",
+    "themes/surface",
+    "component/feedback/tooltip",
     "component/actions/toggle",
     "component/actions/icon-button",
-    "component/actions/button",
-    "component/feedback/tooltip"
+    "component/actions/button"
   ]
 }

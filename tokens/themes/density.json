@@ -11,6 +11,15 @@
             },
             "type": "dimension",
             "value": "1px"
+          },
+          "focus": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "2px"
           }
         },
         "space": {

@@ -1,0 +1,147 @@
+{
+  "scale": {
+    "multiplier": {
+      "type": "number",
+      "value": "1.2",
+      "description": "Change the value of this token to modify every token in the scales."
+    },
+    "base": {
+      "type": "number",
+      "value": "16",
+      "description": "Tokens used as the default or \"mid-point\" in your scale will have this value without any changes. So when you adjust only the multiplier token, this is not affected."
+    },
+    "factor": {
+      "type": "number",
+      "value": "4"
+    },
+    "unitless": {
+      "2xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale.unitless.xs} / {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale.unitless.sm} / {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "floor(roundTo({scale.unitless.md} / {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale.base}",
+        "description": "Smallest body size"
+      },
+      "lg": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.md} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.lg} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.xl} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "3xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.2xl} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "4xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.3xl} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "5xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.4xl} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "6xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.5xl} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "7xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.6xl} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "8xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.7xl} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "9xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.8xl} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      },
+      "10xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale.unitless.9xl} * {scale.multiplier}, 0) /{scale.factor})*{scale.factor}"
+      }
+    },
+    "rem": {
+      "2xs": {
+        "type": "number",
+        "value": "{scale.unitless.2xs} / {rem-base} *1rem"
+      },
+      "xs": {
+        "type": "number",
+        "value": "{scale.unitless.xs} / {rem-base} *1rem"
+      },
+      "sm": {
+        "type": "number",
+        "value": "{scale.unitless.sm} / {rem-base} *1rem"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale.unitless.md} / {rem-base} *1rem"
+      },
+      "lg": {
+        "type": "number",
+        "value": "{scale.unitless.lg} / {rem-base} *1rem"
+      },
+      "xl": {
+        "type": "number",
+        "value": "{scale.unitless.xl} / {rem-base} *1rem"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "{scale.unitless.2xl} / {rem-base} *1rem"
+      },
+      "3xl": {
+        "type": "number",
+        "value": "{scale.unitless.3xl} / {rem-base} *1rem"
+      },
+      "4xl": {
+        "type": "number",
+        "value": "{scale.unitless.4xl} / {rem-base} *1rem"
+      },
+      "5xl": {
+        "type": "number",
+        "value": "{scale.unitless.5xl} / {rem-base} *1rem"
+      },
+      "6xl": {
+        "type": "number",
+        "value": "{scale.unitless.6xl} / {rem-base} *1rem"
+      },
+      "7xl": {
+        "type": "number",
+        "value": "{scale.unitless.7xl} / {rem-base} *1rem"
+      },
+      "8xl": {
+        "type": "number",
+        "value": "{scale.unitless.8xl} / {rem-base} *1rem"
+      },
+      "9xl": {
+        "type": "number",
+        "value": "{scale.unitless.9xl} / {rem-base} *1rem"
+      },
+      "10xl": {
+        "type": "number",
+        "value": "{scale.unitless.10xl} / {rem-base} *1rem"
+      }
+    }
+  },
+  "rem-base": {
+    "type": "number",
+    "value": "16"
+  }
+}

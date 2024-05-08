@@ -227,18 +227,36 @@
           }
         }
       }
-    }
-  },
-  "theme-color": {
+    },
     "border": {
       "focus": {
         "default": {
           "type": "border",
           "value": {
             "color": "{surface.color.interaction.focus.default}",
-            "width": "{device.dimensions.focus.width}",
+            "width": "{density.dimensions.interaction.border-width.focus}",
             "style": "solid"
           }
+        }
+      }
+    },
+    "text-styles": {
+      "actions": {
+        "label": {
+          "default": {
+            "type": "typography",
+            "value": "{brand-typography.p1.default}"
+          },
+          "interaction": {
+            "type": "typography",
+            "value": "{brand-typography.p1.interactive}"
+          }
+        }
+      },
+      "system-status": {
+        "default": {
+          "type": "typography",
+          "value": "{brand-typography.p2.default}"
         }
       }
     }
@@ -252,26 +270,6 @@
       "spread": "1",
       "color": "#000000",
       "type": "innerShadow"
-    }
-  },
-  "theme-text-styles": {
-    "actions": {
-      "label": {
-        "default": {
-          "type": "typography",
-          "value": "{theme-typography.text-lg.default}"
-        },
-        "interaction": {
-          "type": "typography",
-          "value": "{theme-typography.text-lg.underline}"
-        }
-      }
-    },
-    "system-status": {
-      "default": {
-        "type": "typography",
-        "value": "{theme-typography.text-base.default}"
-      }
     }
   }
 }

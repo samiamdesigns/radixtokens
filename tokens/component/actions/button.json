@@ -546,19 +546,19 @@
       "default": {
         "typography": {
           "type": "typography",
-          "value": "{theme-text-styles.actions.label.default}"
+          "value": "{surface.text-styles.actions.label.default}"
         }
       },
       "hover": {
         "typography": {
           "type": "typography",
-          "value": "{theme-text-styles.actions.label.interaction}"
+          "value": "{surface.text-styles.actions.label.interaction}"
         }
       },
       "active": {
         "typography": {
           "type": "typography",
-          "value": "{theme-text-styles.actions.label.default}"
+          "value": "{surface.text-styles.actions.label.default}"
         }
       },
       "layout": {
@@ -576,13 +576,13 @@
       "disabled": {
         "typography": {
           "type": "typography",
-          "value": "{theme-text-styles.actions.label.default}"
+          "value": "{surface.text-styles.actions.label.default}"
         }
       },
       "in-progress": {
         "typography": {
           "type": "typography",
-          "value": "{theme-text-styles.actions.label.default}"
+          "value": "{surface.text-styles.actions.label.default}"
         }
       },
       "icon": {
@@ -595,31 +595,31 @@
         "default": {
           "typography": {
             "type": "typography",
-            "value": "{theme-text-styles.actions.label.interaction}"
+            "value": "{surface.text-styles.actions.label.interaction}"
           }
         },
         "hover": {
           "typography": {
             "type": "typography",
-            "value": "{theme-text-styles.actions.label.interaction}"
+            "value": "{surface.text-styles.actions.label.interaction}"
           }
         },
         "active": {
           "typography": {
             "type": "typography",
-            "value": "{theme-text-styles.actions.label.interaction}"
+            "value": "{surface.text-styles.actions.label.interaction}"
           }
         },
         "disabled": {
           "typography": {
             "type": "typography",
-            "value": "{theme-text-styles.actions.label.interaction}"
+            "value": "{surface.text-styles.actions.label.interaction}"
           }
         },
         "in-progress": {
           "typography": {
             "type": "typography",
-            "value": "{theme-text-styles.actions.label.interaction}"
+            "value": "{surface.text-styles.actions.label.interaction}"
           }
         }
       },
