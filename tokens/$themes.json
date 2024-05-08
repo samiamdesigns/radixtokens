@@ -22,7 +22,7 @@
     "name": "default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "decisions/brand-Barbie": "enabled"
+      "brands/brand-Barbie": "enabled"
     },
     "group": "brand"
   },
@@ -31,7 +31,7 @@
     "name": "wireframe",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "decisions/brand-wireframe": "enabled"
+      "brands/brand-wireframe": "enabled"
     },
     "group": "brand"
   },
@@ -68,8 +68,8 @@
     "name": "default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "decisions/themes/default": "enabled",
-      "decisions/themes/typography": "enabled"
+      "themes/typography": "enabled",
+      "themes/default": "enabled"
     },
     "group": "theme"
   }

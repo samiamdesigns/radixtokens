@@ -1,0 +1,71 @@
+{
+  "device": {
+    "dimensions": {
+      "border-width": {
+        "sm": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
+          "type": "dimension",
+          "value": "1px"
+        }
+      },
+      "space": {
+        "sm": {
+          "type": "dimension",
+          "value": "8px"
+        },
+        "md": {
+          "type": "dimension",
+          "value": "8px"
+        }
+      },
+      "size": {
+        "touchpoint": {
+          "type": "dimension",
+          "value": "44px"
+        }
+      },
+      "border-radius": {
+        "sm": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
+          "type": "dimension",
+          "value": "1px"
+        },
+        "md": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
+          "type": "dimension",
+          "value": "4px"
+        },
+        "lg": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
+          "type": "dimension",
+          "value": "8px"
+        },
+        "xl": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
+          "type": "dimension",
+          "value": "16px"
+        }
+      }
+    }
+  }
+}

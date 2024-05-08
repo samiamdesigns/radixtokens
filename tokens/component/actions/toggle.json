@@ -1519,7 +1519,7 @@
       },
       "border-radius": {
         "type": "dimension",
-        "value": "{device.dimensions.border-radius.md}"
+        "value": "{device.dimensions.border-width.sm}"
       },
       "border-width": {
         "type": "dimension",
