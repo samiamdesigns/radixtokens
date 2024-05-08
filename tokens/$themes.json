@@ -6,7 +6,8 @@
     "selectedTokenSets": {
       "primitive/colors": "enabled",
       "typeface/satoshi": "enabled",
-      "typeface/inter": "enabled"
+      "typeface/inter": "enabled",
+      "template/shadows": "disabled"
     },
     "group": "primitives"
   },
@@ -14,49 +15,63 @@
     "id": "e001386b7f7d45ad471747f4ceab3ee3e3c92731",
     "name": "always-on",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "template/shadows": "disabled"
+    },
     "group": "components"
   },
   {
     "id": "9984609db6bde47dc92c649b818c4402f252c028",
     "name": "default",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "template/shadows": "disabled"
+    },
     "group": "brand"
   },
   {
     "id": "c1674355250aff6a98a4d3eccf2a3125b4b22ba1",
     "name": "wireframe",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "template/shadows": "disabled"
+    },
     "group": "brand"
   },
   {
     "id": "cdfb4b488caeeeb4dd4061467e303167d12ad3be",
     "name": "iOs",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "template/shadows": "disabled"
+    },
     "group": "platform"
   },
   {
     "id": "b029feb7df6b58877192c9f4f42af65d894a254e",
     "name": "android",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "template/shadows": "disabled"
+    },
     "group": "platform"
   },
   {
     "id": "f418a53f9858760e235944c356aa7c81541f4c97",
     "name": "mobile",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "template/shadows": "disabled"
+    },
     "group": "device"
   },
   {
     "id": "d04ef5cbe0270c7a39ee050fe027e05efd5c07e7",
     "name": "tv",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "template/shadows": "disabled"
+    },
     "group": "device"
   },
   {
@@ -64,7 +79,8 @@
     "name": "default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "themes/surface": "enabled"
+      "themes/surface": "enabled",
+      "template/shadows": "disabled"
     },
     "group": "theme"
   }
