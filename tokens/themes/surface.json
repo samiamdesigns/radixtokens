@@ -1,15 +1,38 @@
 {
   "surface": {
     "color": {
-      "interaction": {
+      "actions": {
         "disabled": {
           "bg": {
-            "type": "color",
-            "value": "{brand-colors.neutral.400}"
+            "default": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {}
+                }
+              },
+              "type": "color",
+              "value": "{brand-colors.neutral.400}"
+            }
           },
           "fg": {
-            "type": "color",
-            "value": "{brand-colors.neutral.100}"
+            "default": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {}
+                }
+              },
+              "type": "color",
+              "value": "{brand-colors.neutral.100}"
+            },
+            "emphasis": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {}
+                }
+              },
+              "type": "color",
+              "value": "{brand-colors.neutral.300}"
+            }
           }
         },
         "focus": {
@@ -20,6 +43,58 @@
           "inverse": {
             "type": "color",
             "value": "{brand-colors.neutral.900}"
+          }
+        },
+        "neutral": {
+          "default": {
+            "type": "color",
+            "value": "{brand-colors.neutral.300}"
+          },
+          "emphasis": {
+            "type": "color",
+            "value": "{brand-colors.neutral.200}"
+          },
+          "muted": {
+            "type": "color",
+            "value": "{brand-colors.neutral.400}"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{brand-colors.neutral.500}"
+          },
+          "glass": {
+            "type": "color",
+            "value": "null"
+          },
+          "on-brand": {
+            "type": "color",
+            "value": "{brand-colors.neutral.900}"
+          }
+        },
+        "info": {
+          "default": {
+            "type": "color",
+            "value": "{brand-colors.primary.500}"
+          },
+          "emphasis": {
+            "type": "color",
+            "value": "{brand-colors.primary.300}"
+          },
+          "muted": {
+            "type": "color",
+            "value": "{brand-colors.primary.600}"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{brand-colors.primary.800}"
+          },
+          "glass": {
+            "type": "color",
+            "value": "null"
+          },
+          "on-brand": {
+            "type": "color",
+            "value": "{brand-colors.primary.50}"
           }
         }
       },
@@ -121,59 +196,7 @@
           "value": "{brand-colors.primary.50}"
         }
       },
-      "brand-neutral": {
-        "default": {
-          "type": "color",
-          "value": "{brand-colors.neutral.300}"
-        },
-        "emphasis": {
-          "type": "color",
-          "value": "{brand-colors.neutral.200}"
-        },
-        "muted": {
-          "type": "color",
-          "value": "{brand-colors.neutral.400}"
-        },
-        "subtle": {
-          "type": "color",
-          "value": "{brand-colors.neutral.500}"
-        },
-        "glass": {
-          "type": "color",
-          "value": "null"
-        },
-        "on-brand": {
-          "type": "color",
-          "value": "{brand-colors.neutral.900}"
-        }
-      },
-      "actions": {
-        "brand": {
-          "default": {
-            "type": "color",
-            "value": "{brand-colors.primary.500}"
-          },
-          "emphasis": {
-            "type": "color",
-            "value": "{brand-colors.primary.300}"
-          },
-          "muted": {
-            "type": "color",
-            "value": "{brand-colors.primary.600}"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{brand-colors.primary.800}"
-          },
-          "glass": {
-            "type": "color",
-            "value": "null"
-          },
-          "on-brand": {
-            "type": "color",
-            "value": "{brand-colors.primary.50}"
-          }
-        },
+      "feedback": {
         "success": {
           "default": {
             "type": "color",
@@ -233,7 +256,7 @@
         "default": {
           "type": "border",
           "value": {
-            "color": "{surface.color.interaction.focus.default}",
+            "color": "{surface.color.actions.focus.default}",
             "width": "{density.dimensions.interaction.border-width.focus}",
             "style": "solid"
           }
@@ -261,6 +284,32 @@
       }
     },
     "elevation": {
+      "none": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
+        "type": "boxShadow",
+        "value": [
+          {
+            "color": "none",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "1",
+            "blur": "3",
+            "spread": "0"
+          },
+          {
+            "color": "none",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0"
+          }
+        ]
+      },
       "xs": {
         "$extensions": {
           "studio.tokens": {
