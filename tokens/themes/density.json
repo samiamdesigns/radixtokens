@@ -25,11 +25,19 @@
         "space": {
           "sm": {
             "type": "dimension",
-            "value": "8px"
+            "value": "{brand.scale-dimensions.unitless.xs}px"
+          },
+          "xs": {
+            "type": "dimension",
+            "value": "{brand.scale-dimensions.unitless.2xs}px"
           },
           "md": {
             "type": "dimension",
-            "value": "12px"
+            "value": "{brand.scale-dimensions.unitless.sm}px"
+          },
+          "lg": {
+            "type": "dimension",
+            "value": "{brand.scale-dimensions.unitless.md}px"
           }
         },
         "size": {
