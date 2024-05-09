@@ -19,7 +19,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "border": {
@@ -33,7 +33,7 @@
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             }
           },
@@ -49,7 +49,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "border": {
@@ -67,7 +67,7 @@
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             }
           },
@@ -95,13 +95,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             }
           },
@@ -151,7 +151,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "border": {
@@ -169,7 +169,7 @@
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             }
           },
@@ -255,13 +255,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "border": {
@@ -289,13 +289,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "border": {
@@ -357,13 +357,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "border": {
@@ -469,13 +469,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "box-shadow": {
@@ -503,13 +503,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "box-shadow": {
@@ -605,13 +605,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-brand}"
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
             "box-shadow": {
@@ -756,13 +756,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "border": {
@@ -790,13 +790,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "border": {
@@ -824,13 +824,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "border": {
@@ -926,7 +926,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "label": {
@@ -996,13 +996,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "border": {
@@ -1030,13 +1030,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "border": {
@@ -1202,13 +1202,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "border": {
@@ -1236,13 +1236,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-brand}"
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
             "border": {

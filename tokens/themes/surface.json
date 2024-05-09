@@ -66,7 +66,12 @@
             "type": "color",
             "value": "null"
           },
-          "on-brand": {
+          "on-neutral": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
             "value": "{brand-colors.neutral.900}"
           }
@@ -92,7 +97,12 @@
             "type": "color",
             "value": "null"
           },
-          "on-brand": {
+          "on-info": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
             "value": "{brand-colors.primary.50}"
           }
