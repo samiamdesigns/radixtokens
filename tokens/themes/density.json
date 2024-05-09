@@ -23,13 +23,17 @@
           }
         },
         "space": {
-          "sm": {
+          "none": {
             "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.xs}px"
+            "value": "{brand.scale-dimensions.unitless.2xs}px"
           },
           "xs": {
             "type": "dimension",
             "value": "{brand.scale-dimensions.unitless.2xs}px"
+          },
+          "sm": {
+            "type": "dimension",
+            "value": "{brand.scale-dimensions.unitless.xs}px"
           },
           "md": {
             "type": "dimension",

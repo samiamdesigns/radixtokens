@@ -31,7 +31,7 @@
                 }
               },
               "type": "color",
-              "value": "{brand-colors.neutral.300}"
+              "value": "{brand-colors.neutral.400}"
             }
           }
         },
@@ -143,6 +143,12 @@
           "emphasis": {
             "type": "color",
             "value": "{brand-colors.primary.600}"
+          }
+        },
+        "overlay": {
+          "level-1": {
+            "type": "color",
+            "value": "rgba(255,255,255,0.06)"
           }
         }
       },

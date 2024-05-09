@@ -1,6 +1,48 @@
 {
   "actions": {
     "toggle-group": {
+      "wrapper": {
+        "border": {
+          "type": "border",
+          "value": {
+            "color": "{actions.toggle-group.wrapper.border-color}",
+            "width": "{actions.toggle-group.item.border-width}",
+            "style": "solid"
+          }
+        },
+        "box-shadow": {
+          "type": "boxShadow",
+          "value": "{surface.elevation.none}"
+        },
+        "border-radius": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.border-radius.sm}"
+        },
+        "border-width": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.border-width.default}"
+        },
+        "gap": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.xs}"
+        },
+        "height-min": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.size.touchpoint}"
+        },
+        "padding": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.xs}"
+        },
+        "bg-color": {
+          "type": "color",
+          "value": "{surface.color.bg.overlay.level-1}"
+        },
+        "border-color": {
+          "type": "color",
+          "value": "{surface.color.bg.overlay.level-1}"
+        }
+      },
       "item": {
         "selected": {
           "default": {
@@ -350,22 +392,22 @@
           "disabled": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
               }
             },
             "border": {
@@ -392,22 +434,22 @@
             },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
               }
             },
             "typography": {
@@ -431,22 +473,22 @@
           "loading": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-neutral}"
+                "value": "{surface.color.actions.neutral.subtle}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-neutral}"
+                "value": "{surface.color.actions.neutral.subtle}"
               }
             },
             "border": {
@@ -469,17 +511,7 @@
         },
         "border-radius": {
           "type": "dimension",
-          "value": "{density.dimensions.interaction.border-radius.none}"
-        },
-        "first-child": {
-          "border-top-left-radius": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.border-radius.sm}"
-          },
-          "border-bottom-left-radius": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.border-radius.sm}"
-          }
+          "value": "{density.dimensions.interaction.border-radius.sm}"
         },
         "border-width": {
           "type": "dimension",
@@ -488,10 +520,6 @@
         "gap": {
           "type": "dimension",
           "value": "{density.dimensions.interaction.space.sm}"
-        },
-        "height-min": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.size.touchpoint}"
         },
         "padding": {
           "type": "dimension",
@@ -506,26 +534,6 @@
             "type": "dimension",
             "value": "20px"
           }
-        },
-        "last-child": {
-          "border-top-right-radius": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.border-radius.sm}"
-          },
-          "border-bottom-right-radius": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.border-radius.sm}"
-          }
         }
       },
       "layout": {
@@ -538,32 +546,6 @@
           "type": "other",
           "value": "center",
           "description": "There currently isn't a token to control this property so the value is pasted from Figma's output of CSS. Please inspect design file."
-        }
-      },
-      "wrapper": {
-        "border-radius": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.border-radius.sm}"
-        },
-        "border-width": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.border-width.default}"
-        },
-        "gap": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.space.sm}"
-        },
-        "height-min": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.size.touchpoint}"
-        },
-        "padding": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.space.sm}"
-        },
-        "width-min": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.size.touchpoint}"
         }
       }
     }
