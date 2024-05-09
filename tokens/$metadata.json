@@ -15,6 +15,7 @@
     "themes/text-styling",
     "component/actions/button",
     "component/actions/toggle_button",
+    "component/actions/toggle_group",
     "component/actions/icon_button",
     "component/feedback/tooltip"
   ]

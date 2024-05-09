@@ -83,7 +83,7 @@
           },
           "emphasis": {
             "type": "color",
-            "value": "{brand-colors.primary.300}"
+            "value": "{brand-colors.primary.400}"
           },
           "muted": {
             "type": "color",

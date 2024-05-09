@@ -39,6 +39,15 @@
           }
         },
         "border-radius": {
+          "none": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "0px"
+          },
           "sm": {
             "$extensions": {
               "studio.tokens": {
