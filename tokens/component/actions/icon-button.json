@@ -116,6 +116,14 @@
             }
           },
           "inactive": {
+            "border": {
+              "type": "border",
+              "value": {
+                "color": "{actions.icon-button.neutral.tier1.inactive.border-color}",
+                "width": "{actions.icon-button.border-width}",
+                "style": "solid"
+              }
+            },
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.none}"
@@ -250,6 +258,14 @@
             }
           },
           "inactive": {
+            "border": {
+              "type": "border",
+              "value": {
+                "color": "{actions.icon-button.neutral.tier2.inactive.border-color}",
+                "width": "{actions.icon-button.border-width}",
+                "style": "solid"
+              }
+            },
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.none}"
