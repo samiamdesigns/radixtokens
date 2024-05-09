@@ -29,7 +29,7 @@
           },
           "md": {
             "type": "dimension",
-            "value": "8px"
+            "value": "12px"
           }
         },
         "size": {
@@ -46,7 +46,7 @@
               }
             },
             "type": "dimension",
-            "value": "1px"
+            "value": "{brand.scale-dimensions.unitless.2xs}px"
           },
           "md": {
             "$extensions": {
@@ -55,7 +55,7 @@
               }
             },
             "type": "dimension",
-            "value": "4px"
+            "value": "{brand.scale-dimensions.unitless.xs}px"
           },
           "lg": {
             "$extensions": {
@@ -64,7 +64,7 @@
               }
             },
             "type": "dimension",
-            "value": "8px"
+            "value": "{brand.scale-dimensions.unitless.sm}px"
           },
           "xl": {
             "$extensions": {
@@ -73,7 +73,7 @@
               }
             },
             "type": "dimension",
-            "value": "16px"
+            "value": "{brand.scale-dimensions.unitless.md}px"
           }
         }
       }

@@ -623,7 +623,7 @@
       },
       "border-radius": {
         "type": "dimension",
-        "value": "{density.dimensions.interaction.border-width.default}"
+        "value": "{density.dimensions.interaction.border-radius.md}"
       },
       "border-width": {
         "type": "dimension",

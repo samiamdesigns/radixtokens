@@ -2574,7 +2574,7 @@
       },
       "border-radius": {
         "type": "dimension",
-        "value": "{density.dimensions.interaction.border-width.default}"
+        "value": "{density.dimensions.interaction.border-radius.sm}"
       },
       "border-width": {
         "type": "dimension",
@@ -2590,7 +2590,7 @@
       },
       "padding": {
         "type": "dimension",
-        "value": "{density.dimensions.interaction.space.sm}, {density.dimensions.interaction.space.md}"
+        "value": "{density.dimensions.interaction.space.sm}"
       },
       "width-min": {
         "type": "dimension",
