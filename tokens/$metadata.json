@@ -3,7 +3,6 @@
     "template/typography-full",
     "template/tailwind",
     "template/shadows",
-    "template/toggle",
     "typeface/satoshi",
     "typeface/inter",
     "typeface/fk-grotesk-neue",
@@ -16,8 +15,8 @@
     "themes/density",
     "themes/surface",
     "component/actions/button",
-    "component/actions/button_toggle",
-    "component/actions/button_icon",
+    "component/actions/toggle_button",
+    "component/actions/icon_button",
     "component/feedback/tooltip"
   ]
 }
