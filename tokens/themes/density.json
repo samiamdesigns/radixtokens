@@ -47,7 +47,7 @@
         "size": {
           "touchpoint": {
             "type": "dimension",
-            "value": "44px"
+            "value": "40px"
           }
         },
         "border-radius": {

@@ -323,7 +323,7 @@
             }
           },
           "type": "boxShadow",
-          "value": "{surface.elevation.md}"
+          "value": "{surface.elevation.sm}"
         },
         "pressed": {
           "$extensions": {
@@ -332,33 +332,7 @@
             }
           },
           "type": "boxShadow",
-          "value": "{surface.elevation.sm}"
-        },
-        "xl": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "type": "boxShadow",
-          "value": [
-            {
-              "color": "#0d0d0de6",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "16",
-              "blur": "24",
-              "spread": "0"
-            },
-            {
-              "color": "#0d0d0d",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "0",
-              "blur": "1",
-              "spread": "0"
-            }
-          ]
+          "value": "{surface.elevation.xs}"
         }
       },
       "none": {
