@@ -12,7 +12,7 @@
         },
         "box-shadow": {
           "type": "boxShadow",
-          "value": "{surface.elevation.none}"
+          "value": "{surface.elevation.interaction.none}"
         },
         "border-radius": {
           "type": "dimension",
@@ -76,7 +76,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.sm}"
+              "value": "{surface.elevation.interaction.default}"
             },
             "typography": {
               "type": "typography",
@@ -114,7 +114,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.md}"
+              "value": "{surface.elevation.interaction.hover}"
             },
             "typography": {
               "type": "typography",
@@ -152,7 +152,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.lg}"
+              "value": "{surface.elevation.interaction.pressed}"
             },
             "typography": {
               "type": "typography",
@@ -190,7 +190,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.none}"
+              "value": "{surface.elevation.interaction.none}"
             },
             "typography": {
               "type": "typography",
@@ -228,7 +228,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.none}"
+              "value": "{surface.elevation.interaction.none}"
             },
             "typography": {
               "type": "typography",
@@ -266,7 +266,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.none}"
+              "value": "{surface.elevation.interaction.none}"
             },
             "typography": {
               "type": "typography",
@@ -306,7 +306,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.sm}"
+              "value": "{surface.elevation.interaction.default}"
             },
             "typography": {
               "type": "typography",
@@ -334,6 +334,10 @@
                 "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.hover}"
+            },
             "border": {
               "type": "border",
               "value": {
@@ -341,10 +345,6 @@
                 "width": "{actions.toggle-group.item.border-width}",
                 "style": "solid"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.md}"
             },
             "typography": {
               "type": "typography",
@@ -382,7 +382,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.lg}"
+              "value": "{surface.elevation.interaction.pressed}"
             },
             "typography": {
               "type": "typography",
@@ -420,7 +420,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.none}"
+              "value": "{surface.elevation.interaction.none}"
             },
             "typography": {
               "type": "typography",
@@ -430,7 +430,7 @@
           "inactive": {
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.none}"
+              "value": "{surface.elevation.interaction.none}"
             },
             "bg-color": {
               "type": "color",
@@ -501,7 +501,7 @@
             },
             "box-shadow": {
               "type": "boxShadow",
-              "value": "{surface.elevation.none}"
+              "value": "{surface.elevation.interaction.none}"
             },
             "typography": {
               "type": "typography",
