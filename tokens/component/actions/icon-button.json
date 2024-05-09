@@ -119,6 +119,20 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.none}"
+            },
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
             }
           }
         },
@@ -239,6 +253,20 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.none}"
+            },
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.glass}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
+              }
             }
           }
         },
@@ -356,9 +384,31 @@
             }
           },
           "inactive": {
+            "border": {
+              "type": "border",
+              "value": {
+                "color": "{actions.icon-button.neutral.tier3.inactive.border-color}",
+                "width": "{actions.icon-button.border-width}",
+                "style": "solid"
+              }
+            },
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.none}"
+            },
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.glass}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.glass}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.fg.emphasis}"
+              }
             }
           }
         }
