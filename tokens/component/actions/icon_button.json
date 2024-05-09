@@ -71,7 +71,7 @@
               }
             }
           },
-          "active": {
+          "pressed": {
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.pressed}"
@@ -79,7 +79,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.info.tier1.active.border-color}",
+                "color": "{actions.icon-button.info.tier1.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -277,7 +277,7 @@
               "value": "{surface.elevation.interaction.hover}"
             }
           },
-          "active": {
+          "pressed": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.info.muted}"
@@ -301,7 +301,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.info.tier2.active.border-color}",
+                "color": "{actions.icon-button.info.tier2.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -369,7 +369,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.info.tier2.active.border-color}",
+                "color": "{actions.icon-button.info.tier2.loading.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -483,11 +483,11 @@
               "value": "{surface.elevation.interaction.default}"
             }
           },
-          "active": {
+          "pressed": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.info.tier3.active.border-color}",
+                "color": "{actions.icon-button.info.tier3.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -633,7 +633,7 @@
           "value": "{surface.text-styles.actions.label.interaction}"
         }
       },
-      "active": {
+      "pressed": {
         "typography": {
           "type": "typography",
           "value": "{surface.text-styles.actions.label.default}"
@@ -682,7 +682,7 @@
             "value": "{surface.text-styles.actions.label.interaction}"
           }
         },
-        "active": {
+        "pressed": {
           "typography": {
             "type": "typography",
             "value": "{surface.text-styles.actions.label.interaction}"
@@ -782,7 +782,7 @@
               "value": "{surface.elevation.interaction.hover}"
             }
           },
-          "active": {
+          "pressed": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.neutral.muted}"
@@ -806,7 +806,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.neutral.tier1.active.border-color}",
+                "color": "{actions.icon-button.neutral.tier1.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -988,7 +988,7 @@
               "value": "{surface.elevation.interaction.hover}"
             }
           },
-          "active": {
+          "pressed": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.neutral.muted}"
@@ -1012,7 +1012,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.neutral.tier2.active.border-color}",
+                "color": "{actions.icon-button.neutral.tier2.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -1194,7 +1194,7 @@
               "value": "{surface.elevation.interaction.default}"
             }
           },
-          "active": {
+          "pressed": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.neutral.muted}"
@@ -1218,7 +1218,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.neutral.tier3.active.bg-color}",
+                "color": "{actions.icon-button.neutral.tier3.pressed.bg-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -1402,11 +1402,11 @@
               "value": "{surface.elevation.interaction.hover}"
             }
           },
-          "active": {
+          "pressed": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.success.tier1.active.border-color}",
+                "color": "{actions.icon-button.success.tier1.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -1608,11 +1608,11 @@
               "value": "{surface.elevation.interaction.hover}"
             }
           },
-          "active": {
+          "pressed": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.success.tier2.active.border-color}",
+                "color": "{actions.icon-button.success.tier2.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -1814,11 +1814,11 @@
               "value": "{surface.elevation.interaction.default}"
             }
           },
-          "active": {
+          "pressed": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.success.tier3.active.bg-color}",
+                "color": "{actions.icon-button.success.tier3.pressed.bg-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -2022,7 +2022,7 @@
               "value": "{surface.elevation.interaction.hover}"
             }
           },
-          "active": {
+          "pressed": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.danger.muted}"
@@ -2046,7 +2046,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.danger.tier1.active.border-color}",
+                "color": "{actions.icon-button.danger.tier1.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -2228,7 +2228,7 @@
               "value": "{surface.elevation.interaction.hover}"
             }
           },
-          "active": {
+          "pressed": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.danger.muted}"
@@ -2252,7 +2252,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.danger.tier2.active.border-color}",
+                "color": "{actions.icon-button.danger.tier2.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
@@ -2434,7 +2434,7 @@
               "value": "{surface.elevation.interaction.default}"
             }
           },
-          "active": {
+          "pressed": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.danger.muted}"
@@ -2458,7 +2458,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.danger.tier3.active.bg-color}",
+                "color": "{actions.icon-button.danger.tier3.pressed.bg-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
