@@ -139,7 +139,7 @@
               }
             }
           },
-          "in-progress": {
+          "loading": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.info.muted}"
@@ -157,7 +157,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.info.tier1.in-progress.border-color}",
+                "color": "{actions.button.info.tier1.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -345,7 +345,7 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.info.muted}"
@@ -585,33 +585,33 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.info.tier3.active.border-color}",
+                "color": "{actions.button.info.tier3.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
             },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.info.muted}"
+              "value": "{surface.color.actions.info.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.info.muted}"
+              "value": "{surface.color.actions.info.glass}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-info}"
+                "value": "{surface.color.actions.info.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.on-info}"
+                "value": "{surface.color.actions.info.default}"
               }
             },
             "box-shadow": {
@@ -687,7 +687,7 @@
           "value": "{surface.text-styles.actions.label.default}"
         }
       },
-      "in-progress": {
+      "loading": {
         "typography": {
           "type": "typography",
           "value": "{surface.text-styles.actions.label.default}"
@@ -735,7 +735,7 @@
             "value": "{surface.text-styles.actions.label.interaction}"
           }
         },
-        "in-progress": {
+        "loading": {
           "typography": {
             "type": "typography",
             "value": "{surface.text-styles.actions.label.interaction}"
@@ -914,7 +914,7 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.neutral.default}"
@@ -938,7 +938,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.neutral.tier1.in-progress.border-color}",
+                "color": "{actions.button.neutral.tier1.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -1120,7 +1120,7 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.neutral.glass}"
@@ -1144,7 +1144,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.neutral.tier2.in-progress.border-color}",
+                "color": "{actions.button.neutral.tier2.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -1326,7 +1326,7 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.neutral.glass}"
@@ -1350,7 +1350,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.neutral.tier3.in-progress.border-color}",
+                "color": "{actions.button.neutral.tier3.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -1534,11 +1534,11 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.success.tier1.in-progress.border-color}",
+                "color": "{actions.button.success.tier1.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -1740,11 +1740,11 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.success.tier2.in-progress.border-color}",
+                "color": "{actions.button.success.tier2.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -1946,11 +1946,11 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.success.tier3.in-progress.border-color}",
+                "color": "{actions.button.success.tier3.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -2154,7 +2154,7 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.danger.muted}"
@@ -2178,7 +2178,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.danger.tier1.in-progress.border-color}",
+                "color": "{actions.button.danger.tier1.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -2360,7 +2360,7 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.danger.muted}"
@@ -2384,7 +2384,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.danger.tier2.in-progress.border-color}",
+                "color": "{actions.button.danger.tier2.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -2566,7 +2566,7 @@
               "value": "{surface.elevation.none}"
             }
           },
-          "in-progress": {
+          "loading": {
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.danger.muted}"
@@ -2590,7 +2590,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.danger.tier3.in-progress.border-color}",
+                "color": "{actions.button.danger.tier3.loading.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
