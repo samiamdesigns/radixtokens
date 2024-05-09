@@ -16,6 +16,7 @@
     "themes/density",
     "themes/surface",
     "component/actions/button",
+    "component/actions/button_toggle",
     "component/actions/button_icon",
     "component/feedback/tooltip"
   ]
