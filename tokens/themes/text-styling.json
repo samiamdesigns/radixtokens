@@ -1,0 +1,24 @@
+{
+  "surface": {
+    "text-styles": {
+      "actions": {
+        "label": {
+          "default": {
+            "type": "typography",
+            "value": "{brand-typography.p1.default}"
+          },
+          "interaction": {
+            "type": "typography",
+            "value": "{brand-typography.p1.interactive}"
+          }
+        }
+      },
+      "system-status": {
+        "default": {
+          "type": "typography",
+          "value": "{brand-typography.p2.default}"
+        }
+      }
+    }
+  }
+}
