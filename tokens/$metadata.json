@@ -14,9 +14,9 @@
     "brands/marketing",
     "themes/density",
     "themes/surface",
-    "component/actions/toggle",
-    "component/actions/icon-button",
     "component/actions/button",
+    "component/actions/icon-button",
+    "component/actions/toggle",
     "component/feedback/tooltip"
   ]
 }
