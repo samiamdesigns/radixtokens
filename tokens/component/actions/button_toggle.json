@@ -1291,6 +1291,140 @@
                 "value": "{surface.elevation.none}"
               }
             }
+          },
+          "selected": {
+            "default": {
+              "bg-color": {
+                "type": "color",
+                "value": "{surface.color.actions.info.default}"
+              },
+              "border-color": {
+                "type": "color",
+                "value": "{surface.color.actions.info.default}"
+              },
+              "icon": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.info.on-info}"
+                }
+              },
+              "label": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.info.on-info}"
+                }
+              }
+            },
+            "hover": {
+              "bg-color": {
+                "type": "color",
+                "value": "{surface.color.actions.info.emphasis}"
+              },
+              "border-color": {
+                "type": "color",
+                "value": "{surface.color.actions.info.emphasis}"
+              },
+              "icon": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.info.on-info}"
+                }
+              },
+              "label": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.info.on-info}"
+                }
+              }
+            },
+            "active": {
+              "bg-color": {
+                "type": "color",
+                "value": "{surface.color.actions.info.muted}"
+              },
+              "border-color": {
+                "type": "color",
+                "value": "{surface.color.actions.info.muted}"
+              },
+              "icon": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.info.on-info}"
+                }
+              },
+              "label": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.info.on-info}"
+                }
+              }
+            },
+            "disabled": {
+              "bg-color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.bg.default}"
+              },
+              "border-color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.bg.default}"
+              },
+              "icon": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.disabled.fg.default}"
+                }
+              },
+              "label": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.disabled.fg.default}"
+                }
+              }
+            },
+            "loading": {
+              "bg-color": {
+                "type": "color",
+                "value": "{surface.color.actions.info.muted}"
+              },
+              "border-color": {
+                "type": "color",
+                "value": "{surface.color.actions.info.muted}"
+              },
+              "icon": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.info.on-info}"
+                }
+              },
+              "label": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.info.on-info}"
+                }
+              }
+            },
+            "inactive": {
+              "bg-color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.bg.default}"
+              },
+              "border-color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.bg.default}"
+              },
+              "icon": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.disabled.fg.default}"
+                }
+              },
+              "label": {
+                "color": {
+                  "type": "color",
+                  "value": "{surface.color.actions.disabled.fg.default}"
+                }
+              }
+            }
           }
         },
         "tier3": {
