@@ -106,6 +106,10 @@
             }
           },
           "disabled": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
             "border": {
               "type": "border",
               "value": {
@@ -113,10 +117,6 @@
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
-            },
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
             },
             "border-color": {
               "type": "color",
