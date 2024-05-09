@@ -316,7 +316,7 @@
           "hover": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.glass}"
+              "value": "{surface.color.bg.overlay.level-1}"
             },
             "border-color": {
               "type": "color",
@@ -354,22 +354,22 @@
           "pressed": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.bg.overlay.level-1}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.actions.neutral.glass}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-neutral}"
+                "value": "{surface.color.actions.info.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-neutral}"
+                "value": "{surface.color.actions.info.default}"
               }
             },
             "border": {
