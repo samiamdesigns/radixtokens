@@ -50,13 +50,13 @@
             "type": "color",
             "value": "{brand-colors.neutral.300}"
           },
-          "emphasis": {
-            "type": "color",
-            "value": "{brand-colors.neutral.200}"
-          },
           "muted": {
             "type": "color",
             "value": "{brand-colors.neutral.400}"
+          },
+          "emphasis": {
+            "type": "color",
+            "value": "{brand-colors.neutral.200}"
           },
           "subtle": {
             "type": "color",
@@ -128,7 +128,7 @@
           },
           "subtle": {
             "type": "color",
-            "value": "{brand-colors.neutral.900}"
+            "value": "{brand-colors.neutral.800}"
           },
           "inverse": {
             "type": "color",
