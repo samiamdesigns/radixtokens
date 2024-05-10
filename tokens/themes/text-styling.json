@@ -23,6 +23,10 @@
         "default": {
           "type": "typography",
           "value": "{brand-typography.h6.default}"
+        },
+        "subtle": {
+          "type": "typography",
+          "value": "{brand-typography.p2.default}"
         }
       }
     }
