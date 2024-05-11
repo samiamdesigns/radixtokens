@@ -17,6 +17,7 @@
     "component/actions/toggle_button",
     "component/actions/toggle_group",
     "component/actions/icon_button",
-    "component/feedback/tooltip"
+    "component/feedback/tooltip",
+    "notes/names"
   ]
 }
