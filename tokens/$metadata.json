@@ -17,6 +17,7 @@
     "component/actions/toggle_button",
     "component/actions/toggle_group",
     "component/actions/icon_button",
+    "component/actions/split-button",
     "component/feedback/tooltip",
     "notes/names"
   ]

@@ -8,7 +8,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.selected.default.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.selected.default.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -42,7 +42,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.selected.hover.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.selected.hover.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -76,7 +76,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.selected.pressed.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.selected.pressed.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -110,7 +110,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.selected.disabled.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.selected.disabled.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -144,7 +144,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.selected.loading.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.selected.loading.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -178,7 +178,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.selected.inactive.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.selected.inactive.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -234,7 +234,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.default.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.not-selected.default.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -268,7 +268,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.hover.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.not-selected.hover.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -302,7 +302,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.pressed.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.not-selected.pressed.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -336,7 +336,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.disabled.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.not-selected.disabled.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -396,7 +396,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.loading.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier1.not-selected.loading.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -434,7 +434,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.default.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier2.not-selected.default.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -468,7 +468,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.hover.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier2.not-selected.hover.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -502,7 +502,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.pressed.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier2.not-selected.pressed.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -536,7 +536,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.disabled.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier2.not-selected.disabled.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
@@ -604,7 +604,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-group.item.not-selected.loading.border-color}",
+                  "color": "{actions.toggle-button.neutral.tier2.not-selected.loading.border-color}",
                   "width": "{actions.toggle-button.border-width}",
                   "style": "solid"
                 }
