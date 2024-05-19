@@ -216,8 +216,17 @@
                 "value": "{surface.color.actions.neutral.default}"
               },
               "border-color": {
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "darken",
+                      "value": "0.12",
+                      "space": "lch"
+                    }
+                  }
+                },
                 "type": "color",
-                "value": "{surface.color.actions.neutral.default}"
+                "value": "{actions.toggle-button.neutral.tier1.not-selected.default.bg-color}"
               },
               "icon": {
                 "color": {

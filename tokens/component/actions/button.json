@@ -79,7 +79,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.info.tier1.active.border-color}",
+                "color": "{actions.button.info.tier1.pressed.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -623,7 +623,7 @@
       },
       "border-radius": {
         "type": "dimension",
-        "value": "{density.dimensions.interaction.border-radius.md}"
+        "value": "{density.dimensions.interaction.border-radius.sm}"
       },
       "border-width": {
         "type": "dimension",
@@ -750,8 +750,17 @@
               "value": "{surface.color.actions.neutral.default}"
             },
             "border-color": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.12",
+                    "space": "lch"
+                  }
+                }
+              },
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{actions.button.neutral.tier1.default.bg-color}"
             },
             "icon": {
               "color": {

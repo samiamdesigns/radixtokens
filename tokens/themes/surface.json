@@ -64,7 +64,7 @@
           },
           "glass": {
             "type": "color",
-            "value": "null"
+            "value": "transparent"
           },
           "on-neutral": {
             "$extensions": {
@@ -95,7 +95,7 @@
           },
           "glass": {
             "type": "color",
-            "value": "null"
+            "value": "transparent"
           },
           "on-info": {
             "$extensions": {
@@ -205,7 +205,7 @@
         },
         "glass": {
           "type": "color",
-          "value": "null"
+          "value": "transparent"
         },
         "on-brand": {
           "type": "color",
@@ -232,7 +232,7 @@
           },
           "glass": {
             "type": "color",
-            "value": "null"
+            "value": "transparent"
           },
           "on-success": {
             "type": "color",
@@ -258,7 +258,7 @@
           },
           "glass": {
             "type": "color",
-            "value": "null"
+            "value": "transparent"
           },
           "on-danger": {
             "type": "color",
@@ -298,7 +298,7 @@
           "type": "boxShadow",
           "value": [
             {
-              "color": "none",
+              "color": "transparent",
               "type": "dropShadow",
               "x": "0",
               "y": "1",
@@ -306,7 +306,7 @@
               "spread": "0"
             },
             {
-              "color": "none",
+              "color": "transparent",
               "type": "dropShadow",
               "x": "0",
               "y": "0",

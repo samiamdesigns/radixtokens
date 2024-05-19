@@ -25,7 +25,7 @@
         "space": {
           "none": {
             "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.2xs}px"
+            "value": "0px"
           },
           "xs": {
             "type": "dimension",
