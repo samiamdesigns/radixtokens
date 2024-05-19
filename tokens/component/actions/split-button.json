@@ -69,5 +69,14 @@
         }
       }
     }
+  },
+  "NOTES": {
+    "split-button": {
+      "structure": {
+        "type": "other",
+        "value": "nested components",
+        "description": "The split button is a modification of component/actions/button as the primary action, and component/actions/toggle-button as the secondary action. \n\nLimited tokens were needed as overrides for these nested components to modify the styling slightly (border, radius). \n\nWe want the secondary action to expose a menu when selected, which should have the same interaction design as when the toggle-button is selected. "
+      }
+    }
   }
 }
