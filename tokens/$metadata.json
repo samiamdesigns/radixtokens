@@ -9,6 +9,7 @@
     "typeface/fk-display",
     "primitive/colors",
     "primitive/scale",
+    "primitive/radix-colors-v2",
     "brands/marketing",
     "themes/density",
     "themes/surface",
