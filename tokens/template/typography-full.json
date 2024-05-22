@@ -729,7 +729,7 @@
         }
       },
       "type": "fontFamilies",
-      "value": "{fontFamilies.fk-display}"
+      "value": "{typeface/fontFamilies.fk-display}"
     },
     "body": {
       "$extensions": {
