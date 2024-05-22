@@ -6262,5 +6262,44 @@
         }
       }
     }
+  },
+  "NOTES": {
+    "radix-color-scale": {
+      "steps1and2": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
+        "type": "other",
+        "value": "bg for surfaces and subtle components",
+        "description": "Steps 1 and 2 are designed for app backgrounds and subtle component backgrounds. You can use them interchangeably, depending on the vibe you're going for.\n\nAppropriate applications include:\n\n-Main app background\n-Striped table background\n-Code block background\n-Card background\n-Sidebar background\n-Canvas area background\nYou may want to use white for your app background in light mode, and Step 1 or 2 from a gray or coloured scale in dark mode. In this case, set up a mutable alias for AppBg and map it to a different color for each color mode.\n\nSOURCE - https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale"
+      },
+      "steps3to5": {
+        "type": "other",
+        "value": "component bg",
+        "description": "Steps 3, 4, and 5 are designed for UI component backgrounds.\n\nStep 3 is for normal states.\nStep 4 is for hover states.\nStep 5 is for pressed or selected states.\n\nIf your component has a transparent background in its default state, you can use Step 3 for its hover state.\n\nSOURCE - https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale"
+      },
+      "steps6to8": {
+        "type": "other",
+        "value": "borders",
+        "description": "Steps 6, 7, and 8 are designed for borders.\n\n- Step 6 is designed for subtle borders on components which are not interactive. For example sidebars, headers, cards, alerts, and separators.\n- Step 7 is designed for subtle borders on interactive components.\n- Step 8 is designed for stronger borders on interactive components and focus rings.\n\nSOURCE - https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale"
+      },
+      "steps9and10": {
+        "type": "other",
+        "value": "solid bg",
+        "description": "Steps 9 and 10 are designed for solid backgrounds.\n\nStep 9 has the highest chroma of all steps in the scale. In other words, it's the purest step, the step mixed with the least amount of white or black. Because 9 is the purest step, it has a wide range of applications:\n\n- Website/App backgrounds\n- Website section backgrounds\n- Header backgrounds\n- Component backgrounds\n- Graphics/Logos\n- Overlays\n- Coloured shadows\n- Accent borders\n\nStep 10 is designed for component hover states, where step 9 is the component's normal state background.\n\nMost step 9 colors are designed for white foreground text. Sky, Mint, Lime, Yellow, and Amber are designed for dark foreground text and steps 9 and 10."
+      },
+      "steps11and12": {
+        "type": "other",
+        "value": "fg color",
+        "description": "Steps 11 and 12 are designed for text.\n\nStep 11 is designed for low-contrast text.\nStep 12 is designed for high-contrast text.\n\nSteps 11 and 12—which are designed for text—are guaranteed to Lc 60 and Lc 90 APCA contrast ratio on top of a step 2 background from the same scale.\n\nSOURCE - https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale"
+      },
+      "aliasing": {
+        "type": "other",
+        "value": "read the radix site for more details",
+        "description": "In a decision token set, you can define alias tokens which reference these primitives. \n\nThe radix docs for engineers does a great job of explaining this approach. \n\nhttps://www.radix-ui.com/colors/docs/overview/aliasing"
+      }
+    }
   }
 }
