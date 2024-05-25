@@ -21,6 +21,7 @@
     "component/actions/icon_button",
     "component/actions/split-button",
     "component/feedback/tooltip",
-    "notes/names"
+    "notes/names",
+    "radio-test"
   ]
 }
