@@ -48,23 +48,23 @@
         "neutral": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral.300}"
+            "value": "{brand-colors.neutral-alpha.12}"
           },
           "muted": {
             "type": "color",
-            "value": "{brand-colors.neutral.400}"
+            "value": "{brand-colors.neutral-alpha.11}"
           },
           "emphasis": {
             "type": "color",
-            "value": "{brand-colors.neutral.200}"
+            "value": "{brand-colors.info-alpha.10}"
           },
           "subtle": {
             "type": "color",
-            "value": "{brand-colors.neutral.500}"
+            "value": "{brand-colors.neutral-alpha.5}"
           },
           "glass": {
             "type": "color",
-            "value": "transparent"
+            "value": "{brand-colors.neutral-alpha.3}"
           },
           "on-neutral": {
             "$extensions": {
@@ -73,7 +73,7 @@
               }
             },
             "type": "color",
-            "value": "{brand-colors.neutral.900}"
+            "value": "{brand-colors.neutral.1}"
           }
         },
         "info": {
