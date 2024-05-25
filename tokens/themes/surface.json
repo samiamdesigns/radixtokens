@@ -60,11 +60,11 @@
           },
           "subtle": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.5}"
+            "value": "{brand-colors.info-alpha.5}"
           },
           "glass": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.3}"
+            "value": "{brand-colors.info-alpha.3}"
           },
           "on-neutral": {
             "$extensions": {

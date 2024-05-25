@@ -1021,22 +1021,22 @@
           "pressed": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.actions.neutral.subtle}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.border.neutral.emphasis}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-neutral}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-neutral}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "border": {
@@ -1159,11 +1159,11 @@
           "default": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.glass}"
+              "value": "transparent"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.border.neutral.default}"
+              "value": "transparent"
             },
             "icon": {
               "color": {
@@ -1193,7 +1193,7 @@
           "hover": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.actions.neutral.subtle}"
             },
             "border-color": {
               "type": "color",
@@ -1202,13 +1202,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-neutral}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.on-neutral}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "border": {
@@ -1227,7 +1227,7 @@
           "pressed": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.actions.neutral.emphasis}"
             },
             "border-color": {
               "type": "color",
@@ -1248,7 +1248,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.button.neutral.tier3.pressed.bg-color}",
+                "color": "{actions.button.neutral.tier3.pressed.border-color}",
                 "width": "{actions.button.border-width}",
                 "style": "solid"
               }
@@ -1270,13 +1270,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "border": {
@@ -1329,11 +1329,11 @@
           "loading": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.glass}"
+              "value": "transparent"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.glass}"
+              "value": "transparent"
             },
             "icon": {
               "color": {
@@ -1344,7 +1344,7 @@
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.brand-primary.on-brand}"
+                "value": "{surface.color.actions.neutral.emphasis}"
               }
             },
             "border": {
