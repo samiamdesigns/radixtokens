@@ -7,9 +7,27 @@
             "type": "typography",
             "value": "{brand-typography.p1.default}"
           },
+          "compact": {
+            "type": "typography",
+            "value": "{brand-typography.p2.default}"
+          },
           "interaction": {
             "type": "typography",
             "value": "{brand-typography.p1.interactive}"
+          }
+        },
+        "input": {
+          "default": {
+            "type": "typography",
+            "value": "{brand-typography.p2.default}"
+          },
+          "helper": {
+            "type": "typography",
+            "value": "{brand-typography.p3.default}"
+          },
+          "interaction": {
+            "type": "typography",
+            "value": "{brand-typography.p2.interactive}"
           }
         }
       },
