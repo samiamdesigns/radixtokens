@@ -387,6 +387,18 @@
             "value": "{brand-colors.neutral.11}"
           }
         }
+      },
+      "border": {
+        "neutral": {
+          "default": {
+            "type": "color",
+            "value": "{mode-colors.gray-alpha.2}"
+          },
+          "emphasis": {
+            "type": "color",
+            "value": "{mode-colors.gray-alpha.8}"
+          }
+        }
       }
     },
     "border": {

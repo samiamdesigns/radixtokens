@@ -750,17 +750,8 @@
               "value": "{surface.color.actions.neutral.default}"
             },
             "border-color": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "darken",
-                    "value": "0.12",
-                    "space": "lch"
-                  }
-                }
-              },
               "type": "color",
-              "value": "{actions.button.neutral.tier1.default.bg-color}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -794,7 +785,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.emphasis}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -828,7 +819,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -930,7 +921,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -966,7 +957,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1000,7 +991,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.border.neutral.emphasis}"
             },
             "icon": {
               "color": {
@@ -1034,7 +1025,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.border.neutral.emphasis}"
             },
             "icon": {
               "color": {
@@ -1136,7 +1127,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.border.neutral.emphasis}"
             },
             "icon": {
               "color": {
@@ -1172,7 +1163,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.glass}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1206,7 +1197,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1240,7 +1231,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
