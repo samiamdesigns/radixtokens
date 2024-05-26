@@ -1,14 +1,14 @@
 {
   "form": {
     "controls": {
-      "checkbox": {
+      "radio": {
         "not-selected": {
           "default": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.default.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.not-selected.default.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -37,8 +37,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.hover.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.not-selected.hover.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -67,8 +67,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.pressed.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.not-selected.pressed.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -97,8 +97,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.disabled.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.not-selected.disabled.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -127,8 +127,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.inactive.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.not-selected.inactive.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -152,6 +152,10 @@
                 "value": "{surface.color.actions.disabled.fg.default}"
               }
             }
+          },
+          "show-icon": {
+            "type": "boolean",
+            "value": "false"
           }
         },
         "selected": {
@@ -159,8 +163,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.default.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.selected.default.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -189,8 +193,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.hover.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.selected.hover.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -219,8 +223,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.pressed.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.selected.pressed.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -249,8 +253,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.disabled.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.selected.disabled.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -279,8 +283,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.inactive.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.radio.selected.inactive.border-color}",
+                "width": "{form.controls.radio.border-width}",
                 "style": "solid"
               }
             },
@@ -304,11 +308,15 @@
                 "value": "{surface.color.actions.disabled.fg.on-inverse}"
               }
             }
+          },
+          "show-icon": {
+            "type": "boolean",
+            "value": "true"
           }
         },
         "border-radius": {
           "type": "dimension",
-          "value": "{density.dimensions.interaction.border-radius.sm}"
+          "value": "{density.dimensions.interaction.border-radius.full}"
         },
         "border-width": {
           "type": "dimension",
@@ -321,20 +329,8 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.checkbox.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{form.controls.radio.border-radius} + {density.dimensions.interaction.focus-offset}"
           }
-        }
-      },
-      "not-selected": {
-        "show-icon": {
-          "type": "boolean",
-          "value": "false"
-        }
-      },
-      "selected": {
-        "show-icon": {
-          "type": "boolean",
-          "value": "true"
         }
       }
     }

@@ -95,6 +95,15 @@
             },
             "type": "dimension",
             "value": "{brand.scale-dimensions.unitless.md}px"
+          },
+          "full": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "9999px"
           }
         },
         "focus-offset": {
