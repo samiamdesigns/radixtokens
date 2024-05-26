@@ -337,7 +337,7 @@
           },
           "emphasis": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.8}"
+            "value": "{colors.overlays.white-alpha.6}"
           }
         },
         "info": {
