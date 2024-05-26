@@ -16,7 +16,7 @@
         },
         "border-radius": {
           "type": "dimension",
-          "value": "{density.dimensions.interaction.border-radius.sm}"
+          "value": "{actions.toggle-group.item.border-radius} + 2px"
         },
         "border-width": {
           "type": "dimension",
@@ -44,6 +44,10 @@
         }
       },
       "item": {
+        "width-min": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.size.touchpoint} - 2px"
+        },
         "selected": {
           "default": {
             "border": {
@@ -524,10 +528,6 @@
         "padding": {
           "type": "dimension",
           "value": "{density.dimensions.interaction.space.xs}"
-        },
-        "width-min": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.size.touchpoint}"
         },
         "icon": {
           "size": {
