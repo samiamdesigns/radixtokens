@@ -1373,13 +1373,17 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.default}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.success.default}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1392,10 +1396,6 @@
                 "type": "color",
                 "value": "{surface.color.feedback.success.on-success}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.default}"
             }
           },
           "hover": {
@@ -1407,13 +1407,17 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.hover}"
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.default}"
+              "value": "{surface.color.feedback.success.emphasis}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1426,10 +1430,6 @@
                 "type": "color",
                 "value": "{surface.color.feedback.success.on-success}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.hover}"
             }
           },
           "pressed": {
@@ -1441,13 +1441,17 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.pressed}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.success.muted}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1460,10 +1464,6 @@
                 "type": "color",
                 "value": "{surface.color.feedback.success.on-success}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.pressed}"
             }
           },
           "disabled": {
@@ -1475,6 +1475,10 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.actions.disabled.bg.default}"
@@ -1494,10 +1498,6 @@
                 "type": "color",
                 "value": "{surface.color.actions.disabled.fg.default}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           },
           "inactive": {
@@ -1509,9 +1509,13 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.feedback.success.default}"
             },
             "border-color": {
               "type": "color",
@@ -1520,18 +1524,14 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.on-inverse}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.actions.disabled.fg.on-inverse}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           },
           "loading": {
@@ -1543,13 +1543,17 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.success.muted}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1562,10 +1566,6 @@
                 "type": "color",
                 "value": "{surface.color.feedback.success.on-success}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           }
         },
@@ -1579,13 +1579,17 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.default}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.success.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1598,10 +1602,6 @@
                 "type": "color",
                 "value": "{surface.color.feedback.success.emphasis}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.default}"
             }
           },
           "hover": {
@@ -1613,29 +1613,29 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.hover}"
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.default}"
+              "value": "{surface.color.feedback.success.subtle}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.success.on-success}"
+                "value": "{surface.color.feedback.success.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.success.on-success}"
+                "value": "{surface.color.feedback.success.emphasis}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.hover}"
             }
           },
           "pressed": {
@@ -1647,13 +1647,17 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.pressed}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.success.muted}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1666,10 +1670,6 @@
                 "type": "color",
                 "value": "{surface.color.feedback.success.on-success}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.pressed}"
             }
           },
           "disabled": {
@@ -1681,9 +1681,13 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.glass}"
+              "value": "{surface.color.actions.disabled.bg.default}"
             },
             "border-color": {
               "type": "color",
@@ -1692,18 +1696,14 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           },
           "inactive": {
@@ -1715,29 +1715,29 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.success.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           },
           "loading": {
@@ -1749,29 +1749,29 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.muted}"
+              "value": "{surface.color.feedback.success.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.success.on-success}"
+                "value": "{surface.color.feedback.success.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.success.on-success}"
+                "value": "{surface.color.feedback.success.default}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           }
         },
@@ -1785,29 +1785,29 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.glass}"
+              "value": "{surface.color.feedback.success.transparent}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.glass}"
+              "value": "{surface.color.feedback.success.transparent}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.success.emphasis}"
+                "value": "{surface.color.feedback.success.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.success.emphasis}"
+                "value": "{surface.color.feedback.success.default}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{{surface.elevation.interaction.none}"
             }
           },
           "hover": {
@@ -1819,13 +1819,17 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.default}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.success.default}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1838,10 +1842,6 @@
                 "type": "color",
                 "value": "{surface.color.feedback.success.on-success}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.default}"
             }
           },
           "pressed": {
@@ -1853,13 +1853,17 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.hover}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.success.muted}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -1872,10 +1876,6 @@
                 "type": "color",
                 "value": "{surface.color.feedback.success.on-success}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.hover}"
             }
           },
           "disabled": {
@@ -1887,29 +1887,29 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.glass}"
+              "value": "{surface.color.actions.disabled.bg.default}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.glass}"
+              "value": "{surface.color.actions.disabled.bg.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           },
           "inactive": {
@@ -1921,13 +1921,17 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.glass}"
+              "value": "{surface.color.feedback.success.transparent}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.glass}"
+              "value": "{surface.color.feedback.success.transparent}"
             },
             "icon": {
               "color": {
@@ -1940,10 +1944,6 @@
                 "type": "color",
                 "value": "{surface.color.actions.disabled.fg.default}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           },
           "loading": {
@@ -1955,29 +1955,29 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.muted}"
+              "value": "{surface.color.feedback.success.transparent}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.success.muted}"
+              "value": "{surface.color.feedback.success.transparent}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.success.on-success}"
+                "value": "{surface.color.feedback.success.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.success.on-success}"
+                "value": "{surface.color.feedback.success.default}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           }
         }
@@ -1985,26 +1985,6 @@
       "danger": {
         "tier1": {
           "default": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.feedback.danger.default}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "{surface.color.feedback.danger.default}"
-            },
-            "icon": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
-              }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
-              }
-            },
             "border": {
               "type": "border",
               "value": {
@@ -2016,16 +1996,14 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.default}"
-            }
-          },
-          "hover": {
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.danger.default}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -2038,7 +2016,9 @@
                 "type": "color",
                 "value": "{surface.color.feedback.danger.on-danger}"
               }
-            },
+            }
+          },
+          "hover": {
             "border": {
               "type": "border",
               "value": {
@@ -2050,16 +2030,14 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.hover}"
-            }
-          },
-          "pressed": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.feedback.danger.emphasis}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -2072,7 +2050,9 @@
                 "type": "color",
                 "value": "{surface.color.feedback.danger.on-danger}"
               }
-            },
+            }
+          },
+          "pressed": {
             "border": {
               "type": "border",
               "value": {
@@ -2084,29 +2064,29 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.pressed}"
-            }
-          },
-          "disabled": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.feedback.danger.muted}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.feedback.danger.on-danger}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
+                "value": "{surface.color.feedback.danger.on-danger}"
               }
-            },
+            }
+          },
+          "disabled": {
             "border": {
               "type": "border",
               "value": {
@@ -2118,6 +2098,26 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.none}"
+            },
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
+            },
+            "label": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
             }
           },
           "inactive": {
@@ -2129,52 +2129,32 @@
                 "style": "solid"
               }
             },
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
-            },
-            "icon": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
-              }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
-              }
-            },
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.none}"
-            }
-          },
-          "loading": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.feedback.danger.default}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.actions.disabled.bg.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.actions.disabled.fg.on-inverse}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.actions.disabled.fg.on-inverse}"
               }
-            },
+            }
+          },
+          "loading": {
             "border": {
               "type": "border",
               "value": {
@@ -2186,31 +2166,31 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.none}"
-            }
-          }
-        },
-        "tier2": {
-          "default": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.glass}"
+              "value": "{surface.color.feedback.danger.muted}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.default}"
+                "value": "{surface.color.feedback.danger.on-danger}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.emphasis}"
+                "value": "{surface.color.feedback.danger.on-danger}"
               }
-            },
+            }
+          }
+        },
+        "tier2": {
+          "default": {
             "border": {
               "type": "border",
               "value": {
@@ -2222,29 +2202,29 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.default}"
-            }
-          },
-          "hover": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.default}"
+              "value": "{surface.color.feedback.danger.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.feedback.danger.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.feedback.danger.default}"
               }
-            },
+            }
+          },
+          "hover": {
             "border": {
               "type": "border",
               "value": {
@@ -2256,29 +2236,29 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.hover}"
-            }
-          },
-          "pressed": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.feedback.danger.subtle}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.feedback.danger.emphasis}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.feedback.danger.emphasis}"
               }
-            },
+            }
+          },
+          "pressed": {
             "border": {
               "type": "border",
               "value": {
@@ -2290,29 +2270,29 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.pressed}"
-            }
-          },
-          "disabled": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.glass}"
+              "value": "{surface.color.feedback.danger.muted}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.feedback.danger.on-danger}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.feedback.danger.on-danger}"
               }
-            },
+            }
+          },
+          "disabled": {
             "border": {
               "type": "border",
               "value": {
@@ -2324,6 +2304,26 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.none}"
+            },
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
+            },
+            "label": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
             }
           },
           "inactive": {
@@ -2335,52 +2335,32 @@
                 "style": "solid"
               }
             },
+            "box-shadow": {
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.danger.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
-            },
-            "box-shadow": {
-              "type": "boxShadow",
-              "value": "{surface.elevation.interaction.none}"
             }
           },
           "loading": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
-            },
-            "icon": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
-              }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
-              }
-            },
             "border": {
               "type": "border",
               "value": {
@@ -2392,31 +2372,31 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.none}"
-            }
-          }
-        },
-        "tier3": {
-          "default": {
+            },
             "bg-color": {
               "type": "color",
               "value": "{surface.color.feedback.danger.glass}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.glass}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.emphasis}"
+                "value": "{surface.color.feedback.danger.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.emphasis}"
+                "value": "{surface.color.feedback.danger.default}"
               }
-            },
+            }
+          }
+        },
+        "tier3": {
+          "default": {
             "border": {
               "type": "border",
               "value": {
@@ -2428,29 +2408,29 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{{surface.elevation.interaction.none}"
-            }
-          },
-          "hover": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.default}"
+              "value": "{surface.color.feedback.danger.transparent}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.default}"
+              "value": "{surface.color.feedback.danger.transparent}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.feedback.danger.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.feedback.danger.default}"
               }
-            },
+            }
+          },
+          "hover": {
             "border": {
               "type": "border",
               "value": {
@@ -2462,16 +2442,14 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.default}"
-            }
-          },
-          "pressed": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.feedback.danger.default}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
@@ -2482,9 +2460,11 @@
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.success.on-success}"
+                "value": "{surface.color.feedback.danger.on-danger}"
               }
-            },
+            }
+          },
+          "pressed": {
             "border": {
               "type": "border",
               "value": {
@@ -2496,29 +2476,29 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.hover}"
-            }
-          },
-          "disabled": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.glass}"
+              "value": "{surface.color.feedback.danger.muted}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.glass}"
+              "value": "{surface.color.border.neutral.default}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.feedback.danger.on-danger}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.fg.emphasis}"
+                "value": "{surface.color.feedback.danger.on-danger}"
               }
-            },
+            }
+          },
+          "disabled": {
             "border": {
               "type": "border",
               "value": {
@@ -2530,6 +2510,26 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.none}"
+            },
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
+            },
+            "label": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
             }
           },
           "inactive": {
@@ -2541,52 +2541,32 @@
                 "style": "solid"
               }
             },
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.feedback.danger.glass}"
-            },
-            "border-color": {
-              "type": "color",
-              "value": "{surface.color.feedback.danger.glass}"
-            },
-            "icon": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
-              }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.fg.default}"
-              }
-            },
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.none}"
-            }
-          },
-          "loading": {
+            },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.feedback.danger.transparent}"
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.feedback.danger.muted}"
+              "value": "{surface.color.feedback.danger.transparent}"
             },
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.feedback.danger.on-danger}"
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
-            },
+            }
+          },
+          "loading": {
             "border": {
               "type": "border",
               "value": {
@@ -2598,6 +2578,26 @@
             "box-shadow": {
               "type": "boxShadow",
               "value": "{surface.elevation.interaction.none}"
+            },
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.feedback.danger.transparent}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.feedback.danger.transparent}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.feedback.danger.default}"
+              }
+            },
+            "label": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.feedback.danger.default}"
+              }
             }
           }
         }

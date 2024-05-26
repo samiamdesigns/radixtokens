@@ -16,7 +16,7 @@
             },
             "on-inverse": {
               "type": "color",
-              "value": "{brand-colors.neutral.8}"
+              "value": "{brand-colors.neutral.7}"
             },
             "emphasis": {
               "type": "color",
@@ -377,7 +377,7 @@
           },
           "glass": {
             "type": "color",
-            "value": "{brand-colors.success-alpha.2}"
+            "value": "{brand-colors.success-alpha.3}"
           },
           "on-success": {
             "type": "color",
@@ -411,9 +411,14 @@
           },
           "glass": {
             "type": "color",
-            "value": "{brand-colors.danger-alpha.2}"
+            "value": "{brand-colors.danger-alpha.3}"
           },
-          "on-success": {
+          "on-danger": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
             "value": "{brand-colors.danger.1}"
           },
