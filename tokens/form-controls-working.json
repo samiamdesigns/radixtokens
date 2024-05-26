@@ -404,7 +404,7 @@
     }
   },
   "controls": {
-    "checkbox": {
+    "THIS": {
       "border-radius": {
         "type": "dimension",
         "value": "{density.dimensions.interaction.border-radius.sm}"
