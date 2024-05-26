@@ -1365,6 +1365,17 @@
             "value": "{surface.text-styles.actions.label.interaction}"
           }
         }
+      },
+      "focus": {
+        "border-radius": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
+          "type": "dimension",
+          "value": "{actions.toggle-button.border-radius} + {density.dimensions.interaction.focus-offset}"
+        }
       }
     }
   }

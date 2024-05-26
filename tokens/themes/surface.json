@@ -27,7 +27,7 @@
         "focus": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.info-alpha.11}"
+            "value": "{brand-colors.info-alpha.8}"
           },
           "inverse": {
             "type": "color",
