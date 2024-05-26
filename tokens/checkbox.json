@@ -1,0 +1,38 @@
+{
+  "controls": {
+    "radio": {
+      "layout": {
+        "justify-content": {
+          "type": "other",
+          "value": "center",
+          "description": "There currently isn't a token to control this property so the value is pasted from Figma's output of CSS. Please inspect design file."
+        },
+        "align-items": {
+          "type": "other",
+          "value": "center",
+          "description": "There currently isn't a token to control this property so the value is pasted from Figma's output of CSS. Please inspect design file."
+        }
+      }
+    },
+    "checkbox": {
+      "border-radius": {
+        "type": "dimension",
+        "value": "{density.dimensions.interaction.border-radius.sm}"
+      },
+      "border-width": {
+        "type": "dimension",
+        "value": "{density.dimensions.interaction.border-width.default}"
+      },
+      "padding": {
+        "type": "dimension",
+        "value": "{density.dimensions.interaction.space.xs}"
+      },
+      "focus": {
+        "border-radius": {
+          "type": "dimension",
+          "value": "{actions.button.border-radius} + {density.dimensions.interaction.focus-offset}"
+        }
+      }
+    }
+  }
+}
