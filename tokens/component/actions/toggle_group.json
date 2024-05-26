@@ -48,6 +48,10 @@
           "type": "dimension",
           "value": "{density.dimensions.interaction.size.touchpoint} - 2px"
         },
+        "height-min": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.size.touchpoint} - 2px"
+        },
         "selected": {
           "default": {
             "border": {
