@@ -16,7 +16,7 @@
         },
         "box-shadow": {
           "type": "boxShadow",
-          "value": "{surface.elevation.panels.small-overlay.low}"
+          "value": "{surface.elevation.panels.small-overlay.high}"
         },
         "bg-color": {
           "type": "color",
