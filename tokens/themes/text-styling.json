@@ -21,6 +21,15 @@
             "type": "typography",
             "value": "{brand-typography.p2.default}"
           },
+          "label": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "typography",
+            "value": "{brand-typography.p2.emphasis}"
+          },
           "helper": {
             "type": "typography",
             "value": "{brand-typography.p3.default}"

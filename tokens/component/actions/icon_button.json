@@ -1951,7 +1951,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.danger.tier3.pressed.bg-color}",
+                "color": "{actions.icon-button.danger.tier3.pressed.border-color}",
                 "width": "{actions.icon-button.border-width}",
                 "style": "solid"
               }
