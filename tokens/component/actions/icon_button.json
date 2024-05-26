@@ -721,7 +721,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.emphasis}"
+                "value": "{surface.color.actions.neutral.default}"
               }
             }
           },
@@ -749,7 +749,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.emphasis}"
+                "value": "{surface.color.actions.neutral.default}"
               }
             }
           },
@@ -891,7 +891,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.emphasis}"
+                "value": "{surface.color.actions.neutral.default}"
               }
             }
           },
@@ -919,7 +919,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.emphasis}"
+                "value": "{surface.color.actions.neutral.default}"
               }
             }
           },
