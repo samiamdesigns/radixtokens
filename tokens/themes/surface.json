@@ -249,7 +249,7 @@
           },
           "inactive": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.5}"
+            "value": "{brand-colors.neutral-alpha.7}"
           },
           "disabled": {
             "type": "color",
@@ -279,7 +279,7 @@
           },
           "inactive": {
             "type": "color",
-            "value": "{brand-colors.neutral.3}"
+            "value": "{brand-colors.neutral-alpha.3}"
           },
           "disabled": {
             "type": "color",
