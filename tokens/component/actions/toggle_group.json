@@ -538,6 +538,17 @@
             "type": "dimension",
             "value": "20px"
           }
+        },
+        "focus": {
+          "border-radius": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "{actions.toggle-group.item.border-radius} + {density.dimensions.interaction.focus-offset}"
+          }
         }
       },
       "layout": {

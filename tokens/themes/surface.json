@@ -27,11 +27,11 @@
         "focus": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral.50}"
+            "value": "{brand-colors.info-alpha.11}"
           },
           "inverse": {
             "type": "color",
-            "value": "{brand-colors.neutral.900}"
+            "value": "{brand-colors.info-alpha.3}"
           }
         },
         "neutral": {
@@ -219,7 +219,7 @@
         "focus": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.info.9}"
+            "value": "{brand-colors.info.10}"
           },
           "inverse": {
             "type": "color",
