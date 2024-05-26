@@ -5,33 +5,18 @@
         "disabled": {
           "bg": {
             "default": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "color",
-              "value": "{brand-colors.neutral.400}"
+              "value": "{brand-colors.neutral.5}"
             }
           },
           "fg": {
             "default": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "color",
-              "value": "{brand-colors.neutral.100}"
+              "value": "{brand-colors.neutral.9"
             },
             "emphasis": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "color",
-              "value": "{brand-colors.neutral.400}"
+              "value": "{brand-colors.neutral.11}"
             }
           }
         },
