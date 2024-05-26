@@ -4,47 +4,47 @@
       "actions": {
         "label": {
           "default": {
-            "$type": "typography",
-            "$value": "{brand-typography.p1.default}"
+            "type": "typography",
+            "value": "{brand-typography.p1.default}"
           },
           "compact": {
-            "$type": "typography",
-            "$value": "{brand-typography.p2.default}"
+            "type": "typography",
+            "value": "{brand-typography.p2.default}"
           },
           "interaction": {
-            "$type": "typography",
-            "$value": "{brand-typography.p1.interactive}"
+            "type": "typography",
+            "value": "{brand-typography.p1.interactive}"
           }
         },
         "input": {
           "default": {
-            "$type": "typography",
-            "$value": "{brand-typography.p2.default}"
+            "type": "typography",
+            "value": "{brand-typography.p2.default}"
           },
           "helper": {
-            "$type": "typography",
-            "$value": "{brand-typography.p3.default}"
+            "type": "typography",
+            "value": "{brand-typography.p3.default}"
           },
           "interaction": {
-            "$type": "typography",
-            "$value": "{brand-typography.p2.interactive}"
+            "type": "typography",
+            "value": "{brand-typography.p2.interactive}"
           }
         }
       },
       "system-status": {
         "default": {
-          "$type": "typography",
-          "$value": "{brand-typography.p2.default}"
+          "type": "typography",
+          "value": "{brand-typography.p2.default}"
         }
       },
       "info-display": {
         "default": {
-          "$type": "typography",
-          "$value": "{brand-typography.h6.default}"
+          "type": "typography",
+          "value": "{brand-typography.h6.default}"
         },
         "subtle": {
-          "$type": "typography",
-          "$value": "{brand-typography.p2.default}"
+          "type": "typography",
+          "value": "{brand-typography.p2.default}"
         }
       }
     }

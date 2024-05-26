@@ -1,8 +1,8 @@
 {
   "Shadows": {
     "LG": {
-      "$type": "boxShadow",
-      "$value": [
+      "type": "boxShadow",
+      "value": [
         {
           "color": "{brand-colors.neutral-alpha.8}",
           "type": "dropShadow",
@@ -22,8 +22,8 @@
       ]
     },
     "SM": {
-      "$type": "boxShadow",
-      "$value": {
+      "type": "boxShadow",
+      "value": {
         "x": "0",
         "y": "2",
         "blur": "10",

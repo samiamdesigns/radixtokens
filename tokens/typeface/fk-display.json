@@ -1,8 +1,8 @@
 {
   "fontFamilies": {
     "fk-display": {
-      "$type": "fontFamilies",
-      "$value": "FK Display"
+      "type": "fontFamilies",
+      "value": "FK Display"
     }
   },
   "fontWeights": {
@@ -12,8 +12,8 @@
           "modify": {}
         }
       },
-      "$type": "fontWeights",
-      "$value": "Regular"
+      "type": "fontWeights",
+      "value": "Regular"
     }
   }
 }
