@@ -417,7 +417,7 @@
             }
           },
           "$type": "boxShadow",
-          "$value": "{shadows.components.none}"
+          "$value": "{mode-colors.shadows.none}"
         },
         "default": {
           "$extensions": {
@@ -426,7 +426,7 @@
             }
           },
           "$type": "boxShadow",
-          "$value": "{shadows.components.sm}"
+          "$value": "{mode-colors.shadows.1}"
         },
         "hover": {
           "$extensions": {
@@ -435,7 +435,7 @@
             }
           },
           "$type": "boxShadow",
-          "$value": "{surface.elevation.sm}"
+          "$value": "{mode-colors.shadows.1}"
         },
         "pressed": {
           "$extensions": {
@@ -444,198 +444,14 @@
             }
           },
           "$type": "boxShadow",
-          "$value": "{surface.elevation.xs}"
+          "$value": "{mode-colors.shadows.1}"
         },
         "focused": {
           "$type": "boxShadow",
-          "$value": "{shadows.components.focused}"
+          "$value": "{mode-colors.shadows.1}"
         }
       },
-      "none": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "color": "none",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "1",
-            "blur": "3",
-            "spread": "0"
-          },
-          {
-            "color": "none",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "1",
-            "spread": "0"
-          }
-        ]
-      },
-      "xs": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "1",
-            "blur": "3",
-            "spread": "0"
-          },
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "1",
-            "spread": "0"
-          }
-        ]
-      },
-      "sm": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "2",
-            "blur": "4",
-            "spread": "0"
-          },
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "1",
-            "spread": "0"
-          }
-        ]
-      },
-      "md": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "4",
-            "blur": "8",
-            "spread": "0"
-          },
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "1",
-            "spread": "0"
-          }
-        ]
-      },
-      "lg": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "8",
-            "blur": "16",
-            "spread": "0"
-          },
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "1",
-            "spread": "0"
-          }
-        ]
-      },
-      "xl": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "16",
-            "blur": "24",
-            "spread": "0"
-          },
-          {
-            "color": "{surface.color.shadow.default}",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "0",
-            "blur": "1",
-            "spread": "0"
-          }
-        ]
-      }
-    },
-    "shadows": {
-      "components": {
-        "lg": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "$type": "boxShadow",
-          "$value": [
-            {
-              "color": "{brand-colors.neutral-alpha.8}",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "10",
-              "blur": "20",
-              "spread": "-15"
-            },
-            {
-              "color": "{brand-colors.neutral-alpha.5}",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "10",
-              "blur": "38",
-              "spread": "-10"
-            }
-          ]
-        },
+      "panels": {
         "sm": {
           "$extensions": {
             "studio.tokens": {
@@ -694,19 +510,39 @@
             "color": "{colors.overlays.black-alpha.7}",
             "type": "dropShadow"
           }
+        },
+        "classic": {
+          "low": {
+            "$type": "boxShadow",
+            "$value": "{mode-colors.shadows.2}",
+            "$description": "classic panel components (like a card) with not much elevation required"
+          },
+          "high": {
+            "$type": "boxShadow",
+            "$value": "{mode-colors.shadows.3}",
+            "$description": "classic panel components (like a card) with higher elevation required"
+          }
+        },
+        "small-overlay": {
+          "low": {
+            "$type": "boxShadow",
+            "$value": "{mode-colors.shadows.4}",
+            "$description": "small panel components that overlay the UI (like a hover card, tooltip, popover) with not much elevation required"
+          },
+          "high": {
+            "$type": "boxShadow",
+            "$value": "{mode-colors.shadows.4}",
+            "$description": "small panel components that overlay the UI (like a hover card, tooltip, popover) with higher elevation required"
+          }
+        },
+        "large-overlay": {
+          "default": {
+            "$type": "boxShadow",
+            "$value": "{mode-colors.shadows.6}",
+            "$description": "large panel components that overlay the UI (like a dialog)"
+          }
         }
       }
-    }
-  },
-  "test-shadow": {
-    "$type": "boxShadow",
-    "$value": {
-      "x": "1",
-      "y": "1",
-      "blur": "1",
-      "spread": "1",
-      "color": "#000000",
-      "type": "innerShadow"
     }
   }
 }
