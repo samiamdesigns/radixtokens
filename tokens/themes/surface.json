@@ -141,7 +141,7 @@
         "neutral": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral.12}"
+            "value": "{brand-colors.neutral.11}"
           },
           "emphasis": {
             "type": "color",

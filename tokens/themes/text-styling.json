@@ -7,6 +7,10 @@
             "type": "typography",
             "value": "{brand-typography.p2.default}"
           },
+          "emphasis": {
+            "type": "typography",
+            "value": "{brand-typography.p2.emphasis}"
+          },
           "compact": {
             "type": "typography",
             "value": "{brand-typography.p2.default}"
@@ -54,6 +58,10 @@
         "subtle": {
           "type": "typography",
           "value": "{brand-typography.p2.default}"
+        },
+        "compact": {
+          "type": "typography",
+          "value": "{brand-typography.p3.emphasis}"
         }
       }
     }
