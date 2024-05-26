@@ -357,7 +357,7 @@
           },
           "glass": {
             "type": "color",
-            "value": "{brand-colors.danger-alpha.3}"
+            "value": "{brand-colors.neutral-alpha.3}"
           },
           "on-danger": {
             "$extensions": {
