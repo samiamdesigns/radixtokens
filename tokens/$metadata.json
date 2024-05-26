@@ -13,6 +13,7 @@
     "primitives/dimensions",
     "primitives/radix-shadows",
     "modes/light",
+    "modes/dark",
     "brands/marketing",
     "themes/density",
     "themes/surface",

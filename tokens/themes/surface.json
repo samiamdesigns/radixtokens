@@ -111,7 +111,7 @@
           },
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral.1}"
+            "value": "{brand-colors.neutral.2}"
           },
           "mid-emphasis": {
             "type": "color",
