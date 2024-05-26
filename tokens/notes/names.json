@@ -3,30 +3,30 @@
     "naming": {
       "primitive-options": {
         "template": {
-          "type": "other",
-          "value": "designProperties.primitive-group.identifier",
-          "description": "All tokens starting with a design property is known to be a primitive option token which will contain a hard coded value. \n\nWhen a token starts with what it is (colors), we know its a primitive option in our token structure. "
+          "$type": "other",
+          "$value": "designProperties.primitive-group.identifier",
+          "$description": "All tokens starting with a design property is known to be a primitive option token which will contain a hard coded value. \n\nWhen a token starts with what it is (colors), we know its a primitive option in our token structure. "
         },
         "name-start": {
-          "type": "other",
-          "value": "designProperties",
-          "description": "The beginning part of the name will be written in camel case. \n\nThe design property will be written in plural. \n\nExample: fontFamilies "
+          "$type": "other",
+          "$value": "designProperties",
+          "$description": "The beginning part of the name will be written in camel case. \n\nThe design property will be written in plural. \n\nExample: fontFamilies "
         },
         "name-group": {
-          "type": "other",
-          "value": "primitive-group",
-          "description": "Any groups needed for primitives will be written in lowercase.\n\nGroups with more than one word in their name will be written with dashes as dots are reserved for additional groups.\n\nThere can be more than one group in a primitive token if needed. \n\nExample: grey, grey-cool, grey-warm "
+          "$type": "other",
+          "$value": "primitive-group",
+          "$description": "Any groups needed for primitives will be written in lowercase.\n\nGroups with more than one word in their name will be written with dashes as dots are reserved for additional groups.\n\nThere can be more than one group in a primitive token if needed. \n\nExample: grey, grey-cool, grey-warm "
         },
         "name-end": {
-          "type": "other",
-          "value": "identifier",
-          "description": "The end of the token name will be written in lowercase when letters are used. \n\nWe will not use dashes or dots to communicated sub-groups avoid collisions based on flatted names.\n\nExample: 1half represents 1.5 to avoid 15 and 1.5 being flattened into the same name"
+          "$type": "other",
+          "$value": "identifier",
+          "$description": "The end of the token name will be written in lowercase when letters are used. \n\nWe will not use dashes or dots to communicated sub-groups avoid collisions based on flatted names.\n\nExample: 1half represents 1.5 to avoid 15 and 1.5 being flattened into the same name"
         }
       },
       "namespace": {
-        "type": "other",
-        "value": "Add during transformation as needed",
-        "description": "Information about the design system, company, usecase, or theme will not be hard coded into tokens names. \n\nIf engineers require them for their workflow, they are to be added during the transformation of tokens. "
+        "$type": "other",
+        "$value": "Add during transformation as needed",
+        "$description": "Information about the design system, company, usecase, or theme will not be hard coded into tokens names. \n\nIf engineers require them for their workflow, they are to be added during the transformation of tokens. "
       }
     }
   }

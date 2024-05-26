@@ -23,6 +23,7 @@
     "component/actions/split-button",
     "component/feedback/tooltip",
     "notes/names",
-    "radio-test"
+    "radio-test",
+    "shadows-imposted"
   ]
 }

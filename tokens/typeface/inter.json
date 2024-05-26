@@ -1,46 +1,46 @@
 {
   "fontFamilies": {
     "inter": {
-      "type": "fontFamilies",
-      "value": "Inter"
+      "$type": "fontFamilies",
+      "$value": "Inter"
     }
   },
   "fontWeights": {
     "inter-thin": {
-      "type": "fontWeights",
-      "value": "Thin"
+      "$type": "fontWeights",
+      "$value": "Thin"
     },
     "inter-extralight": {
-      "type": "fontWeights",
-      "value": "Extra Light"
+      "$type": "fontWeights",
+      "$value": "Extra Light"
     },
     "inter-light": {
-      "type": "fontWeights",
-      "value": "Light"
+      "$type": "fontWeights",
+      "$value": "Light"
     },
     "inter-regular": {
-      "type": "fontWeights",
-      "value": "Regular"
+      "$type": "fontWeights",
+      "$value": "Regular"
     },
     "inter-medium": {
-      "type": "fontWeights",
-      "value": "Medium"
+      "$type": "fontWeights",
+      "$value": "Medium"
     },
     "inter-semibold": {
-      "type": "fontWeights",
-      "value": "Semi Bold"
+      "$type": "fontWeights",
+      "$value": "Semi Bold"
     },
     "inter-bold": {
-      "type": "fontWeights",
-      "value": "Bold"
+      "$type": "fontWeights",
+      "$value": "Bold"
     },
     "inter-extrabold": {
-      "type": "fontWeights",
-      "value": "Extra Bold"
+      "$type": "fontWeights",
+      "$value": "Extra Bold"
     },
     "inter-black": {
-      "type": "fontWeights",
-      "value": "Black"
+      "$type": "fontWeights",
+      "$value": "Black"
     }
   }
 }
