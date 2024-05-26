@@ -9,8 +9,8 @@
                 "modify": {}
               }
             },
-            "type": "dimension",
-            "value": "1px"
+            "$type": "dimension",
+            "$value": "1px"
           },
           "focus": {
             "$extensions": {
@@ -18,36 +18,36 @@
                 "modify": {}
               }
             },
-            "type": "dimension",
-            "value": "2px"
+            "$type": "dimension",
+            "$value": "2px"
           }
         },
         "space": {
           "none": {
-            "type": "dimension",
-            "value": "0px"
+            "$type": "dimension",
+            "$value": "0px"
           },
           "xs": {
-            "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.2xs}px"
+            "$type": "dimension",
+            "$value": "{brand.scale-dimensions.unitless.2xs}px"
           },
           "sm": {
-            "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.xs}px"
+            "$type": "dimension",
+            "$value": "{brand.scale-dimensions.unitless.xs}px"
           },
           "md": {
-            "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.sm}px"
+            "$type": "dimension",
+            "$value": "{brand.scale-dimensions.unitless.sm}px"
           },
           "lg": {
-            "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.md}px"
+            "$type": "dimension",
+            "$value": "{brand.scale-dimensions.unitless.md}px"
           }
         },
         "size": {
           "touchpoint": {
-            "type": "dimension",
-            "value": "40px"
+            "$type": "dimension",
+            "$value": "40px"
           }
         },
         "border-radius": {
@@ -57,8 +57,8 @@
                 "modify": {}
               }
             },
-            "type": "dimension",
-            "value": "0px"
+            "$type": "dimension",
+            "$value": "0px"
           },
           "sm": {
             "$extensions": {
@@ -66,8 +66,8 @@
                 "modify": {}
               }
             },
-            "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.2xs}px"
+            "$type": "dimension",
+            "$value": "{brand.scale-dimensions.unitless.2xs}px"
           },
           "md": {
             "$extensions": {
@@ -75,8 +75,8 @@
                 "modify": {}
               }
             },
-            "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.xs}px"
+            "$type": "dimension",
+            "$value": "{brand.scale-dimensions.unitless.xs}px"
           },
           "lg": {
             "$extensions": {
@@ -84,8 +84,8 @@
                 "modify": {}
               }
             },
-            "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.sm}px"
+            "$type": "dimension",
+            "$value": "{brand.scale-dimensions.unitless.sm}px"
           },
           "xl": {
             "$extensions": {
@@ -93,8 +93,8 @@
                 "modify": {}
               }
             },
-            "type": "dimension",
-            "value": "{brand.scale-dimensions.unitless.md}px"
+            "$type": "dimension",
+            "$value": "{brand.scale-dimensions.unitless.md}px"
           }
         }
       }

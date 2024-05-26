@@ -2,8 +2,8 @@
   "shadows": {
     "light": {
       "1": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -31,8 +31,8 @@
         ]
       },
       "2": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -76,8 +76,8 @@
         ]
       },
       "3": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -113,8 +113,8 @@
         ]
       },
       "4": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -142,8 +142,8 @@
         ]
       },
       "5": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -171,8 +171,8 @@
         ]
       },
       "6": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -210,8 +210,8 @@
     },
     "dark": {
       "1": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "-1",
@@ -247,8 +247,8 @@
         ]
       },
       "2": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -292,8 +292,8 @@
         ]
       },
       "3": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -329,8 +329,8 @@
         ]
       },
       "4": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -358,8 +358,8 @@
         ]
       },
       "5": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -387,8 +387,8 @@
         ]
       },
       "6": {
-        "type": "boxShadow",
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "0",
             "y": "0",
@@ -423,35 +423,133 @@
           }
         ]
       }
+    },
+    "components": {
+      "default": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "2",
+          "blur": "10",
+          "spread": "0",
+          "color": "{colors.overlays.black-alpha.7}",
+          "type": "dropShadow"
+        }
+      },
+      "focused": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "2",
+          "color": "{colors.overlays.black-alpha.7}",
+          "type": "dropShadow"
+        }
+      },
+      "lg": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "color": "{brand-colors.neutral-alpha.8}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "10",
+            "blur": "20",
+            "spread": "-15"
+          },
+          {
+            "color": "{brand-colors.neutral-alpha.5}",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "10",
+            "blur": "38",
+            "spread": "-10"
+          }
+        ]
+      },
+      "sm": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "2",
+          "blur": "10",
+          "spread": "0",
+          "color": "{brand-colors.neutral-alpha.3}",
+          "type": "dropShadow"
+        }
+      },
+      "none": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "transparent",
+          "type": "dropShadow"
+        }
+      },
+      "floating": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {}
+          }
+        },
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "2",
+          "blur": "10",
+          "spread": "0",
+          "color": "{colors.overlays.black-alpha.7}",
+          "type": "dropShadow"
+        }
+      }
     }
   },
   "NOTES": {
     "radix-shadow": {
       "1": {
-        "type": "other",
-        "value": "inset"
+        "$type": "other",
+        "$value": "inset"
       },
       "6": {
-        "type": "other",
-        "value": "larger overlay panels like dialog"
+        "$type": "other",
+        "$value": "larger overlay panels like dialog"
       },
       "2to3": {
-        "type": "other",
-        "value": "classic panels like a card"
+        "$type": "other",
+        "$value": "classic panels like a card"
       },
       "4to5": {
-        "type": "other",
-        "value": "smaller overlay panels like hover card and popover"
+        "$type": "other",
+        "$value": "smaller overlay panels like hover card and popover"
       },
       "source-code": {
-        "type": "other",
-        "value": "Github",
-        "description": "Shadows source code CSS file: \nhttps://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/shadow.css\n\n"
+        "$type": "other",
+        "$value": "Github",
+        "$description": "Shadows source code CSS file: \nhttps://github.com/radix-ui/themes/blob/main/packages/radix-ui-themes/src/styles/tokens/shadow.css\n\n"
       },
       "docs": {
-        "type": "other",
-        "value": "radix theme documentation",
-        "description": "Read the docs:\nhttps://www.radix-ui.com/themes/docs/theme/shadows\n"
+        "$type": "other",
+        "$value": "radix theme documentation",
+        "$description": "Read the docs:\nhttps://www.radix-ui.com/themes/docs/theme/shadows\n"
       }
     }
   }
