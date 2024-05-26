@@ -130,16 +130,6 @@
             "value": "{brand-colors.neutral.12}"
           }
         },
-        "accent": {
-          "default": {
-            "type": "color",
-            "value": "{brand-colors.primary.200}"
-          },
-          "emphasis": {
-            "type": "color",
-            "value": "{brand-colors.primary.600}"
-          }
-        },
         "overlay": {
           "level-1": {
             "type": "color",
@@ -168,50 +158,6 @@
           "inverse": {
             "type": "color",
             "value": "{brand-colors.neutral.2}"
-          }
-        },
-        "accent": {
-          "default": {
-            "type": "color",
-            "value": "{brand-colors.primary.900}"
-          },
-          "emphasis": {
-            "type": "color",
-            "value": "{brand-colors.primary.50}"
-          }
-        }
-      },
-      "brand-primary": {
-        "default": {
-          "type": "color",
-          "value": "{brand-colors.primary.500}"
-        },
-        "emphasis": {
-          "type": "color",
-          "value": "{brand-colors.primary.700}"
-        },
-        "muted": {
-          "type": "color",
-          "value": "{brand-colors.primary.400}"
-        },
-        "subtle": {
-          "type": "color",
-          "value": "{brand-colors.primary.300}"
-        },
-        "glass": {
-          "type": "color",
-          "value": "transparent"
-        },
-        "on-brand": {
-          "type": "color",
-          "value": "{brand-colors.primary.50}"
-        }
-      },
-      "container": {
-        "border": {
-          "level-1": {
-            "type": "color",
-            "value": "rgba(255,255,255,0.06)"
           }
         }
       },
@@ -430,6 +376,20 @@
             "type": "color",
             "value": "transparent"
           }
+        }
+      },
+      "divider": {
+        "default": {
+          "type": "color",
+          "value": "{mode-colors.gray-alpha.5}"
+        },
+        "subtle": {
+          "type": "color",
+          "value": "{mode-colors.gray-alpha.3}"
+        },
+        "emphasis": {
+          "type": "color",
+          "value": "{mode-colors.gray-alpha.7}"
         }
       }
     },
