@@ -111,15 +111,15 @@
           },
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral.2}"
+            "value": "{brand-colors.neutral-alpha.2}"
           },
           "mid-emphasis": {
             "type": "color",
-            "value": "{brand-colors.primary-alpha.1}"
+            "value": "{brand-colors.neutral-alpha.3}"
           },
           "emphasis": {
             "type": "color",
-            "value": "{brand-colors.primary-alpha.2}"
+            "value": "{brand-colors.neutral-alpha.4}"
           },
           "subtle": {
             "type": "color",
