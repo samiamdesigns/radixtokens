@@ -324,7 +324,7 @@
         },
         "padding": {
           "type": "dimension",
-          "value": "{density.dimensions.interaction.space.xs}"
+          "value": "{density.dimensions.interaction.space.xs} + 2px"
         },
         "focus": {
           "border-radius": {
