@@ -90,11 +90,6 @@
             "value": "{brand-colors.info-alpha.2}"
           },
           "on-info": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "color",
             "value": "{brand-colors.info.1}"
           },
@@ -210,73 +205,6 @@
         "on-brand": {
           "type": "color",
           "value": "{brand-colors.primary.50}"
-        }
-      },
-      "feedback": {
-        "danger": {
-          "default": {
-            "type": "color",
-            "value": "{brand-colors.danger.500}"
-          },
-          "emphasis": {
-            "type": "color",
-            "value": "{brand-colors.danger.500}"
-          },
-          "muted": {
-            "type": "color",
-            "value": "{brand-colors.danger.600}"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{brand-colors.danger.700}"
-          },
-          "glass": {
-            "type": "color",
-            "value": "transparent"
-          },
-          "on-danger": {
-            "type": "color",
-            "value": "{brand-colors.danger.50}"
-          }
-        },
-        "success": {
-          "default": {
-            "type": "color",
-            "value": "{brand-colors.info-alpha.11}"
-          },
-          "emphasis": {
-            "type": "color",
-            "value": "{brand-colors.info-alpha.12}"
-          },
-          "muted": {
-            "type": "color",
-            "value": "{brand-colors.info-alpha.9}"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{brand-colors.info-alpha.5}"
-          },
-          "glass": {
-            "type": "color",
-            "value": "{brand-colors.info-alpha.2}"
-          },
-          "on-info": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
-            "type": "color",
-            "value": "{brand-colors.info.1}"
-          },
-          "on-inverse": {
-            "type": "color",
-            "value": "{brand-colors.info.12}"
-          },
-          "transparent": {
-            "type": "color",
-            "value": "transparent"
-          }
         }
       },
       "container": {
@@ -427,6 +355,76 @@
         "default": {
           "type": "color",
           "value": "{brand-colors.neutral-alpha.3}"
+        }
+      },
+      "feedback": {
+        "success": {
+          "default": {
+            "type": "color",
+            "value": "{brand-colors.success-alpha.11}"
+          },
+          "emphasis": {
+            "type": "color",
+            "value": "{brand-colors.success-alpha.12}"
+          },
+          "muted": {
+            "type": "color",
+            "value": "{brand-colors.success-alpha.9}"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{brand-colors.success-alpha.5}"
+          },
+          "glass": {
+            "type": "color",
+            "value": "{brand-colors.success-alpha.2}"
+          },
+          "on-success": {
+            "type": "color",
+            "value": "{brand-colors.success.1}"
+          },
+          "on-inverse": {
+            "type": "color",
+            "value": "{brand-colors.success.12}"
+          },
+          "transparent": {
+            "type": "color",
+            "value": "transparent"
+          }
+        },
+        "danger": {
+          "default": {
+            "type": "color",
+            "value": "{brand-colors.danger-alpha.11}"
+          },
+          "emphasis": {
+            "type": "color",
+            "value": "{brand-colors.danger-alpha.12}"
+          },
+          "muted": {
+            "type": "color",
+            "value": "{brand-colors.danger-alpha.9}"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{brand-colors.danger-alpha.5}"
+          },
+          "glass": {
+            "type": "color",
+            "value": "{brand-colors.danger-alpha.2}"
+          },
+          "on-success": {
+            "type": "color",
+            "value": "{brand-colors.danger.1}"
+          },
+          "on-inverse": {
+            "type": "color",
+            "value": "{brand-colors.danger.12}"
+          },
+          "transparent": {
+            "type": "color",
+            "value": "transparent"
+          }
         }
       }
     },
