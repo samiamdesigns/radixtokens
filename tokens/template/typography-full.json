@@ -1,45 +1,45 @@
 {
   "paragraphSpacing": {
     "default": {
-      "$type": "paragraphSpacing",
-      "$value": "0",
-      "$description": "This token matches a design property in Figma that does not have a direct CSS equivellent. In this system it will always be a zero value token, and designers should use a line break to create paragraph spacing which better matches how <p> are written in code. "
+      "type": "paragraphSpacing",
+      "value": "0",
+      "description": "This token matches a design property in Figma that does not have a direct CSS equivellent. In this system it will always be a zero value token, and designers should use a line break to create paragraph spacing which better matches how <p> are written in code. "
     }
   },
   "paragraphIndent": {
     "default": {
-      "$type": "dimension",
-      "$value": "0rem",
-      "$description": "There is no proper way to define a responsive value for this property so it will remain a zero property value in this system."
+      "type": "dimension",
+      "value": "0rem",
+      "description": "There is no proper way to define a responsive value for this property so it will remain a zero property value in this system."
     }
   },
   "textDecoration": {
     "default": {
-      "$type": "textDecoration",
-      "$value": "none"
+      "type": "textDecoration",
+      "value": "none"
     },
     "emphasis": {
-      "$type": "textDecoration",
-      "$value": "underline",
-      "$description": "used for interactive text properties"
+      "type": "textDecoration",
+      "value": "underline",
+      "description": "used for interactive text properties"
     },
     "strike": {
-      "$type": "textDecoration",
-      "$value": "line-through",
-      "$description": "used for interactive text properties"
+      "type": "textDecoration",
+      "value": "line-through",
+      "description": "used for interactive text properties"
     }
   },
   "textCase": {
     "default": {
-      "$type": "textCase",
-      "$value": "none"
+      "type": "textCase",
+      "value": "none"
     }
   },
   "typography": {
     "p3": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.paragraph.relaxed} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.paragraph.relaxed} * 100%",
           "fontFamily": "{brand.fontFamily.body}",
@@ -52,8 +52,8 @@
         }
       },
       "interactive": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.paragraph.relaxed} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.paragraph.relaxed} * 100%",
           "fontFamily": "{brand.fontFamily.body}",
@@ -68,8 +68,8 @@
     },
     "p2": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.paragraph.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.paragraph.default} * 100%",
           "fontFamily": "{brand.fontFamily.body}",
@@ -82,8 +82,8 @@
         }
       },
       "interactive": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.paragraph.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.paragraph.default} * 100%",
           "fontFamily": "{brand.fontFamily.body}",
@@ -98,8 +98,8 @@
     },
     "p1": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.paragraph.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.paragraph.default} * 100%",
           "fontFamily": "{brand.fontFamily.body}",
@@ -112,8 +112,8 @@
         }
       },
       "interactive": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.paragraph.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.paragraph.default} * 100%",
           "fontFamily": "{brand.fontFamily.body}",
@@ -128,8 +128,8 @@
     },
     "h6": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -142,8 +142,8 @@
         }
       },
       "emphasis": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tight} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -156,8 +156,8 @@
         }
       },
       "subtle": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.relaxed} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -172,8 +172,8 @@
     },
     "h5": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -186,8 +186,8 @@
         }
       },
       "emphasis": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tight} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -200,8 +200,8 @@
         }
       },
       "subtle": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.relaxed} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -216,8 +216,8 @@
     },
     "h4": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -230,8 +230,8 @@
         }
       },
       "emphasis": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tight} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -244,8 +244,8 @@
         }
       },
       "subtle": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.relaxed} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -260,8 +260,8 @@
     },
     "h3": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -274,8 +274,8 @@
         }
       },
       "emphasis": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tight} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -288,8 +288,8 @@
         }
       },
       "subtle": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.relaxed} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -304,8 +304,8 @@
     },
     "h2": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tight} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -318,8 +318,8 @@
         }
       },
       "emphasis": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tighter} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -332,8 +332,8 @@
         }
       },
       "subtle": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -348,8 +348,8 @@
     },
     "h1": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tight} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -362,8 +362,8 @@
         }
       },
       "emphasis": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tighter} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -376,8 +376,8 @@
         }
       },
       "subtle": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -392,8 +392,8 @@
     },
     "d3": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tight} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -406,8 +406,8 @@
         }
       },
       "emphasis": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tighter} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -420,8 +420,8 @@
         }
       },
       "subtle": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -436,8 +436,8 @@
     },
     "d2": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tight} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -450,8 +450,8 @@
         }
       },
       "emphasis": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tighter} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -464,8 +464,8 @@
         }
       },
       "subtle": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -480,8 +480,8 @@
     },
     "d1": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tight} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -494,8 +494,8 @@
         }
       },
       "emphasis": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.tighter} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -508,8 +508,8 @@
         }
       },
       "subtle": {
-        "$type": "typography",
-        "$value": {
+        "type": "typography",
+        "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.heading.default} * 100%",
           "lineHeight": "{brand.lineHeights.unitless.heading.default} * 100%",
           "fontFamily": "{brand.fontFamily.heading}",
@@ -525,86 +525,86 @@
   },
   "fontSize": {
     "p4": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.xs}"
+      "type": "fontSizes",
+      "value": "{scale.rem.xs}"
     },
     "p3": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.sm}"
+      "type": "fontSizes",
+      "value": "{scale.rem.sm}"
     },
     "p2": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.md}"
+      "type": "fontSizes",
+      "value": "{scale.rem.md}"
     },
     "p1": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.lg}"
+      "type": "fontSizes",
+      "value": "{scale.rem.lg}"
     },
     "h6": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.lg}"
+      "type": "fontSizes",
+      "value": "{scale.rem.lg}"
     },
     "h5": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.xl}"
+      "type": "fontSizes",
+      "value": "{scale.rem.xl}"
     },
     "h4": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.2xl}"
+      "type": "fontSizes",
+      "value": "{scale.rem.2xl}"
     },
     "h3": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.3xl}"
+      "type": "fontSizes",
+      "value": "{scale.rem.3xl}"
     },
     "h2": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.4xl}"
+      "type": "fontSizes",
+      "value": "{scale.rem.4xl}"
     },
     "h1": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.5xl}"
+      "type": "fontSizes",
+      "value": "{scale.rem.5xl}"
     },
     "d3": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.6xl}"
+      "type": "fontSizes",
+      "value": "{scale.rem.6xl}"
     },
     "d2": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.7xl}"
+      "type": "fontSizes",
+      "value": "{scale.rem.7xl}"
     },
     "d1": {
-      "$type": "fontSizes",
-      "$value": "{scale.rem.8xl}"
+      "type": "fontSizes",
+      "value": "{scale.rem.8xl}"
     }
   },
   "lineHeights": {
     "unitless": {
       "paragraph": {
         "tight": {
-          "$type": "number",
-          "$value": "1.4"
+          "type": "number",
+          "value": "1.4"
         },
         "default": {
-          "$type": "number",
-          "$value": "1.5"
+          "type": "number",
+          "value": "1.5"
         },
         "relaxed": {
-          "$type": "number",
-          "$value": "1.6"
+          "type": "number",
+          "value": "1.6"
         }
       },
       "heading": {
         "tight": {
-          "$type": "number",
-          "$value": "1.1"
+          "type": "number",
+          "value": "1.1"
         },
         "default": {
-          "$type": "number",
-          "$value": "1.2"
+          "type": "number",
+          "value": "1.2"
         },
         "relaxed": {
-          "$type": "number",
-          "$value": "1.3"
+          "type": "number",
+          "value": "1.3"
         }
       }
     }
@@ -613,36 +613,36 @@
     "unitless": {
       "paragraph": {
         "default": {
-          "$type": "number",
-          "$value": "0",
-          "$description": "em units"
+          "type": "number",
+          "value": "0",
+          "description": "em units"
         },
         "relaxed": {
-          "$type": "number",
-          "$value": "0.025",
-          "$description": "em units"
+          "type": "number",
+          "value": "0.025",
+          "description": "em units"
         }
       },
       "heading": {
         "tighter": {
-          "$type": "number",
-          "$value": "-0.04",
-          "$description": "em units"
+          "type": "number",
+          "value": "-0.04",
+          "description": "em units"
         },
         "tight": {
-          "$type": "number",
-          "$value": "-0.03",
-          "$description": "em units"
+          "type": "number",
+          "value": "-0.03",
+          "description": "em units"
         },
         "default": {
-          "$type": "number",
-          "$value": "-0.02",
-          "$description": "em units"
+          "type": "number",
+          "value": "-0.02",
+          "description": "em units"
         },
         "relaxed": {
-          "$type": "number",
-          "$value": "0",
-          "$description": "em units"
+          "type": "number",
+          "value": "0",
+          "description": "em units"
         }
       }
     }
@@ -650,15 +650,15 @@
   "NOTES": {
     "Accessibility": {
       "text-spacing": {
-        "$type": "other",
-        "$value": "Success criteria",
-        "$description": "Line height (line spacing) to at least 1.5 times the font size;\nSpacing following paragraphs to at least 2 times the font size;\nLetter spacing (tracking) to at least 0.12 times the font size;\nWord spacing to at least 0.16 times the font size.\n\nSource \nhttps://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html"
+        "type": "other",
+        "value": "Success criteria",
+        "description": "Line height (line spacing) to at least 1.5 times the font size;\nSpacing following paragraphs to at least 2 times the font size;\nLetter spacing (tracking) to at least 0.12 times the font size;\nWord spacing to at least 0.16 times the font size.\n\nSource \nhttps://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html"
       }
     },
     "unitless-text-properties": {
-      "$type": "other",
-      "$value": "written for Figma",
-      "$description": "The unitless version of these properties are written this way because Figma doesn't support the preferred units, which are added to the description of the token if needed. \n\nFor properties like lineHeight and letterSpacing which Figma only supports in percentage, an equation will be added in the typography composite token to support a smooth representation in Figma, however, they are to be coded in their preferred unit (em, unitless etc). "
+      "type": "other",
+      "value": "written for Figma",
+      "description": "The unitless version of these properties are written this way because Figma doesn't support the preferred units, which are added to the description of the token if needed. \n\nFor properties like lineHeight and letterSpacing which Figma only supports in percentage, an equation will be added in the typography composite token to support a smooth representation in Figma, however, they are to be coded in their preferred unit (em, unitless etc). "
     }
   },
   "fontWeight": {
@@ -669,8 +669,8 @@
             "modify": {}
           }
         },
-        "$type": "fontWeights",
-        "$value": "{fontWeights.fk-display-regular}"
+        "type": "fontWeights",
+        "value": "{fontWeights.fk-display-regular}"
       },
       "emphasis": {
         "$extensions": {
@@ -678,8 +678,8 @@
             "modify": {}
           }
         },
-        "$type": "fontWeights",
-        "$value": "{fontWeights.fk-display-regular}"
+        "type": "fontWeights",
+        "value": "{fontWeights.fk-display-regular}"
       },
       "subtle": {
         "$extensions": {
@@ -687,8 +687,8 @@
             "modify": {}
           }
         },
-        "$type": "fontWeights",
-        "$value": "{fontWeights.fk-display-regular}"
+        "type": "fontWeights",
+        "value": "{fontWeights.fk-display-regular}"
       }
     },
     "body": {
@@ -698,8 +698,8 @@
             "modify": {}
           }
         },
-        "$type": "fontWeights",
-        "$value": "{fontWeights.fk-grotesk-neue-regular}"
+        "type": "fontWeights",
+        "value": "{fontWeights.fk-grotesk-neue-regular}"
       },
       "emphasis": {
         "$extensions": {
@@ -707,8 +707,8 @@
             "modify": {}
           }
         },
-        "$type": "fontWeights",
-        "$value": "{fontWeights.fk-grotesk-neue-medium}"
+        "type": "fontWeights",
+        "value": "{fontWeights.fk-grotesk-neue-medium}"
       },
       "subtle": {
         "$extensions": {
@@ -716,8 +716,8 @@
             "modify": {}
           }
         },
-        "$type": "fontWeights",
-        "$value": "{fontWeights.fk-grotesk-neue-medium}"
+        "type": "fontWeights",
+        "value": "{fontWeights.fk-grotesk-neue-medium}"
       }
     }
   },
@@ -728,8 +728,8 @@
           "modify": {}
         }
       },
-      "$type": "fontFamilies",
-      "$value": "{fontFamilies.fk-display}"
+      "type": "fontFamilies",
+      "value": "{fontFamilies.fk-display}"
     },
     "body": {
       "$extensions": {
@@ -737,8 +737,8 @@
           "modify": {}
         }
       },
-      "$type": "fontFamilies",
-      "$value": "{fontFamilies.fk-grotesk-neue}"
+      "type": "fontFamilies",
+      "value": "{fontFamilies.fk-grotesk-neue}"
     }
   }
 }

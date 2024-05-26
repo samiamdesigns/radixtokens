@@ -3,26 +3,26 @@
     "split-button": {
       "wrapper": {
         "border-radius": {
-          "$type": "dimension",
-          "$value": "{actions.button.border-radius}"
+          "type": "dimension",
+          "value": "{actions.button.border-radius}"
         },
         "gap": {
-          "$type": "dimension",
-          "$value": "{density.dimensions.interaction.space.none}"
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.none}"
         },
         "padding": {
-          "$type": "dimension",
-          "$value": "{density.dimensions.interaction.space.none}"
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.none}"
         }
       },
       "item": {
         "border-radius": {
-          "$type": "dimension",
-          "$value": "{density.dimensions.interaction.border-radius.none}"
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.border-radius.none}"
         },
         "border-width": {
-          "$type": "dimension",
-          "$value": "{density.dimensions.interaction.border-width.default}"
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.border-width.default}"
         }
       }
     },
@@ -32,8 +32,8 @@
           "not-selected": {
             "default": {
               "box-shadow": {
-                "$type": "boxShadow",
-                "$value": "{surface.elevation.interaction.none}"
+                "type": "boxShadow",
+                "value": "{surface.elevation.interaction.none}"
               }
             }
           }
@@ -45,8 +45,8 @@
         "tier1": {
           "default": {
             "box-shadow": {
-              "$type": "boxShadow",
-              "$value": "{surface.elevation.interaction.none}"
+              "type": "boxShadow",
+              "value": "{surface.elevation.interaction.none}"
             }
           }
         }
@@ -64,8 +64,8 @@
               }
             }
           },
-          "$type": "color",
-          "$value": "{surface.color.actions.neutral.default}"
+          "type": "color",
+          "value": "{surface.color.actions.neutral.default}"
         }
       }
     }
@@ -73,9 +73,9 @@
   "NOTES": {
     "split-button": {
       "structure": {
-        "$type": "other",
-        "$value": "nested components",
-        "$description": "The split button is a modification of component/actions/button as the primary action, and component/actions/toggle-button as the secondary action. \n\nLimited tokens were needed as overrides for these nested components to modify the styling slightly (border, radius). \n\nWe want the secondary action to expose a menu when selected, which should have the same interaction design as when the toggle-button is selected. "
+        "type": "other",
+        "value": "nested components",
+        "description": "The split button is a modification of component/actions/button as the primary action, and component/actions/toggle-button as the secondary action. \n\nLimited tokens were needed as overrides for these nested components to modify the styling slightly (border, radius). \n\nWe want the secondary action to expose a menu when selected, which should have the same interaction design as when the toggle-button is selected. "
       }
     }
   }

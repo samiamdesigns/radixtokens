@@ -2,8 +2,8 @@
   "Shadow": {
     "Theme_Light": {
       "20": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#3031331a",
             "type": "dropShadow",
@@ -23,8 +23,8 @@
         ]
       },
       "40": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#3031331a",
             "type": "dropShadow",
@@ -44,8 +44,8 @@
         ]
       },
       "60": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#3031331a",
             "type": "dropShadow",
@@ -65,8 +65,8 @@
         ]
       },
       "80": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#3031331a",
             "type": "dropShadow",
@@ -86,8 +86,8 @@
         ]
       },
       "100": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#3031331a",
             "type": "dropShadow",
@@ -109,8 +109,8 @@
     },
     "Theme_Dark": {
       "20": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#0d0d0de6",
             "type": "dropShadow",
@@ -130,8 +130,8 @@
         ]
       },
       "40": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#0d0d0de6",
             "type": "dropShadow",
@@ -151,8 +151,8 @@
         ]
       },
       "60": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#0d0d0de6",
             "type": "dropShadow",
@@ -172,8 +172,8 @@
         ]
       },
       "80": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#0d0d0de6",
             "type": "dropShadow",
@@ -193,8 +193,8 @@
         ]
       },
       "100": {
-        "$type": "boxShadow",
-        "$value": [
+        "type": "boxShadow",
+        "value": [
           {
             "color": "#0d0d0de6",
             "type": "dropShadow",
