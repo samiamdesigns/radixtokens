@@ -27,19 +27,18 @@
       },
       "child": {
         "border": {
+          "type": "border",
           "value": {
             "color": "{actions.split-color.item.border-color}",
             "width": "{actions.split-button.item.border-width}",
             "style": "solid"
-          },
-          "type": "border"
+          }
         }
       }
     },
     "split-color": {
       "item": {
         "border-color": {
-          "$extensions": {},
           "type": "color",
           "value": "{surface.color.border.neutral.emphasis}"
         }
