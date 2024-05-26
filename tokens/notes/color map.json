@@ -1,813 +1,271 @@
 {
   "actions": {
-    "toggle-button": {
-      "neutral": {
-        "tier1": {
-          "not-selected": {
-            "default": {
-              "bg-color": {
+    "toggle-group": {
+      "item": {
+        "not-selected": {
+          "default": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.transparent}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.transparent}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
                 "value": "{surface.color.actions.neutral.default}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
               }
             },
-            "hover": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.emphasis}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              }
-            },
-            "pressed": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.muted}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              }
-            },
-            "disabled": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              }
-            },
-            "inactive": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
                 "value": "{surface.color.actions.neutral.default}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.on-inverse}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.on-inverse}"
-                }
-              }
-            },
-            "loading": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.muted}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
               }
             }
           },
-          "selected": {
-            "default": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.emphasis}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              }
+          "hover": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.glass}"
             },
-            "hover": {
-              "bg-color": {
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.border.neutral.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
                 "value": "{surface.color.actions.neutral.default}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
               }
             },
-            "pressed": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.muted}"
-              },
-              "border-color": {
+                "value": "{surface.color.actions.neutral.default}"
+              }
+            }
+          },
+          "pressed": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.muted}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.border.neutral.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             },
-            "disabled": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "border-color": {
+                "value": "{surface.color.actions.neutral.on-neutral}"
+              }
+            }
+          },
+          "disabled": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
             },
-            "inactive": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.emphasis}"
-              },
-              "border-color": {
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
+            }
+          },
+          "inactive": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.transparent}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.transparent}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
             },
-            "loading": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.muted}"
-              },
-              "border-color": {
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
+            }
+          },
+          "loading": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.neutral.muted}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.border.neutral.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.on-inverse}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
+                "value": "{surface.color.actions.neutral.on-neutral}"
+              }
+            },
+            "label": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.actions.neutral.on-neutral}"
               }
             }
           }
         },
-        "tier2": {
-          "not-selected": {
-            "default": {
-              "bg-color": {
+        "selected": {
+          "default": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.info.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.border.info.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.glass}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.default}"
-                }
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
-            "hover": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.neutral.subtle}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.default}"
-                }
-              }
-            },
-            "pressed": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.muted}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              }
-            },
-            "disabled": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              }
-            },
-            "loading": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.muted}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              }
-            },
-            "inactive": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.glass}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
+                "value": "{surface.color.actions.info.on-info}"
               }
             }
           },
-          "selected": {
-            "default": {
-              "bg-color": {
+          "hover": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.info.emphasis}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.border.info.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.glass}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.info.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.default}"
-                }
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
-            "hover": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.subtle}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.info.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.emphasis}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.emphasis}"
-                }
-              }
-            },
-            "pressed": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.info.muted}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.info.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
-              }
-            },
-            "disabled": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              }
-            },
-            "loading": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.info.muted}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.info.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
-              }
-            },
-            "inactive": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.info.glass}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.info.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              }
-            }
-          }
-        },
-        "tier3": {
-          "not-selected": {
-            "default": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.transparent}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.transparent}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.default}"
-                }
-              }
-            },
-            "hover": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.glass}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.default}"
-                }
-              }
-            },
-            "pressed": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.muted}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              }
-            },
-            "disabled": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              }
-            },
-            "inactive": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.transparent}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.transparent}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              }
-            },
-            "loading": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.neutral.muted}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.neutral.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.neutral.on-neutral}"
-                }
+                "value": "{surface.color.actions.info.on-info}"
               }
             }
           },
-          "selected": {
-            "default": {
-              "bg-color": {
+          "pressed": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.info.muted}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.border.info.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.default}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.info.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
-            "hover": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.emphasis}"
-              },
-              "border-color": {
+                "value": "{surface.color.actions.info.on-info}"
+              }
+            }
+          },
+          "disabled": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.border.info.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
+                "value": "{surface.color.actions.disabled.fg.default}"
               }
             },
-            "pressed": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.muted}"
-              },
-              "border-color": {
+                "value": "{surface.color.actions.disabled.fg.default}"
+              }
+            }
+          },
+          "loading": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.info.muted}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.border.info.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.border.info.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
+                "value": "{surface.color.actions.info.on-info}"
               }
             },
-            "disabled": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "border-color": {
+                "value": "{surface.color.actions.info.on-info}"
+              }
+            }
+          },
+          "inactive": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.actions.info.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.actions.disabled.bg.default}"
+            },
+            "icon": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.default}"
-                }
+                "value": "{surface.color.actions.disabled.fg.on-inverse}"
               }
             },
-            "loading": {
-              "bg-color": {
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.actions.info.muted}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.border.info.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.info.on-info}"
-                }
-              }
-            },
-            "inactive": {
-              "bg-color": {
-                "type": "color",
-                "value": "{surface.color.actions.info.default}"
-              },
-              "border-color": {
-                "type": "color",
-                "value": "{surface.color.actions.disabled.bg.default}"
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.on-inverse}"
-                }
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.actions.disabled.fg.on-inverse}"
-                }
+                "value": "{surface.color.actions.disabled.fg.on-inverse}"
               }
             }
           }
