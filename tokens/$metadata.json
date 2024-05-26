@@ -11,6 +11,7 @@
     "primitives/scale",
     "primitives/radix-colors-v2",
     "primitives/dimensions",
+    "primitives/radix-shadows",
     "modes/light",
     "brands/marketing",
     "themes/density",
