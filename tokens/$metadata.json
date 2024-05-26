@@ -25,6 +25,7 @@
     "component/feedback/tooltip",
     "notes/names",
     "notes/color map",
-    "checkbox"
+    "checkbox",
+    "form-controls-working"
   ]
 }

@@ -422,7 +422,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.not-selected.default.border-color}",
+                  "color": "{form.controls.not-selected.default.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -456,7 +456,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.not-selected.hover.border-color}",
+                  "color": "{form.controls.not-selected.hover.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -490,7 +490,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.not-selected.pressed.border-color}",
+                  "color": "{form.controls.not-selected.pressed.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -524,7 +524,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.not-selected.disabled.border-color}",
+                  "color": "{form.controls.not-selected.disabled.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -592,7 +592,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.not-selected.loading.border-color}",
+                  "color": "{form.controls.not-selected.loading.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -628,7 +628,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.selected.default.border-color}",
+                  "color": "{form.controls.selected.default.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -662,7 +662,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.selected.hover.border-color}",
+                  "color": "{form.controls.selected.hover.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -696,7 +696,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.selected.pressed.border-color}",
+                  "color": "{form.controls.selected.pressed.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -730,7 +730,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.selected.disabled.border-color}",
+                  "color": "{form.controls.selected.disabled.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -764,7 +764,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.selected.loading.border-color}",
+                  "color": "{form.controls.selected.loading.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -798,7 +798,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier2.selected.inactive.border-color}",
+                  "color": "{form.controls.selected.inactive.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -836,7 +836,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.not-selected.default.border-color}",
+                  "color": "{form.controls.not-selected.default.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -870,7 +870,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.not-selected.hover.border-color}",
+                  "color": "{form.controls.not-selected.hover.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -904,7 +904,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.not-selected.pressed.bg-color}",
+                  "color": "{form.controls.not-selected.pressed.bg-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -938,7 +938,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.not-selected.disabled.border-color}",
+                  "color": "{form.controls.not-selected.disabled.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -972,7 +972,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.not-selected.inactive.border-color}",
+                  "color": "{form.controls.not-selected.inactive.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1006,7 +1006,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.not-selected.loading.border-color}",
+                  "color": "{form.controls.not-selected.loading.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1042,7 +1042,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.selected.default.border-color}",
+                  "color": "{form.controls.selected.default.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1076,7 +1076,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.selected.hover.border-color}",
+                  "color": "{form.controls.selected.hover.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1110,7 +1110,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.selected.pressed.border-color}",
+                  "color": "{form.controls.selected.pressed.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1144,7 +1144,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.selected.disabled.border-color}",
+                  "color": "{form.controls.selected.disabled.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1178,7 +1178,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.selected.inactive.border-color}",
+                  "color": "{form.controls.selected.inactive.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
@@ -1212,7 +1212,7 @@
               "border": {
                 "type": "border",
                 "value": {
-                  "color": "{actions.toggle-button.neutral.tier3.selected.loading.border-color}",
+                  "color": "{form.controls.selected.loading.border-color}",
                   "width": "{actions.icon-button.border-width}",
                   "style": "solid"
                 }
