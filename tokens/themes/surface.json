@@ -213,32 +213,6 @@
         }
       },
       "feedback": {
-        "success": {
-          "default": {
-            "type": "color",
-            "value": "{brand-colors.success.500}"
-          },
-          "emphasis": {
-            "type": "color",
-            "value": "{brand-colors.success.500}"
-          },
-          "muted": {
-            "type": "color",
-            "value": "{brand-colors.success.600}"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{brand-colors.success.700}"
-          },
-          "glass": {
-            "type": "color",
-            "value": "transparent"
-          },
-          "on-success": {
-            "type": "color",
-            "value": "{brand-colors.success.50}"
-          }
-        },
         "danger": {
           "default": {
             "type": "color",
@@ -263,6 +237,45 @@
           "on-danger": {
             "type": "color",
             "value": "{brand-colors.danger.50}"
+          }
+        },
+        "success": {
+          "default": {
+            "type": "color",
+            "value": "{brand-colors.info-alpha.11}"
+          },
+          "emphasis": {
+            "type": "color",
+            "value": "{brand-colors.info-alpha.12}"
+          },
+          "muted": {
+            "type": "color",
+            "value": "{brand-colors.info-alpha.9}"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{brand-colors.info-alpha.5}"
+          },
+          "glass": {
+            "type": "color",
+            "value": "{brand-colors.info-alpha.2}"
+          },
+          "on-info": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "color",
+            "value": "{brand-colors.info.1}"
+          },
+          "on-inverse": {
+            "type": "color",
+            "value": "{brand-colors.info.12}"
+          },
+          "transparent": {
+            "type": "color",
+            "value": "transparent"
           }
         }
       },
