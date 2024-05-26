@@ -696,7 +696,7 @@
       "icon": {
         "size": {
           "type": "dimension",
-          "value": "20px"
+          "value": "16px"
         }
       },
       "tier3": {

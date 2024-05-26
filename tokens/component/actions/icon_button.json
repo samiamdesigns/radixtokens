@@ -2088,7 +2088,7 @@
       "icon": {
         "size": {
           "type": "dimension",
-          "value": "20px"
+          "value": "16px"
         }
       },
       "focus": {
@@ -2096,14 +2096,6 @@
           "type": "dimension",
           "value": "{actions.icon-button.border-radius} + {density.dimensions.interaction.focus-offset}"
         }
-      }
-    }
-  },
-  "controls": {
-    "focus": {
-      "border-radius": {
-        "type": "dimension",
-        "value": "{actions.icon-button.border-radius}"
       }
     }
   }
