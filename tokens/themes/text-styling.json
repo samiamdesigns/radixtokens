@@ -5,7 +5,7 @@
         "label": {
           "default": {
             "type": "typography",
-            "value": "{brand-typography.p1.default}"
+            "value": "{brand-typography.p2.default}"
           },
           "compact": {
             "type": "typography",
@@ -13,7 +13,7 @@
           },
           "interaction": {
             "type": "typography",
-            "value": "{brand-typography.p1.interactive}"
+            "value": "{brand-typography.p2.interactive}"
           }
         },
         "input": {
