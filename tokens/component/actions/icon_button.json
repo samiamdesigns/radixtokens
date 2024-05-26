@@ -162,7 +162,7 @@
             },
             "border-color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.bg.default}"
+              "value": "{surface.color.border.info.default}"
             },
             "icon": {
               "color": {
@@ -513,24 +513,6 @@
           }
         }
       },
-      "default": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
-        }
-      },
-      "hover": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.interaction}"
-        }
-      },
-      "pressed": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
-        }
-      },
       "layout": {
         "justify-content": {
           "type": "other",
@@ -541,67 +523,6 @@
           "type": "other",
           "value": "center",
           "description": "There currently isn't a token to control this property so the value is pasted from Figma's output of CSS. Please inspect design file."
-        }
-      },
-      "disabled": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
-        }
-      },
-      "inactive": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
-        }
-      },
-      "loading": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
-        }
-      },
-      "tier3": {
-        "default": {
-          "typography": {
-            "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
-          }
-        },
-        "hover": {
-          "typography": {
-            "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
-          }
-        },
-        "pressed": {
-          "typography": {
-            "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
-          }
-        },
-        "disabled": {
-          "typography": {
-            "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
-          }
-        },
-        "inactive": {
-          "typography": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
-            "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
-          }
-        },
-        "loading": {
-          "typography": {
-            "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
-          }
         }
       },
       "neutral": {
