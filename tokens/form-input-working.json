@@ -37,22 +37,22 @@
         },
         "bg-color": {
           "type": "color",
-          "value": "{surface.color.actions.info.default}"
+          "value": "{surface.color.input.bg.default}"
         },
         "border-color": {
           "type": "color",
           "value": "{surface.color.input.border.default}"
         },
-        "icon": {
+        "slot": {
           "color": {
             "type": "color",
-            "value": "{surface.color.actions.info.on-info}"
+            "value": "{surface.color.input.fg.default}"
           }
         },
         "label": {
           "color": {
             "type": "color",
-            "value": "{surface.color.actions.info.on-info}"
+            "value": "{surface.color.input.fg.default}"
           }
         }
       },
@@ -72,22 +72,27 @@
         },
         "bg-color": {
           "type": "color",
-          "value": "{surface.color.actions.info.emphasis}"
+          "value": "{surface.color.input.bg.hover}"
         },
         "border-color": {
           "type": "color",
           "value": "{surface.color.input.border.hover}"
         },
-        "icon": {
+        "slot": {
           "color": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
-            "value": "{surface.color.actions.info.on-info}"
+            "value": "{surface.color.input.fg.default}"
           }
         },
         "label": {
           "color": {
             "type": "color",
-            "value": "{surface.color.actions.info.on-info}"
+            "value": "{surface.color.input.fg.hover}"
           }
         }
       },
@@ -107,22 +112,22 @@
         },
         "bg-color": {
           "type": "color",
-          "value": "{surface.color.actions.info.muted}"
+          "value": "{surface.color.input.bg.pressed}"
         },
         "border-color": {
           "type": "color",
           "value": "{surface.color.input.border.pressed}"
         },
-        "icon": {
+        "slot": {
           "color": {
             "type": "color",
-            "value": "{surface.color.actions.info.on-info}"
+            "value": "{surface.color.input.fg.pressed}"
           }
         },
         "label": {
           "color": {
             "type": "color",
-            "value": "{surface.color.actions.info.on-info}"
+            "value": "{surface.color.input.fg.pressed}"
           }
         }
       },
@@ -142,22 +147,22 @@
         },
         "bg-color": {
           "type": "color",
-          "value": "{surface.color.actions.disabled.bg.default}"
+          "value": "{surface.color.input.bg.disabled}"
         },
         "border-color": {
           "type": "color",
           "value": "{surface.color.input.border.disabled}"
         },
-        "icon": {
+        "slot": {
           "color": {
             "type": "color",
-            "value": "{surface.color.actions.disabled.fg.default}"
+            "value": "{surface.color.input.bg.disabled}"
           }
         },
         "label": {
           "color": {
             "type": "color",
-            "value": "{surface.color.actions.disabled.fg.default}"
+            "value": "{surface.color.input.fg.disabled}"
           }
         }
       },
@@ -177,22 +182,27 @@
         },
         "bg-color": {
           "type": "color",
-          "value": "{surface.color.actions.info.default}"
+          "value": "{surface.color.input.bg.inactive}"
         },
         "border-color": {
           "type": "color",
           "value": "{surface.color.input.border.inactive}"
         },
-        "icon": {
+        "slot": {
           "color": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
-            "value": "{surface.color.actions.disabled.fg.on-inverse}"
+            "value": "{surface.color.input.fg.inactive}"
           }
         },
         "label": {
           "color": {
             "type": "color",
-            "value": "{surface.color.actions.disabled.fg.on-inverse}"
+            "value": "{surface.color.input.fg.inactive}"
           }
         }
       },
