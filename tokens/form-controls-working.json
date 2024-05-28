@@ -316,37 +316,37 @@
       "default": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "hover": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.interaction}"
+          "value": "{theme.text-style.actions.label.interaction}"
         }
       },
       "pressed": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "disabled": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "inactive": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "loading": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "THIS": {

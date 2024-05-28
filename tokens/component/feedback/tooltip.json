@@ -3,7 +3,7 @@
     "tooltip": {
       "typography": {
         "type": "typography",
-        "value": "{surface.text-styles.system-status.default}"
+        "value": "{theme.text-style.system-status.default}"
       },
       "default": {
         "border": {

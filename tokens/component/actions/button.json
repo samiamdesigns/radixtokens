@@ -648,19 +648,19 @@
       "default": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "hover": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.interaction}"
+          "value": "{theme.text-style.actions.label.interaction}"
         }
       },
       "pressed": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "layout": {
@@ -678,19 +678,19 @@
       "disabled": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "inactive": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "loading": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{theme.text-style.actions.label.default}"
         }
       },
       "icon": {
@@ -703,25 +703,25 @@
         "default": {
           "typography": {
             "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
+            "value": "{theme.text-style.actions.label.interaction}"
           }
         },
         "hover": {
           "typography": {
             "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
+            "value": "{theme.text-style.actions.label.interaction}"
           }
         },
         "pressed": {
           "typography": {
             "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
+            "value": "{theme.text-style.actions.label.interaction}"
           }
         },
         "disabled": {
           "typography": {
             "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
+            "value": "{theme.text-style.actions.label.interaction}"
           }
         },
         "inactive": {
@@ -732,13 +732,13 @@
               }
             },
             "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
+            "value": "{theme.text-style.actions.label.interaction}"
           }
         },
         "loading": {
           "typography": {
             "type": "typography",
-            "value": "{surface.text-styles.actions.label.interaction}"
+            "value": "{theme.text-style.actions.label.interaction}"
           }
         }
       },

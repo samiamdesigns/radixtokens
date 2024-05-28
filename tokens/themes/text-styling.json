@@ -1,6 +1,6 @@
 {
-  "surface": {
-    "text-styles": {
+  "theme": {
+    "text-style": {
       "actions": {
         "label": {
           "default": {
@@ -20,8 +20,13 @@
             "value": "{brand-typography.p2.interactive}"
           }
         },
-        "input": {
-          "default": {
+        "form": {
+          "text-input": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "typography",
             "value": "{brand-typography.p2.default}"
           },

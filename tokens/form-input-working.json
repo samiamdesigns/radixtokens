@@ -49,7 +49,7 @@
             "value": "{surface.color.input.fg.default}"
           }
         },
-        "label": {
+        "text": {
           "color": {
             "type": "color",
             "value": "{surface.color.input.fg.default}"
@@ -89,7 +89,7 @@
             "value": "{surface.color.input.fg.default}"
           }
         },
-        "label": {
+        "text": {
           "color": {
             "type": "color",
             "value": "{surface.color.input.fg.hover}"
@@ -124,7 +124,7 @@
             "value": "{surface.color.input.fg.pressed}"
           }
         },
-        "label": {
+        "text": {
           "color": {
             "type": "color",
             "value": "{surface.color.input.fg.pressed}"
@@ -159,7 +159,7 @@
             "value": "{surface.color.input.bg.disabled}"
           }
         },
-        "label": {
+        "text": {
           "color": {
             "type": "color",
             "value": "{surface.color.input.fg.disabled}"
@@ -199,7 +199,7 @@
             "value": "{surface.color.input.fg.inactive}"
           }
         },
-        "label": {
+        "text": {
           "color": {
             "type": "color",
             "value": "{surface.color.input.fg.inactive}"
@@ -233,37 +233,7 @@
       "default": {
         "typography": {
           "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
-        }
-      },
-      "hover": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.interaction}"
-        }
-      },
-      "pressed": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
-        }
-      },
-      "disabled": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
-        }
-      },
-      "inactive": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
-        }
-      },
-      "loading": {
-        "typography": {
-          "type": "typography",
-          "value": "{surface.text-styles.actions.label.default}"
+          "value": "{surface.text-styles.actions.text.default}"
         }
       }
     }
