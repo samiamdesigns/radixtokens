@@ -24,10 +24,10 @@
     "component/actions/icon_button",
     "component/actions/split-button",
     "component/feedback/tooltip",
-    "notes/names",
-    "notes/color map",
+    "component/form/control/radio",
+    "component/form/control/checkbox",
     "form-controls-working",
-    "radio-working",
-    "checkbox-working"
+    "notes/names",
+    "notes/color map"
   ]
 }
