@@ -18,22 +18,22 @@
           "type": "boxShadow",
           "value": "{surface.elevation.panels.small-overlay.high}"
         },
-        "bg-color": {
+        "background-color": {
           "type": "color",
-          "value": "{surface.color.bg.neutral.inverse}"
+          "value": "{surface.color.background.neutral.inverse}"
         },
         "arrow-fill": {
           "type": "color",
-          "value": "{surface.color.bg.neutral.inverse}"
+          "value": "{surface.color.background.neutral.inverse}"
         },
         "border-color": {
           "type": "color",
-          "value": "{surface.color.bg.neutral.inverse}"
+          "value": "{surface.color.background.neutral.inverse}"
         },
         "label": {
           "color": {
             "type": "color",
-            "value": "{surface.color.fg.neutral.inverse}"
+            "value": "{surface.color.foreground.neutral.inverse}"
           }
         }
       },

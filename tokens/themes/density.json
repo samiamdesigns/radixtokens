@@ -45,6 +45,26 @@
           }
         },
         "size": {
+          "1": {
+            "type": "dimension",
+            "value": "{scale.rem.2xl}"
+          },
+          "2": {
+            "type": "dimension",
+            "value": "{scale.rem.3xl}"
+          },
+          "3": {
+            "type": "dimension",
+            "value": "{scale.rem.4xl}"
+          },
+          "4": {
+            "type": "dimension",
+            "value": "{scale.rem.5xl}"
+          },
+          "5": {
+            "type": "dimension",
+            "value": "{scale.rem.6xl}"
+          },
           "touchpoint": {
             "type": "dimension",
             "value": "40px"

@@ -11,9 +11,9 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
-            "value": "{surface.color.input.bg.default}"
+            "value": "{surface.color.input.background.default}"
           },
           "border-color": {
             "type": "color",
@@ -41,9 +41,9 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
-            "value": "{surface.color.input.bg.hover}"
+            "value": "{surface.color.input.background.hover}"
           },
           "border-color": {
             "type": "color",
@@ -71,9 +71,9 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
-            "value": "{surface.color.input.bg.pressed}"
+            "value": "{surface.color.input.background.pressed}"
           },
           "border-color": {
             "type": "color",
@@ -101,9 +101,9 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
-            "value": "{surface.color.input.bg.disabled}"
+            "value": "{surface.color.input.background.disabled}"
           },
           "border-color": {
             "type": "color",
@@ -112,13 +112,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.fg.default}"
+              "value": "{surface.color.actions.disabled.foreground.default}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.fg.default}"
+              "value": "{surface.color.actions.disabled.foreground.default}"
             }
           }
         },
@@ -131,9 +131,9 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
-            "value": "{surface.color.input.bg.inactive}"
+            "value": "{surface.color.input.background.inactive}"
           },
           "border-color": {
             "type": "color",
@@ -142,13 +142,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.fg.default}"
+              "value": "{surface.color.actions.disabled.foreground.default}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.fg.default}"
+              "value": "{surface.color.actions.disabled.foreground.default}"
             }
           }
         },
@@ -167,7 +167,7 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
             "value": "{surface.color.actions.info.default}"
           },
@@ -197,7 +197,7 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
             "value": "{surface.color.actions.info.emphasis}"
           },
@@ -227,7 +227,7 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
             "value": "{surface.color.actions.info.muted}"
           },
@@ -257,9 +257,9 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
-            "value": "{surface.color.actions.disabled.bg.default}"
+            "value": "{surface.color.actions.disabled.background.default}"
           },
           "border-color": {
             "type": "color",
@@ -268,13 +268,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.fg.default}"
+              "value": "{surface.color.actions.disabled.foreground.default}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.fg.default}"
+              "value": "{surface.color.actions.disabled.foreground.default}"
             }
           }
         },
@@ -287,7 +287,7 @@
               "style": "solid"
             }
           },
-          "bg-color": {
+          "background-color": {
             "type": "color",
             "value": "{surface.color.actions.info.default}"
           },
@@ -298,13 +298,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.fg.on-inverse}"
+              "value": "{surface.color.actions.disabled.foreground.on-inverse}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.fg.on-inverse}"
+              "value": "{surface.color.actions.disabled.foreground.on-inverse}"
             }
           }
         },

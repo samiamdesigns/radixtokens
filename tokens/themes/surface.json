@@ -3,13 +3,13 @@
     "color": {
       "actions": {
         "disabled": {
-          "bg": {
+          "background": {
             "default": {
               "type": "color",
               "value": "{brand-colors.neutral.5}"
             }
           },
-          "fg": {
+          "foreground": {
             "default": {
               "type": "color",
               "value": "{brand-colors.neutral.9}"
@@ -103,7 +103,7 @@
           }
         }
       },
-      "bg": {
+      "background": {
         "neutral": {
           "canvas": {
             "type": "color",
@@ -137,7 +137,7 @@
           }
         }
       },
-      "fg": {
+      "foreground": {
         "neutral": {
           "default": {
             "type": "color",
@@ -175,19 +175,19 @@
         "border": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.7}"
+            "value": "{brand-colors.neutral-alpha.3}"
           },
           "hover": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.6}"
+            "value": "{brand-colors.neutral.6}"
           },
           "pressed": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.8}"
+            "value": "{brand-colors.neutral.8}"
           },
           "selected": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.8}"
+            "value": "{brand-colors.neutral.8}"
           },
           "filled": {
             "type": "color",
@@ -195,14 +195,14 @@
           },
           "inactive": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.7}"
+            "value": "{brand-colors.neutral.7}"
           },
           "disabled": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.6}"
+            "value": "{brand-colors.neutral.6}"
           }
         },
-        "bg": {
+        "background": {
           "default": {
             "type": "color",
             "value": "{brand-colors.neutral-alpha.1}"
@@ -232,7 +232,7 @@
             "value": "{brand-colors.neutral.5}"
           }
         },
-        "fg": {
+        "foreground": {
           "default": {
             "type": "color",
             "value": "{brand-colors.neutral-alpha.11}"

@@ -68,6 +68,28 @@
           "type": "typography",
           "value": "{brand-typography.p3.emphasis}"
         }
+      },
+      "content": {
+        "info-graphic": {
+          "label": {
+            "md": {
+              "emphasis": {
+                "type": "typography",
+                "value": "{brand-typography.p2.emphasis}"
+              },
+              "default": {
+                "type": "typography",
+                "value": "{brand-typography.p2.default}"
+              }
+            }
+          },
+          "heading": {
+            "default": {
+              "type": "typography",
+              "value": "{brand-typography.h6.default}"
+            }
+          }
+        }
       }
     }
   }

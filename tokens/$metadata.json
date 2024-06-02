@@ -19,9 +19,9 @@
     "themes/surface",
     "themes/text-styling",
     "component/actions/button",
+    "component/actions/icon_button",
     "component/actions/toggle_button",
     "component/actions/toggle_group",
-    "component/actions/icon_button",
     "component/actions/split-button",
     "component/feedback/tooltip",
     "component/form/control/radio",
@@ -29,6 +29,7 @@
     "form-controls-working",
     "form-input-working",
     "notes/names",
-    "notes/color map"
+    "notes/color map",
+    "content/name-templates"
   ]
 }

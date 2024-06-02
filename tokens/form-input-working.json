@@ -1,239 +1,269 @@
 {
   "form": {
-    "text-input": {
-      "slot": {
-        "left": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "type": "boolean",
-          "value": "false"
-        },
-        "right": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "type": "boolean",
-          "value": "false"
-        }
-      },
-      "default": {
-        "border": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "type": "border",
-          "value": {
-            "color": "{form.text-input.default.border-color}",
-            "width": "{form.text-input.border-width}",
-            "style": "solid"
-          }
-        },
-        "bg-color": {
-          "type": "color",
-          "value": "{surface.color.input.bg.default}"
-        },
-        "border-color": {
-          "type": "color",
-          "value": "{surface.color.input.border.default}"
-        },
+    "controls": {
+      "text-input": {
         "slot": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.input.fg.default}"
-          }
-        },
-        "text": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.input.fg.default}"
-          }
-        }
-      },
-      "hover": {
-        "border": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "type": "border",
-          "value": {
-            "color": "{form.text-input.hover.border-color}",
-            "width": "{form.text-input.border-width}",
-            "style": "solid"
-          }
-        },
-        "bg-color": {
-          "type": "color",
-          "value": "{surface.color.input.bg.hover}"
-        },
-        "border-color": {
-          "type": "color",
-          "value": "{surface.color.input.border.hover}"
-        },
-        "slot": {
-          "color": {
+          "left": {
             "$extensions": {
               "studio.tokens": {
                 "modify": {}
               }
             },
-            "type": "color",
-            "value": "{surface.color.input.fg.default}"
-          }
-        },
-        "text": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.input.fg.hover}"
-          }
-        }
-      },
-      "pressed": {
-        "border": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
+            "type": "boolean",
+            "value": "false"
           },
-          "type": "border",
-          "value": {
-            "color": "{form.text-input.pressed.border-color}",
-            "width": "{form.text-input.border-width}",
-            "style": "solid"
-          }
-        },
-        "bg-color": {
-          "type": "color",
-          "value": "{surface.color.input.bg.pressed}"
-        },
-        "border-color": {
-          "type": "color",
-          "value": "{surface.color.input.border.pressed}"
-        },
-        "slot": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.input.fg.pressed}"
-          }
-        },
-        "text": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.input.fg.pressed}"
-          }
-        }
-      },
-      "disabled": {
-        "border": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "type": "border",
-          "value": {
-            "color": "{form.text-input.disabled.border-color}",
-            "width": "{form.text-input.border-width}",
-            "style": "solid"
-          }
-        },
-        "bg-color": {
-          "type": "color",
-          "value": "{surface.color.input.bg.disabled}"
-        },
-        "border-color": {
-          "type": "color",
-          "value": "{surface.color.input.border.disabled}"
-        },
-        "slot": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.input.bg.disabled}"
-          }
-        },
-        "text": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.input.fg.disabled}"
-          }
-        }
-      },
-      "inactive": {
-        "border": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
-          "type": "border",
-          "value": {
-            "color": "{form.text-input.inactive.border-color}",
-            "width": "{form.text-input.border-width}",
-            "style": "solid"
-          }
-        },
-        "bg-color": {
-          "type": "color",
-          "value": "{surface.color.input.bg.inactive}"
-        },
-        "border-color": {
-          "type": "color",
-          "value": "{surface.color.input.border.inactive}"
-        },
-        "slot": {
-          "color": {
+          "right": {
             "$extensions": {
               "studio.tokens": {
                 "modify": {}
               }
             },
-            "type": "color",
-            "value": "{surface.color.input.fg.inactive}"
-          }
-        },
-        "text": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.input.fg.inactive}"
+            "type": "boolean",
+            "value": "false"
           }
         }
       },
-      "border-radius": {
-        "type": "dimension",
-        "value": "{density.dimensions.interaction.border-radius.md}"
-      },
-      "border-width": {
-        "type": "dimension",
-        "value": "{density.dimensions.interaction.border-width.default}"
-      },
-      "padding": {
-        "type": "dimension",
-        "value": "{density.dimensions.interaction.space.sm}"
-      },
-      "gap": {
-        "type": "dimension",
-        "value": "{density.dimensions.interaction.space.sm}"
-      },
-      "focus": {
+      "input": {
+        "default": {
+          "border": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "border",
+            "value": {
+              "color": "{form.controls.input.default.border-color}",
+              "width": "{form.controls.input.border-width}",
+              "style": "solid"
+            }
+          },
+          "background-color": {
+            "type": "color",
+            "value": "{surface.color.input.background.default}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{surface.color.input.border.default}"
+          },
+          "slot": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.default}"
+            }
+          },
+          "text": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.default}"
+            }
+          }
+        },
+        "hover": {
+          "border": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "border",
+            "value": {
+              "color": "{form.controls.input.hover.border-color}",
+              "width": "{form.controls.input.border-width}",
+              "style": "solid"
+            }
+          },
+          "background-color": {
+            "type": "color",
+            "value": "{surface.color.input.background.hover}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{surface.color.input.border.hover}"
+          },
+          "slot": {
+            "color": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {}
+                }
+              },
+              "type": "color",
+              "value": "{surface.color.input.foreground.default}"
+            }
+          },
+          "text": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.hover}"
+            }
+          }
+        },
+        "pressed": {
+          "border": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "border",
+            "value": {
+              "color": "{form.controls.input.pressed.border-color}",
+              "width": "{form.controls.input.border-width}",
+              "style": "solid"
+            }
+          },
+          "background-color": {
+            "type": "color",
+            "value": "{surface.color.input.background.pressed}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{surface.color.input.border.pressed}"
+          },
+          "slot": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.pressed}"
+            }
+          },
+          "text": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.pressed}"
+            }
+          }
+        },
+        "disabled": {
+          "border": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "border",
+            "value": {
+              "color": "{form.controls.input.disabled.border-color}",
+              "width": "{form.controls.input.border-width}",
+              "style": "solid"
+            }
+          },
+          "background-color": {
+            "type": "color",
+            "value": "{surface.color.input.background.disabled}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{surface.color.input.border.disabled}"
+          },
+          "slot": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.background.disabled}"
+            }
+          },
+          "text": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.disabled}"
+            }
+          }
+        },
+        "inactive": {
+          "border": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "border",
+            "value": {
+              "color": "{form.controls.input.inactive.border-color}",
+              "width": "{form.controls.input.border-width}",
+              "style": "solid"
+            }
+          },
+          "background-color": {
+            "type": "color",
+            "value": "{surface.color.input.background.inactive}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{surface.color.input.border.inactive}"
+          },
+          "slot": {
+            "color": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {}
+                }
+              },
+              "type": "color",
+              "value": "{surface.color.input.foreground.inactive}"
+            }
+          },
+          "text": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.inactive}"
+            }
+          }
+        },
         "border-radius": {
           "type": "dimension",
-          "value": "{form.text-input.border-radius} + {density.dimensions.interaction.focus-offset}"
-        }
-      }
-    },
-    "input": {
-      "default": {
-        "typography": {
+          "value": "{density.dimensions.interaction.border-radius.md}"
+        },
+        "border-width": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.border-width.default}"
+        },
+        "padding": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.sm}"
+        },
+        "gap": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.sm}"
+        },
+        "text": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
           "type": "typography",
-          "value": "{surface.text-styles.actions.text.default}"
+          "value": "{theme.text-style.actions.form.text-input}"
+        },
+        "height-min": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.size.touchpoint}"
+        },
+        "width-min": {
+          "type": "dimension",
+          "value": "200px"
+        },
+        "focus": {
+          "border-radius": {
+            "type": "dimension",
+            "value": "{form.controls.input.border-radius} + {density.dimensions.interaction.focus-offset}"
+          }
+        },
+        "text-field": {
+          "size": {
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.size.2}"
+          }
+        },
+        "text-area": {
+          "size": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.size.4}"
+          }
         }
       }
     }
