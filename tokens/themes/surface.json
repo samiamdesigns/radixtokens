@@ -175,11 +175,11 @@
         "border": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.3}"
+            "value": "{brand-colors.neutral.6}"
           },
           "hover": {
             "type": "color",
-            "value": "{brand-colors.neutral.6}"
+            "value": "{brand-colors.neutral.5}"
           },
           "pressed": {
             "type": "color",
@@ -205,27 +205,27 @@
         "background": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.1}"
+            "value": "{brand-colors.neutral.2}"
           },
           "hover": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.4}"
+            "value": "{brand-colors.neutral.4}"
           },
           "pressed": {
             "type": "color",
-            "value": "{brand-colors.info-alpha.3}"
+            "value": "{brand-colors.neutral.3}"
           },
           "selected": {
             "type": "color",
-            "value": "{brand-colors.info-alpha.3}"
+            "value": "{brand-colors.info.3}"
           },
           "filled": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.2}"
+            "value": "{brand-colors.neutral.2}"
           },
           "inactive": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.3}"
+            "value": "{brand-colors.neutral.3}"
           },
           "disabled": {
             "type": "color",
@@ -235,27 +235,27 @@
         "foreground": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.11}"
+            "value": "{brand-colors.neutral.11}"
           },
           "hover": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.12}"
+            "value": "{brand-colors.neutral.12}"
           },
           "pressed": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.12}"
+            "value": "{brand-colors.neutral.12}"
           },
           "selected": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.12}"
+            "value": "{brand-colors.neutral.12}"
           },
           "filled": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.12}"
+            "value": "{brand-colors.neutral.12}"
           },
           "inactive": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.11}"
+            "value": "{brand-colors.neutral.11}"
           },
           "disabled": {
             "type": "color",
