@@ -217,13 +217,25 @@
           "type": "dimension",
           "value": "{density.dimensions.interaction.border-width.default}"
         },
-        "padding": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.space.sm}"
-        },
-        "gap": {
-          "type": "dimension",
-          "value": "{density.dimensions.interaction.space.sm}"
+        "content-wrapper": {
+          "padding": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
+          },
+          "gap": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
+          }
         },
         "text": {
           "$extensions": {
@@ -248,12 +260,6 @@
             "value": "{form.controls.input.border-radius} + {density.dimensions.interaction.focus-offset}"
           }
         },
-        "text-field": {
-          "size": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.size.2}"
-          }
-        },
         "text-area": {
           "size": {
             "$extensions": {
@@ -263,6 +269,18 @@
             },
             "type": "dimension",
             "value": "{density.dimensions.interaction.size.4}"
+          }
+        },
+        "text-field": {
+          "size": {
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.size.2}"
+          },
+          "content-slot": {
+            "size": {
+              "type": "dimension",
+              "value": "{form.controls.input.text-field.size} - 1rem"
+            }
           }
         }
       }
