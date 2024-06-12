@@ -96,13 +96,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               }
             },
@@ -198,13 +198,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               }
             }
@@ -290,13 +290,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               },
               "border": {
@@ -324,13 +324,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.disabled.foreground.default}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.disabled.foreground.default}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               },
               "border": {
@@ -392,13 +392,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.disabled.foreground.on-inverse}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               },
               "border": {
@@ -510,13 +510,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               }
             },
@@ -578,13 +578,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.disabled.foreground.default}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.disabled.foreground.default}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               }
             },
@@ -612,13 +612,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               }
             }
@@ -648,13 +648,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.default}"
+                  "value": "{surface.color.interactive.info.emphasis}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.default}"
+                  "value": "{surface.color.interactive.info.emphasis}"
                 }
               }
             },
@@ -716,13 +716,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.on-info}"
+                  "value": "{surface.color.interactive.info.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.on-info}"
+                  "value": "{surface.color.interactive.info.on-inverse}"
                 }
               }
             },
@@ -784,13 +784,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.on-info}"
+                  "value": "{surface.color.interactive.info.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.on-info}"
+                  "value": "{surface.color.interactive.info.on-inverse}"
                 }
               }
             },
@@ -818,13 +818,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.disabled.foreground.default}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.disabled.foreground.default}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               }
             }
@@ -924,13 +924,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               }
             },
@@ -992,13 +992,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.disabled.foreground.default}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.disabled.foreground.default}"
+                  "value": "{surface.color.interactive.disabled.foreground.emphasis}"
                 }
               }
             },
@@ -1026,13 +1026,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.emphasis}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.neutral.on-neutral}"
+                  "value": "{surface.color.interactive.neutral.on-inverse}"
                 }
               }
             }
@@ -1130,13 +1130,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.on-info}"
+                  "value": "{surface.color.interactive.info.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.on-info}"
+                  "value": "{surface.color.interactive.info.on-inverse}"
                 }
               }
             },
@@ -1232,13 +1232,13 @@
               "icon": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.on-info}"
+                  "value": "{surface.color.interactive.info.on-inverse}"
                 }
               },
               "label": {
                 "color": {
                   "type": "color",
-                  "value": "{surface.color.interactive.info.on-info}"
+                  "value": "{surface.color.interactive.info.on-inverse}"
                 }
               }
             }
