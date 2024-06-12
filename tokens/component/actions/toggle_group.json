@@ -298,7 +298,7 @@
             },
             "typography": {
               "type": "typography",
-              "value": "{theme.text-style.actions.label.interaction}"
+              "value": "{theme.text-style.actions.label.default}}"
             },
             "background-color": {
               "type": "color",
@@ -336,7 +336,7 @@
             },
             "typography": {
               "type": "typography",
-              "value": "{theme.text-style.actions.label.interaction}"
+              "value": "{theme.text-style.actions.label.default}}"
             },
             "background-color": {
               "type": "color",
