@@ -235,13 +235,13 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.interactive.info.on-info}"
+                "value": "{surface.color.interactive.info.on-inverse}"
               }
             },
             "label": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.interactive.info.on-info}"
+                "value": "{surface.color.interactive.info.on-inverse}"
               }
             }
           },
