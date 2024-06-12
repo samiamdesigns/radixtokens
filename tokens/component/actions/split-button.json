@@ -40,7 +40,7 @@
       "item": {
         "border-color": {
           "type": "color",
-          "value": "{surface.color.border.neutral.emphasis}"
+          "value": "{surface.color.border.neutral.default}"
         }
       }
     }
