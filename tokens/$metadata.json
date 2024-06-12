@@ -26,7 +26,7 @@
     "component/form/control/radio",
     "component/form/control/checkbox",
     "form-controls-working",
-    "form-input-working",
+    "form/control/input",
     "notes/names",
     "notes/color map",
     "content/name-templates",
