@@ -308,32 +308,27 @@
         "success": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.success-alpha.11}"
+            "value": "{brand-colors.success.4}"
           },
           "emphasis": {
             "type": "color",
-            "value": "{brand-colors.success-alpha.12}"
+            "value": "{brand-colors.success.3}"
           },
           "muted": {
             "type": "color",
-            "value": "{brand-colors.success-alpha.8}"
+            "value": "{brand-colors.success.5}"
           },
           "minimal": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "color",
-            "value": "{brand-colors.success-alpha.5}"
+            "value": "{brand-colors.success.6}"
           },
           "glass": {
             "type": "color",
-            "value": "{brand-colors.success-alpha.3}"
+            "value": "{brand-colors.neutral.3}"
           },
           "on-success": {
             "type": "color",
-            "value": "{brand-colors.success.1}"
+            "value": "{brand-colors.success.12}"
           },
           "on-inverse": {
             "type": "color",
@@ -347,32 +342,27 @@
         "danger": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.danger-alpha.11}"
+            "value": "{brand-colors.danger.4}"
           },
           "emphasis": {
             "type": "color",
-            "value": "{brand-colors.danger-alpha.12}"
+            "value": "{brand-colors.danger-alpha.3}"
           },
           "muted": {
             "type": "color",
-            "value": "{brand-colors.danger-alpha.8}"
+            "value": "{brand-colors.danger.5}"
           },
           "minimal": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "color",
-            "value": "{brand-colors.danger-alpha.5}"
+            "value": "{brand-colors.danger.6}"
           },
           "glass": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.3}"
+            "value": "{brand-colors.neutral.3}"
           },
           "on-danger": {
             "type": "color",
-            "value": "{brand-colors.danger.1}"
+            "value": "{brand-colors.danger.12}"
           },
           "on-inverse": {
             "type": "color",
