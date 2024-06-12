@@ -110,30 +110,25 @@
       },
       "background": {
         "neutral": {
-          "canvas": {
+          "emphasis": {
+            "type": "color",
+            "value": "{brand-colors.neutral.1}"
+          },
+          "mid-emphasis": {
             "type": "color",
             "value": "{brand-colors.neutral.2}"
           },
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.1}"
+            "value": "{brand-colors.neutral.3}"
           },
-          "mid-emphasis": {
-            "type": "color",
-            "value": "{brand-colors.neutral-alpha.2}"
-          },
-          "emphasis": {
-            "type": "color",
-            "value": "{brand-colors.neutral-alpha.3}"
-          },
-          "minimal": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
+          "muted": {
             "type": "color",
             "value": "{brand-colors.neutral.4}"
+          },
+          "minimal": {
+            "type": "color",
+            "value": "{brand-colors.neutral.5}"
           },
           "inverse": {
             "type": "color",
@@ -149,24 +144,15 @@
       },
       "foreground": {
         "neutral": {
-          "default": {
-            "type": "color",
-            "value": "{brand-colors.neutral.11}"
-          },
           "emphasis": {
             "type": "color",
-            "value": "{brand-colors.neutral.12}"
+            "value": "{brand-colors.neutral.on-neutral}"
           },
-          "mid-emphasis": {
+          "default": {
             "type": "color",
             "value": "{brand-colors.neutral.12}"
           },
           "minimal": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "color",
             "value": "{brand-colors.neutral.11}"
           },

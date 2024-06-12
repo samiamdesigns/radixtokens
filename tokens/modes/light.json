@@ -48,6 +48,10 @@
       "12": {
         "type": "color",
         "value": "{colors.gray.light.12}"
+      },
+      "on-gray": {
+        "type": "color",
+        "value": "{colors.gray.dark.1}"
       }
     },
     "gray-alpha": {
