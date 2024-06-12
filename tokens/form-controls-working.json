@@ -22,13 +22,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.interactive.neutral.default}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.interactive.neutral.default}"
             }
           }
         },
@@ -52,13 +52,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.interactive.neutral.default}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.default}"
+              "value": "{surface.color.interactive.neutral.default}"
             }
           }
         },
@@ -82,13 +82,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.on-neutral}"
+              "value": "{surface.color.interactive.neutral.on-neutral}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.neutral.on-neutral}"
+              "value": "{surface.color.interactive.neutral.on-neutral}"
             }
           }
         },
@@ -112,13 +112,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.foreground.default}"
+              "value": "{surface.color.interactive.disabled.foreground.default}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.foreground.default}"
+              "value": "{surface.color.interactive.disabled.foreground.default}"
             }
           }
         },
@@ -142,13 +142,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.foreground.default}"
+              "value": "{surface.color.interactive.disabled.foreground.default}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.foreground.default}"
+              "value": "{surface.color.interactive.disabled.foreground.default}"
             }
           }
         },
@@ -169,7 +169,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{surface.color.actions.info.default}"
+            "value": "{surface.color.interactive.info.default}"
           },
           "border-color": {
             "type": "color",
@@ -178,13 +178,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.info.on-info}"
+              "value": "{surface.color.interactive.info.on-info}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.info.on-info}"
+              "value": "{surface.color.interactive.info.on-info}"
             }
           }
         },
@@ -199,7 +199,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{surface.color.actions.info.emphasis}"
+            "value": "{surface.color.interactive.info.emphasis}"
           },
           "border-color": {
             "type": "color",
@@ -208,13 +208,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.info.on-info}"
+              "value": "{surface.color.interactive.info.on-info}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.info.on-info}"
+              "value": "{surface.color.interactive.info.on-info}"
             }
           }
         },
@@ -229,7 +229,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{surface.color.actions.info.muted}"
+            "value": "{surface.color.interactive.info.muted}"
           },
           "border-color": {
             "type": "color",
@@ -238,13 +238,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.info.on-info}"
+              "value": "{surface.color.interactive.info.on-info}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.info.on-info}"
+              "value": "{surface.color.interactive.info.on-info}"
             }
           }
         },
@@ -259,7 +259,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{surface.color.actions.disabled.background.default}"
+            "value": "{surface.color.interactive.disabled.background.default}"
           },
           "border-color": {
             "type": "color",
@@ -268,13 +268,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.foreground.default}"
+              "value": "{surface.color.interactive.disabled.foreground.default}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.foreground.default}"
+              "value": "{surface.color.interactive.disabled.foreground.default}"
             }
           }
         },
@@ -289,7 +289,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{surface.color.actions.info.default}"
+            "value": "{surface.color.interactive.info.default}"
           },
           "border-color": {
             "type": "color",
@@ -298,13 +298,13 @@
           "icon": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.foreground.on-inverse}"
+              "value": "{surface.color.interactive.disabled.foreground.on-inverse}"
             }
           },
           "label": {
             "color": {
               "type": "color",
-              "value": "{surface.color.actions.disabled.foreground.on-inverse}"
+              "value": "{surface.color.interactive.disabled.foreground.on-inverse}"
             }
           }
         },

@@ -1,7 +1,7 @@
 {
   "surface": {
     "color": {
-      "actions": {
+      "interactive": {
         "disabled": {
           "background": {
             "default": {
@@ -404,7 +404,7 @@
         "default": {
           "type": "border",
           "value": {
-            "color": "{surface.color.actions.focus.default}",
+            "color": "{surface.color.interactive.focus.default}",
             "width": "{density.dimensions.interaction.border-width.focus}",
             "style": "solid"
           }
