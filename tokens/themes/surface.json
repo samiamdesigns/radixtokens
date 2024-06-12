@@ -12,7 +12,7 @@
           "foreground": {
             "default": {
               "type": "color",
-              "value": "{brand-colors.neutral.8}"
+              "value": "{brand-colors.neutral.10}"
             },
             "on-inverse": {
               "type": "color",
