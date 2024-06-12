@@ -47,7 +47,7 @@
             "type": "color",
             "value": "{brand-colors.neutral.8}"
           },
-          "subtle": {
+          "minimal": {
             "type": "color",
             "value": "{brand-colors.neutral.5}"
           },
@@ -81,7 +81,12 @@
             "type": "color",
             "value": "{brand-colors.info.8}"
           },
-          "subtle": {
+          "minimal": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
             "value": "{brand-colors.info.5}"
           },
@@ -121,7 +126,12 @@
             "type": "color",
             "value": "{brand-colors.neutral-alpha.3}"
           },
-          "subtle": {
+          "minimal": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
             "value": "{brand-colors.neutral.4}"
           },
@@ -151,7 +161,12 @@
             "type": "color",
             "value": "{brand-colors.neutral.12}"
           },
-          "subtle": {
+          "minimal": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
             "value": "{brand-colors.neutral.11}"
           },
@@ -317,7 +332,12 @@
             "type": "color",
             "value": "{brand-colors.success-alpha.8}"
           },
-          "subtle": {
+          "minimal": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
             "value": "{brand-colors.success-alpha.5}"
           },
@@ -351,7 +371,12 @@
             "type": "color",
             "value": "{brand-colors.danger-alpha.8}"
           },
-          "subtle": {
+          "minimal": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
             "type": "color",
             "value": "{brand-colors.danger-alpha.5}"
           },
@@ -360,11 +385,6 @@
             "value": "{brand-colors.neutral-alpha.3}"
           },
           "on-danger": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "color",
             "value": "{brand-colors.danger.1}"
           },
