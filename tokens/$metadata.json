@@ -30,6 +30,7 @@
     "form-input-working",
     "notes/names",
     "notes/color map",
-    "content/name-templates"
+    "content/name-templates",
+    "toggle-group-test"
   ]
 }
