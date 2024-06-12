@@ -1,1 +1,6 @@
-{}
+{
+  "test": {
+    "type": "dimension",
+    "value": "120px"
+  }
+}

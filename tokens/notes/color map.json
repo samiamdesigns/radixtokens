@@ -272,5 +272,9 @@
         }
       }
     }
+  },
+  "test-negative": {
+    "type": "dimension",
+    "value": "-4px"
   }
 }
