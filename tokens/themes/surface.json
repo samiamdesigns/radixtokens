@@ -220,6 +220,10 @@
             "type": "color",
             "value": "{brand-colors.info.3}"
           },
+          "selected-emphasis": {
+            "type": "color",
+            "value": "{brand-colors.info.5}"
+          },
           "filled": {
             "type": "color",
             "value": "{brand-colors.neutral.2}"
