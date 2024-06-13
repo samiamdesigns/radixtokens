@@ -13,7 +13,7 @@
           },
           "padding-vertical": {
             "type": "dimension",
-            "value": "{density.dimensions.interaction.space.none}"
+            "value": "{density.dimensions.interaction.space.sm}"
           }
         },
         "gap": {
@@ -27,6 +27,18 @@
         "padding-vertical": {
           "type": "dimension",
           "value": "{density.dimensions.interaction.space.none}"
+        },
+        "label": {
+          "color": {
+            "type": "color",
+            "value": "{surface.color.foreground.neutral.default}"
+          }
+        },
+        "helper": {
+          "color": {
+            "type": "color",
+            "value": "{surface.color.foreground.neutral.minimal}"
+          }
         }
       },
       "label": {
