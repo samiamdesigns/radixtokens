@@ -8,11 +8,11 @@
             "type": "dimension"
           },
           "padding-horizontal": {
-            "value": "{density.dimensions.interaction.space.xs}",
+            "value": "{density.dimensions.interaction.space.sm}",
             "type": "dimension"
           },
           "padding-vertical": {
-            "value": "{density.dimensions.interaction.space.xs}",
+            "value": "{density.dimensions.interaction.space.sm}",
             "type": "dimension"
           },
           "border-radius": {
@@ -154,6 +154,22 @@
                 "type": "color"
               }
             }
+          }
+        }
+      },
+      "group": {
+        "wrapper": {
+          "gap": {
+            "value": "{density.dimensions.interaction.space.sm}",
+            "type": "dimension"
+          },
+          "padding-horizontal": {
+            "value": "{density.dimensions.interaction.space.sm}",
+            "type": "dimension"
+          },
+          "padding-vertical": {
+            "value": "{density.dimensions.interaction.space.sm}",
+            "type": "dimension"
           }
         }
       }
