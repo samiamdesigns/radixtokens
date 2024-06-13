@@ -1,0 +1,100 @@
+{
+  "form": {
+    "controls": {
+      "group-item": {
+        "wrapper": {
+          "gap": {
+            "value": "{density.dimensions.interaction.space.sm}",
+            "type": "dimension"
+          },
+          "padding-horizontal": {
+            "value": "{density.dimensions.interaction.space.xs}",
+            "type": "dimension"
+          },
+          "padding-vertical": {
+            "value": "{density.dimensions.interaction.space.xs}",
+            "type": "dimension"
+          },
+          "border-radius": {
+            "value": "{density.dimensions.interaction.border-radius.sm}",
+            "type": "dimension"
+          }
+        },
+        "not-selected": {
+          "default": {
+            "label": {
+              "color": {
+                "value": "{surface.color.foreground.neutral.default}",
+                "type": "color"
+              }
+            },
+            "bg-color": {
+              "value": "{surface.color.interactive.neutral.transparent}",
+              "type": "color"
+            }
+          }
+        },
+        "hover": {
+          "bg-color": {
+            "value": "{surface.color.input.background.hover}",
+            "type": "color"
+          },
+          "label": {
+            "color": {
+              "value": "{surface.color.input.foreground.hover}",
+              "type": "color"
+            }
+          }
+        },
+        "pressed": {
+          "bg-color": {
+            "value": "{surface.color.input.background.pressed}",
+            "type": "color"
+          },
+          "label": {
+            "color": {
+              "value": "{surface.color.input.foreground.pressed}",
+              "type": "color"
+            }
+          }
+        },
+        "default": {
+          "typography": {
+            "value": "{theme.text-style.actions.label.compact}",
+            "type": "typography"
+          }
+        },
+        "focus": {
+          "border-radius": {
+            "value": "{form.controls.group-item.wrapper.border-radius} + {density.dimensions.interaction.focus-offset}",
+            "type": "dimension"
+          }
+        },
+        "inactive": {
+          "bg-color": {
+            "value": "{surface.color.interactive.neutral.transparent}",
+            "type": "color"
+          },
+          "label": {
+            "color": {
+              "value": "{surface.color.input.foreground.pressed}",
+              "type": "color"
+            }
+          }
+        },
+        "disabled": {
+          "bg-color": {
+            "value": "{surface.color.interactive.neutral.transparent}",
+            "type": "color"
+          },
+          "label": {
+            "color": {
+              "value": "{surface.color.input.foreground.disabled}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}
