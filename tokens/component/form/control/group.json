@@ -4,154 +4,154 @@
       "group-item": {
         "wrapper": {
           "gap": {
-            "value": "{density.dimensions.interaction.space.sm}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
           },
           "padding-horizontal": {
-            "value": "{density.dimensions.interaction.space.sm}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
           },
           "padding-vertical": {
-            "value": "{density.dimensions.interaction.space.sm}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
           },
           "border-radius": {
-            "value": "{density.dimensions.interaction.border-radius.sm}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.border-radius.sm}"
           }
         },
         "not-selected": {
           "default": {
             "label": {
               "color": {
-                "value": "{surface.color.foreground.neutral.default}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.foreground.neutral.default}"
               }
             },
             "bg-color": {
-              "value": "{surface.color.interactive.neutral.transparent}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.interactive.neutral.transparent}"
             }
           },
           "hover": {
             "bg-color": {
-              "value": "{surface.color.input.background.hover}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.input.background.hover}"
             },
             "label": {
               "color": {
-                "value": "{surface.color.input.foreground.hover}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.input.foreground.hover}"
               }
             }
           },
           "pressed": {
             "bg-color": {
-              "value": "{surface.color.input.background.pressed}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.input.background.pressed}"
             },
             "label": {
               "color": {
-                "value": "{surface.color.input.foreground.pressed}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.input.foreground.pressed}"
               }
             }
           },
           "inactive": {
             "bg-color": {
-              "value": "{surface.color.interactive.neutral.transparent}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.interactive.neutral.transparent}"
             },
             "label": {
               "color": {
-                "value": "{surface.color.input.foreground.pressed}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.input.foreground.pressed}"
               }
             }
           },
           "disabled": {
             "bg-color": {
-              "value": "{surface.color.interactive.neutral.transparent}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.interactive.neutral.transparent}"
             },
             "label": {
               "color": {
-                "value": "{surface.color.input.foreground.disabled}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.input.foreground.disabled}"
               }
             }
           }
         },
         "default": {
           "typography": {
-            "value": "{theme.text-style.actions.label.compact}",
-            "type": "typography"
+            "type": "typography",
+            "value": "{theme.text-style.actions.label.compact}"
           }
         },
         "focus": {
           "border-radius": {
-            "value": "{form.controls.group-item.wrapper.border-radius} + {density.dimensions.interaction.focus-offset}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{form.input.header.text-wrapper.border-radius} + {density.dimensions.interaction.focus-offset}"
           }
         },
         "selected": {
           "default": {
             "label": {
               "color": {
-                "value": "{surface.color.foreground.neutral.default}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.foreground.neutral.default}"
               }
             },
             "bg-color": {
-              "value": "{surface.color.input.background.selected}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.input.background.selected}"
             }
           },
           "hover": {
             "bg-color": {
-              "value": "{surface.color.input.background.selected-emphasis}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.input.background.selected-emphasis}"
             },
             "label": {
               "color": {
-                "value": "{surface.color.input.foreground.hover}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.input.foreground.hover}"
               }
             }
           },
           "pressed": {
             "bg-color": {
-              "value": "{surface.color.input.background.pressed}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.input.background.pressed}"
             },
             "label": {
               "color": {
-                "value": "{surface.color.input.foreground.pressed}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.input.foreground.pressed}"
               }
             }
           },
           "inactive": {
             "bg-color": {
-              "value": "{surface.color.interactive.neutral.transparent}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.interactive.neutral.transparent}"
             },
             "label": {
               "color": {
-                "value": "{surface.color.input.foreground.pressed}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.input.foreground.pressed}"
               }
             }
           },
           "disabled": {
             "bg-color": {
-              "value": "{surface.color.interactive.neutral.transparent}",
-              "type": "color"
+              "type": "color",
+              "value": "{surface.color.interactive.neutral.transparent}"
             },
             "label": {
               "color": {
-                "value": "{surface.color.input.foreground.disabled}",
-                "type": "color"
+                "type": "color",
+                "value": "{surface.color.input.foreground.disabled}"
               }
             }
           }
@@ -160,16 +160,16 @@
       "group": {
         "wrapper": {
           "gap": {
-            "value": "{density.dimensions.interaction.space.sm}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
           },
           "padding-horizontal": {
-            "value": "{density.dimensions.interaction.space.sm}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
           },
           "padding-vertical": {
-            "value": "{density.dimensions.interaction.space.sm}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
           }
         }
       }
