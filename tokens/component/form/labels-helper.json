@@ -9,26 +9,24 @@
           },
           "padding-horizontal": {
             "type": "dimension",
-            "value": "{density.dimensions.interaction.space.none}"
+            "value": "{density.dimensions.interaction.space.xs}"
           },
           "padding-vertical": {
             "type": "dimension",
             "value": "{density.dimensions.interaction.space.none}"
           }
         },
-        "": {
-          "gap": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.space.xs}"
-          },
-          "padding-horizontal": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.space.none}"
-          },
-          "padding-vertical": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.space.none}"
-          }
+        "gap": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.xs}"
+        },
+        "padding-horizontal": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.none}"
+        },
+        "padding-vertical": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.none}"
         }
       },
       "label": {
