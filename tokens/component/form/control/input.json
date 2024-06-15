@@ -40,7 +40,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{surface.color.input.background.default}"
+            "value": "{surface.color.input.background.transparent}"
           },
           "border-color": {
             "type": "color",
@@ -274,7 +274,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.input.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{form.controls.input.border-radius} + {density.dimensions.interaction.focus-offset}  + {density.dimensions.interaction.border-width.focus}"
           }
         },
         "text-area": {

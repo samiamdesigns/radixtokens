@@ -228,6 +228,10 @@
             "type": "color",
             "value": "{brand-colors.neutral.2}"
           },
+          "transparent": {
+            "type": "color",
+            "value": "Transparent"
+          },
           "inactive": {
             "type": "color",
             "value": "{brand-colors.neutral.3}"
