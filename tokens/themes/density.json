@@ -68,6 +68,10 @@
           "touchpoint": {
             "type": "dimension",
             "value": "40px"
+          },
+          "05": {
+            "value": "{dimensions.fixed.5}",
+            "type": "dimension"
           }
         },
         "border-radius": {

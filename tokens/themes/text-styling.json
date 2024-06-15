@@ -43,6 +43,10 @@
             "type": "typography",
             "value": "{brand-typography.p3.default}"
           },
+          "validation-message": {
+            "type": "typography",
+            "value": "{brand-typography.p2.default}"
+          },
           "interaction": {
             "type": "typography",
             "value": "{brand-typography.p2.interactive}"

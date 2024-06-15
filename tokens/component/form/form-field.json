@@ -71,7 +71,7 @@
             }
           },
           "type": "typography",
-          "value": "{theme.text-style.actions.form.helper}"
+          "value": "{theme.text-style.actions.form.validation-message}"
         },
         "background-color": {
           "type": "color",
@@ -89,7 +89,7 @@
         },
         "gap": {
           "type": "dimension",
-          "value": "{density.dimensions.interaction.space.xs}"
+          "value": "{density.dimensions.interaction.space.sm}"
         },
         "padding-horizontal": {
           "type": "dimension",
@@ -114,6 +114,16 @@
             "width": "{form.field.validation-message.border-width}",
             "style": "solid"
           }
+        },
+        "icon": {
+          "color": {
+            "type": "color",
+            "value": "{surface.color.feedback.danger.on-danger}"
+          }
+        },
+        "icon-size": {
+          "value": "{density.dimensions.interaction.size.05}",
+          "type": "dimension"
         }
       }
     }
