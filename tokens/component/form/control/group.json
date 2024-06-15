@@ -104,13 +104,13 @@
             },
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.input.background.selected}"
+              "value": "{surface.color.interactive.neutral.transparent}"
             }
           },
           "hover": {
             "bg-color": {
               "type": "color",
-              "value": "{surface.color.input.background.selected-emphasis}"
+              "value": "{surface.color.input.background.selected}"
             },
             "label": {
               "color": {
