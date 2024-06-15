@@ -133,6 +133,20 @@
         "focus-offset": {
           "type": "dimension",
           "value": "-2px"
+        },
+        "control": {
+          "default": {
+            "size": {
+              "type": "dimension",
+              "value": "{brand.dimensions.control.small}"
+            },
+            "icon": {
+              "size": {
+                "type": "dimension",
+                "value": "{brand.dimensions.control.small} - 0.75rem"
+              }
+            }
+          }
         }
       }
     }

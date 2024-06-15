@@ -24,6 +24,7 @@
     "component/actions/split-button",
     "component/feedback/tooltip",
     "component/form/control/radio",
+    "component/form/control/switch",
     "component/form/control/checkbox",
     "component/form/control/input",
     "component/form/control/group",

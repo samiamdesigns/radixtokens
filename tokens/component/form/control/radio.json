@@ -331,6 +331,16 @@
             "type": "dimension",
             "value": "{form.controls.radio.border-radius} + {density.dimensions.interaction.focus-offset}"
           }
+        },
+        "size": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.control.default.size}"
+        },
+        "icon": {
+          "size": {
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.control.default.icon.size}"
+          }
         }
       }
     }

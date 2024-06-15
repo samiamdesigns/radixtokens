@@ -1,20 +1,20 @@
 {
   "form": {
     "controls": {
-      "checkbox": {
+      "switch": {
         "not-selected": {
           "default": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.default.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.not-selected.default.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
             "background-color": {
               "type": "color",
-              "value": "{surface.color.input.background.default}"
+              "value": "{surface.color.interactive.neutral.transparent}"
             },
             "border-color": {
               "type": "color",
@@ -23,13 +23,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.interactive.neutral.default}"
-              }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.neutral.default}"
+                "value": "{surface.color.interactive.info.on-inverse}"
               }
             }
           },
@@ -37,8 +31,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.hover.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.not-selected.hover.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
@@ -53,13 +47,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.interactive.neutral.default}"
-              }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.neutral.default}"
+                "value": "{surface.color.interactive.info.on-inverse}"
               }
             }
           },
@@ -67,8 +55,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.pressed.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.not-selected.pressed.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
@@ -85,20 +73,14 @@
                 "type": "color",
                 "value": "{surface.color.interactive.neutral.on-neutral}"
               }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.neutral.on-neutral}"
-              }
             }
           },
           "disabled": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.disabled.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.not-selected.disabled.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
@@ -115,20 +97,14 @@
                 "type": "color",
                 "value": "{surface.color.interactive.disabled.foreground.default}"
               }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.disabled.foreground.default}"
-              }
             }
           },
           "inactive": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.not-selected.inactive.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.not-selected.inactive.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
@@ -145,12 +121,6 @@
                 "type": "color",
                 "value": "{surface.color.interactive.disabled.foreground.default}"
               }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.disabled.foreground.default}"
-              }
             }
           }
         },
@@ -159,8 +129,8 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.default.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.selected.default.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
@@ -177,20 +147,14 @@
                 "type": "color",
                 "value": "{surface.color.interactive.info.on-info}"
               }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.info.on-info}"
-              }
             }
           },
           "hover": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.hover.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.selected.hover.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
@@ -207,26 +171,20 @@
                 "type": "color",
                 "value": "{surface.color.interactive.info.on-info}"
               }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.info.on-info}"
-              }
             }
           },
           "pressed": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.pressed.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.selected.pressed.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
             "background-color": {
               "type": "color",
-              "value": "{surface.color.interactive.info.muted}"
+              "value": "{surface.color.interactive.info.glass}"
             },
             "border-color": {
               "type": "color",
@@ -237,20 +195,14 @@
                 "type": "color",
                 "value": "{surface.color.interactive.info.on-inverse}"
               }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.info.on-inverse}"
-              }
             }
           },
           "disabled": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.disabled.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.selected.disabled.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
@@ -267,20 +219,14 @@
                 "type": "color",
                 "value": "{surface.color.interactive.disabled.foreground.default}"
               }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.disabled.foreground.default}"
-              }
             }
           },
           "inactive": {
             "border": {
               "type": "border",
               "value": {
-                "color": "{form.controls.checkbox.selected.inactive.border-color}",
-                "width": "{form.controls.checkbox.border-width}",
+                "color": "{form.controls.switch.selected.inactive.border-color}",
+                "width": "{form.controls.switch.border-width}",
                 "style": "solid"
               }
             },
@@ -297,18 +243,12 @@
                 "type": "color",
                 "value": "{surface.color.interactive.disabled.foreground.on-inverse}"
               }
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.interactive.disabled.foreground.on-inverse}"
-              }
             }
           }
         },
         "border-radius": {
           "type": "dimension",
-          "value": "{density.dimensions.interaction.border-radius.sm}"
+          "value": "{density.dimensions.interaction.border-radius.full}"
         },
         "border-width": {
           "type": "dimension",
@@ -316,33 +256,42 @@
         },
         "padding": {
           "type": "dimension",
-          "value": "{density.dimensions.interaction.space.xs}"
+          "value": "{density.dimensions.interaction.space.none}"
         },
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.checkbox.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{form.controls.switch.border-radius} + {density.dimensions.interaction.focus-offset}"
           }
         },
-        "size": {
+        "height": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
           "type": "dimension",
           "value": "{density.dimensions.interaction.control.default.size}"
         },
-        "icon-size": {
+        "icon": {
+          "size": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.control.default.size}"
+          }
+        },
+        "width": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
           "type": "dimension",
-          "value": "{density.dimensions.interaction.control.default.size} - 0.5rem"
-        }
-      },
-      "not-selected": {
-        "show-icon": {
-          "type": "boolean",
-          "value": "false"
-        }
-      },
-      "selected": {
-        "show-icon": {
-          "type": "boolean",
-          "value": "true"
+          "value": "{density.dimensions.interaction.control.default.size} * 2"
         }
       }
     }
