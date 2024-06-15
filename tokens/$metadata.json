@@ -27,7 +27,7 @@
     "component/form/control/checkbox",
     "component/form/control/input",
     "component/form/control/group",
-    "component/form/labels-helper",
+    "component/form/form-field",
     "form-controls-working",
     "notes/names",
     "notes/color map",
