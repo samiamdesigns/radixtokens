@@ -27,18 +27,6 @@
         "padding-vertical": {
           "type": "dimension",
           "value": "{density.dimensions.interaction.space.none}"
-        },
-        "label": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.foreground.neutral.default}"
-          }
-        },
-        "helper": {
-          "color": {
-            "type": "color",
-            "value": "{surface.color.foreground.neutral.minimal}"
-          }
         }
       },
       "label": {
@@ -61,6 +49,22 @@
           },
           "type": "typography",
           "value": "{theme.text-style.actions.form.helper}"
+        }
+      }
+    },
+    "field": {
+      "header": {
+        "label": {
+          "color": {
+            "type": "color",
+            "value": "{surface.color.foreground.neutral.default}"
+          }
+        },
+        "helper": {
+          "color": {
+            "type": "color",
+            "value": "{surface.color.foreground.neutral.minimal}"
+          }
         }
       }
     }
