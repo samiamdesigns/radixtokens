@@ -366,7 +366,7 @@
           },
           "on-danger": {
             "type": "color",
-            "value": "{brand-colors.danger.12}"
+            "value": "{brand-colors.neutral-alpha.12}"
           },
           "on-inverse": {
             "type": "color",

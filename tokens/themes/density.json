@@ -70,8 +70,8 @@
             "value": "40px"
           },
           "05": {
-            "value": "{dimensions.fixed.5}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{dimensions.fixed.5}"
           }
         },
         "border-radius": {
