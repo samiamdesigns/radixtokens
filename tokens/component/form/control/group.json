@@ -91,7 +91,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.input.header.text-wrapper.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{form.controls.group-item.wrapper.border-radius} + {density.dimensions.interaction.focus-offset}"
           }
         },
         "selected": {
@@ -161,15 +161,15 @@
         "wrapper": {
           "gap": {
             "type": "dimension",
-            "value": "{density.dimensions.interaction.space.sm}"
+            "value": "{density.dimensions.interaction.space.xs}"
           },
           "padding-horizontal": {
             "type": "dimension",
-            "value": "{density.dimensions.interaction.space.sm}"
+            "value": "{density.dimensions.interaction.space.none}"
           },
           "padding-vertical": {
             "type": "dimension",
-            "value": "{density.dimensions.interaction.space.sm}"
+            "value": "{density.dimensions.interaction.space.none}"
           }
         }
       }
