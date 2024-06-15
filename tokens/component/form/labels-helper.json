@@ -62,6 +62,59 @@
           "type": "typography",
           "value": "{theme.text-style.actions.form.helper}"
         }
+      },
+      "validation-message": {
+        "typography": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {}
+            }
+          },
+          "type": "typography",
+          "value": "{theme.text-style.actions.form.helper}"
+        },
+        "background-color": {
+          "type": "color",
+          "value": "{surface.color.feedback.danger.default}"
+        },
+        "border-color": {
+          "type": "color",
+          "value": "{surface.color.feedback.danger.minimal}"
+        },
+        "text": {
+          "color": {
+            "type": "color",
+            "value": "{surface.color.feedback.danger.on-danger}"
+          }
+        },
+        "gap": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.xs}"
+        },
+        "padding-horizontal": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.xs}"
+        },
+        "padding-vertical": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.sm}"
+        },
+        "border-radius": {
+          "value": "{density.dimensions.interaction.border-radius.sm}",
+          "type": "dimension"
+        },
+        "border-width": {
+          "value": "{density.dimensions.interaction.border-width.default}",
+          "type": "dimension"
+        },
+        "border": {
+          "value": {
+            "color": "{form.field.validation-message.border-color}",
+            "width": "{form.field.validation-message.border-width}",
+            "style": "solid"
+          },
+          "type": "border"
+        }
       }
     }
   }
