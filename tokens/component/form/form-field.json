@@ -195,6 +195,20 @@
           }
         }
       }
+    },
+    "field-": {
+      "gap": {
+        "type": "dimension",
+        "value": "{density.dimensions.interaction.space.xs}"
+      },
+      "padding-horizontal": {
+        "type": "dimension",
+        "value": "{density.dimensions.interaction.space.xs}"
+      },
+      "padding-vertical": {
+        "type": "dimension",
+        "value": "{density.dimensions.interaction.space.xs}"
+      }
     }
   }
 }
