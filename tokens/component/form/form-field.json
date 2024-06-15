@@ -194,12 +194,10 @@
             "value": "{density.dimensions.interaction.space.none}"
           }
         }
-      }
-    },
-    "field-": {
+      },
       "gap": {
         "type": "dimension",
-        "value": "{density.dimensions.interaction.space.xs}"
+        "value": "{density.dimensions.interaction.space.sm}"
       },
       "padding-horizontal": {
         "type": "dimension",
