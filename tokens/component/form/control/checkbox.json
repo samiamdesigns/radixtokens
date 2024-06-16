@@ -14,7 +14,7 @@
             },
             "background-color": {
               "type": "color",
-              "value": "{surface.color.input.background.default}"
+              "value": "{surface.color.input.background.transparent}"
             },
             "border-color": {
               "type": "color",
