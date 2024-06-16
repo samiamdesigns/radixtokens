@@ -34,7 +34,7 @@
             "type": "border",
             "value": {
               "color": "{form.controls.input.default.border-color}",
-              "width": "{form.controls.input.border-width}",
+              "width": "{form.controls.select.content.border-width}",
               "style": "solid"
             }
           },
@@ -69,7 +69,7 @@
             "type": "border",
             "value": {
               "color": "{form.controls.input.hover.border-color}",
-              "width": "{form.controls.input.border-width}",
+              "width": "{form.controls.select.content.border-width}",
               "style": "solid"
             }
           },
@@ -109,7 +109,7 @@
             "type": "border",
             "value": {
               "color": "{form.controls.input.pressed.border-color}",
-              "width": "{form.controls.input.border-width}",
+              "width": "{form.controls.select.content.border-width}",
               "style": "solid"
             }
           },
@@ -144,7 +144,7 @@
             "type": "border",
             "value": {
               "color": "{form.controls.input.selected.border-color}",
-              "width": "{form.controls.input.border-width}",
+              "width": "{form.controls.select.content.border-width}",
               "style": "solid"
             }
           },
@@ -179,7 +179,7 @@
             "type": "border",
             "value": {
               "color": "{form.controls.input.disabled.border-color}",
-              "width": "{form.controls.input.border-width}",
+              "width": "{form.controls.select.content.border-width}",
               "style": "solid"
             }
           },
@@ -214,7 +214,7 @@
             "type": "border",
             "value": {
               "color": "{form.controls.input.inactive.border-color}",
-              "width": "{form.controls.input.border-width}",
+              "width": "{form.controls.select.content.border-width}",
               "style": "solid"
             }
           },
@@ -274,7 +274,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.input.border-radius} + {density.dimensions.interaction.focus.offset}  + {density.dimensions.interaction.focus.border-width}"
+            "value": "{form.controls.select.content.border-radius} + {density.dimensions.interaction.focus.offset}  + {density.dimensions.interaction.focus.border-width}"
           }
         },
         "text-area": {
@@ -296,7 +296,7 @@
           "content-slot": {
             "size": {
               "type": "dimension",
-              "value": "{form.controls.input.text-field.size} - 1.5rem"
+              "value": "{form.controls.select.content.text-field.size} - 1.5rem"
             }
           }
         },
