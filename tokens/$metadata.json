@@ -30,6 +30,7 @@
     "component/form/control/checkbox",
     "component/form/control/input",
     "component/form/control/group",
+    "component/form/control/select",
     "notes/names",
     "notes/color map",
     "content/name-templates",
