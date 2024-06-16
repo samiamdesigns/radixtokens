@@ -20,68 +20,6 @@
             "value": "{density.dimensions.interaction.border-radius.sm}"
           }
         },
-        "not-selected": {
-          "default": {
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.foreground.neutral.default}"
-              }
-            },
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.interactive.neutral.transparent}"
-            }
-          },
-          "hover": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.input.background.hover}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.hover}"
-              }
-            }
-          },
-          "pressed": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.input.background.pressed}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.pressed}"
-              }
-            }
-          },
-          "inactive": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.interactive.neutral.transparent}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.pressed}"
-              }
-            }
-          },
-          "disabled": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.interactive.neutral.transparent}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.disabled}"
-              }
-            }
-          }
-        },
         "default": {
           "typography": {
             "type": "typography",
