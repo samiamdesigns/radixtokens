@@ -19,6 +19,7 @@
     "themes/surface",
     "themes/text-styling",
     "component/content/separator",
+    "component/content/scrollbar",
     "component/actions/button",
     "component/actions/icon_button",
     "component/actions/toggle_button",
