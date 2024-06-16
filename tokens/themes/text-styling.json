@@ -47,6 +47,10 @@
             "type": "typography",
             "value": "{brand-typography.p3.emphasis}"
           },
+          "select-label": {
+            "type": "typography",
+            "value": "{brand-typography.p3.default}}"
+          },
           "validation-message": {
             "type": "typography",
             "value": "{brand-typography.p2.default}"
