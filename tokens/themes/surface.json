@@ -293,6 +293,10 @@
           "emphasis": {
             "type": "color",
             "value": "{brand-colors.neutral-alpha.10}"
+          },
+          "mid-emphasis": {
+            "type": "color",
+            "value": "{brand-colors.neutral-alpha.6}"
           }
         },
         "info": {
