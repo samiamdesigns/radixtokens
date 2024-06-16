@@ -1,159 +1,73 @@
 {
   "form": {
     "controls": {
-      "group-item": {
-        "wrapper": {
-          "gap": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.space.sm}"
+      "menu-item": {
+        "default": {
+          "label": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.foreground.neutral.default}"
+            }
           },
-          "padding-horizontal": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.space.sm}"
-          },
-          "padding-vertical": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.space.sm}"
-          },
-          "border-radius": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.border-radius.sm}"
+          "bg-color": {
+            "type": "color",
+            "value": "{surface.color.interactive.neutral.transparent}"
           }
         },
-        "not-selected": {
-          "default": {
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.foreground.neutral.default}"
-              }
-            },
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.interactive.neutral.transparent}"
-            }
+        "hover": {
+          "bg-color": {
+            "type": "color",
+            "value": "{surface.color.input.background.selected}"
           },
-          "hover": {
-            "bg-color": {
+          "label": {
+            "color": {
               "type": "color",
-              "value": "{surface.color.input.background.hover}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.hover}"
-              }
-            }
-          },
-          "pressed": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.input.background.pressed}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.pressed}"
-              }
-            }
-          },
-          "inactive": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.interactive.neutral.transparent}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.pressed}"
-              }
-            }
-          },
-          "disabled": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.interactive.neutral.transparent}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.disabled}"
-              }
+              "value": "{surface.color.input.foreground.hover}"
             }
           }
         },
+        "pressed": {
+          "bg-color": {
+            "type": "color",
+            "value": "{surface.color.input.background.pressed}"
+          },
+          "label": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.pressed}"
+            }
+          }
+        },
+        "inactive": {
+          "bg-color": {
+            "type": "color",
+            "value": "{surface.color.interactive.neutral.transparent}"
+          },
+          "label": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.pressed}"
+            }
+          }
+        },
+        "disabled": {
+          "bg-color": {
+            "type": "color",
+            "value": "{surface.color.interactive.neutral.transparent}"
+          },
+          "label": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.disabled}"
+            }
+          }
+        }
+      },
+      "select-item": {
         "default": {
           "typography": {
             "type": "typography",
             "value": "{theme.text-style.actions.label.compact}"
-          }
-        },
-        "focus": {
-          "border-radius": {
-            "type": "dimension",
-            "value": "{form.controls.group-item.wrapper.border-radius} + {density.dimensions.interaction.focus-offset}"
-          }
-        },
-        "selected": {
-          "default": {
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.foreground.neutral.default}"
-              }
-            },
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.interactive.neutral.transparent}"
-            }
-          },
-          "hover": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.input.background.selected}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.hover}"
-              }
-            }
-          },
-          "pressed": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.input.background.pressed}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.pressed}"
-              }
-            }
-          },
-          "inactive": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.interactive.neutral.transparent}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.pressed}"
-              }
-            }
-          },
-          "disabled": {
-            "bg-color": {
-              "type": "color",
-              "value": "{surface.color.interactive.neutral.transparent}"
-            },
-            "label": {
-              "color": {
-                "type": "color",
-                "value": "{surface.color.input.foreground.disabled}"
-              }
-            }
           }
         }
       },
