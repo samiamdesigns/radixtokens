@@ -277,6 +277,94 @@
         "icon-size": {
           "type": "dimension",
           "value": "{density.dimensions.interaction.control.default.size} - 0.5rem"
+        },
+        "indeterminate": {
+          "default": {
+            "background-color": {
+              "type": "color",
+              "value": "{surface.color.interactive.info.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.input.border.default}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.interactive.info.on-info}"
+              }
+            }
+          },
+          "hover": {
+            "background-color": {
+              "type": "color",
+              "value": "{surface.color.interactive.info.emphasis}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.input.border.hover}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.interactive.info.on-info}"
+              }
+            }
+          },
+          "pressed": {
+            "background-color": {
+              "type": "color",
+              "value": "{surface.color.interactive.info.muted}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.input.border.pressed}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.interactive.info.on-inverse}"
+              }
+            },
+            "label": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.interactive.info.on-inverse}"
+              }
+            }
+          },
+          "disabled": {
+            "background-color": {
+              "type": "color",
+              "value": "{surface.color.interactive.disabled.background.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.input.border.disabled}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.interactive.disabled.foreground.default}"
+              }
+            }
+          },
+          "inactive": {
+            "background-color": {
+              "type": "color",
+              "value": "{surface.color.interactive.info.default}"
+            },
+            "border-color": {
+              "type": "color",
+              "value": "{surface.color.input.border.inactive}"
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.interactive.disabled.foreground.on-inverse}"
+              }
+            }
+          }
         }
       },
       "not-selected": {

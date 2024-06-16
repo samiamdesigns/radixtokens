@@ -105,7 +105,7 @@
                 }
               },
               "type": "dimension",
-              "value": "{density.dimensions.interaction.space.2xs}"
+              "value": "{density.dimensions.interaction.space.xs}"
             },
             "control": {
               "padding-horizontal": {
@@ -236,7 +236,7 @@
           },
           "padding-vertical": {
             "type": "dimension",
-            "value": "{density.dimensions.interaction.space.xs}"
+            "value": "{density.dimensions.interaction.space.2xs}"
           }
         }
       },
