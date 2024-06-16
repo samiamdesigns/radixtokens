@@ -29,7 +29,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.select-item.wrapper.border-radius} + {density.dimensions.interaction.focus-offset} + {density.dimensions.interaction.border-width.focus}"
+            "value": "{form.controls.select-item.wrapper.border-radius}  +{density.dimensions.interaction.focus.offset}"
           }
         },
         "selected": {

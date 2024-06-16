@@ -269,7 +269,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.radio.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{form.controls.radio.border-radius} + {density.dimensions.interaction.focus.offset}"
           }
         },
         "size": {

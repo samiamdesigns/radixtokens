@@ -267,7 +267,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.checkbox.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{form.controls.checkbox.border-radius} + {density.dimensions.interaction.focus.offset}"
           }
         },
         "size": {

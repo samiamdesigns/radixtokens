@@ -2094,7 +2094,7 @@
       "focus": {
         "border-radius": {
           "type": "dimension",
-          "value": "{actions.icon-button.border-radius} + {density.dimensions.interaction.focus-offset}"
+          "value": "{actions.icon-button.border-radius} + {density.dimensions.interaction.focus.offset}"
         }
       }
     }

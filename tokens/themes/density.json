@@ -11,8 +11,10 @@
             },
             "type": "dimension",
             "value": "1px"
-          },
-          "focus": {
+          }
+        },
+        "focus": {
+          "border-width": {
             "$extensions": {
               "studio.tokens": {
                 "modify": {}
@@ -20,6 +22,24 @@
             },
             "type": "dimension",
             "value": "2px"
+          },
+          "offset": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "2px"
+          },
+          "position": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {}
+              }
+            },
+            "type": "dimension",
+            "value": "-{density.dimensions.interaction.focus.offset}"
           }
         },
         "space": {
@@ -133,10 +153,6 @@
             "type": "dimension",
             "value": "9999px"
           }
-        },
-        "focus-offset": {
-          "type": "dimension",
-          "value": "-2px"
         },
         "control": {
           "default": {

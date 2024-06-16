@@ -403,9 +403,10 @@
           "type": "border",
           "value": {
             "color": "{surface.color.interactive.focus.default}",
-            "width": "{density.dimensions.interaction.border-width.focus}",
+            "width": "{density.dimensions.interaction.focus.border-width}",
             "style": "solid"
-          }
+          },
+          "description": "apply as \"outside\" stroke"
         }
       }
     },

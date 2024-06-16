@@ -547,7 +547,7 @@
               }
             },
             "type": "dimension",
-            "value": "{actions.toggle-group.item.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{actions.toggle-group.item.border-radius} + {density.dimensions.interaction.focus.offset}"
           }
         }
       },

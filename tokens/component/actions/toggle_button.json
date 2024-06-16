@@ -1374,7 +1374,7 @@
             }
           },
           "type": "dimension",
-          "value": "{actions.toggle-button.border-radius} + {density.dimensions.interaction.focus-offset}"
+          "value": "{actions.toggle-button.border-radius} + {density.dimensions.interaction.focus.offset}"
         }
       }
     }

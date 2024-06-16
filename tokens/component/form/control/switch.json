@@ -261,7 +261,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.switch.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{form.controls.switch.border-radius} + {density.dimensions.interaction.focus.offset}"
           }
         },
         "height": {

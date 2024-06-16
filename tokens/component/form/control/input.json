@@ -274,7 +274,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.input.border-radius} + {density.dimensions.interaction.focus-offset}  + {density.dimensions.interaction.border-width.focus}"
+            "value": "{form.controls.input.border-radius} + {density.dimensions.interaction.focus.offset}  + {density.dimensions.interaction.focus.border-width}"
           }
         },
         "text-area": {
