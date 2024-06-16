@@ -1,7 +1,7 @@
 {
   "form": {
     "controls": {
-      "group-item": {
+      "select-item": {
         "wrapper": {
           "gap": {
             "type": "dimension",
@@ -29,7 +29,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.group-item.wrapper.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{form.controls.select-item.wrapper.border-radius} + {density.dimensions.interaction.focus-offset}"
           }
         },
         "selected": {
@@ -79,6 +79,12 @@
                 "type": "color",
                 "value": "{surface.color.input.foreground.pressed}"
               }
+            },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.input.foreground.pressed}"
+              }
             }
           },
           "disabled": {
@@ -87,6 +93,12 @@
               "value": "{surface.color.interactive.neutral.transparent}"
             },
             "label": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.input.foreground.disabled}"
+              }
+            },
+            "icon": {
               "color": {
                 "type": "color",
                 "value": "{surface.color.input.foreground.disabled}"
