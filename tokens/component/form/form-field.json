@@ -97,7 +97,7 @@
             "type": "border",
             "value": {
               "color": "{form.field.validation-message.warning.border-color}",
-              "width": "{form.field.validation-message.border-width}",
+              "width": "{content.separator.size}",
               "style": "solid"
             }
           },
@@ -138,7 +138,7 @@
             "type": "border",
             "value": {
               "color": "{form.field.validation-message.subtle.border-color}",
-              "width": "{form.field.validation-message.border-width}",
+              "width": "{content.separator.size}",
               "style": "solid"
             }
           },
