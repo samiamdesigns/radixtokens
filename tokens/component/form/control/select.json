@@ -13,7 +13,7 @@
           },
           "padding-vertical": {
             "type": "dimension",
-            "value": "{density.dimensions.interaction.space.xs}"
+            "value": "{density.dimensions.interaction.space.2xs}"
           },
           "border-radius": {
             "type": "dimension",
@@ -29,7 +29,7 @@
         "focus": {
           "border-radius": {
             "type": "dimension",
-            "value": "{form.controls.select-item.wrapper.border-radius} + {density.dimensions.interaction.focus-offset}"
+            "value": "{form.controls.select-item.wrapper.border-radius} + {density.dimensions.interaction.focus-offset} + {density.dimensions.interaction.border-width.focus}"
           }
         },
         "selected": {
@@ -131,7 +131,7 @@
           },
           "padding-vertical": {
             "type": "dimension",
-            "value": "{density.dimensions.interaction.space.none}"
+            "value": "{density.dimensions.interaction.space.2xs}"
           }
         },
         "icon": {
