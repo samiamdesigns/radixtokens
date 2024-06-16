@@ -293,6 +293,14 @@
                 "type": "color",
                 "value": "{surface.color.interactive.info.on-info}"
               }
+            },
+            "border": {
+              "type": "border",
+              "value": {
+                "color": "{form.controls.checkbox.indeterminate.default.border-color}",
+                "width": "{form.controls.checkbox.border-width}",
+                "style": "solid"
+              }
             }
           },
           "hover": {
@@ -308,6 +316,14 @@
               "color": {
                 "type": "color",
                 "value": "{surface.color.interactive.info.on-info}"
+              }
+            },
+            "border": {
+              "type": "border",
+              "value": {
+                "color": "{form.controls.checkbox.indeterminate.hover.border-color}",
+                "width": "{form.controls.checkbox.border-width}",
+                "style": "solid"
               }
             }
           },
@@ -331,6 +347,14 @@
                 "type": "color",
                 "value": "{surface.color.interactive.info.on-inverse}"
               }
+            },
+            "border": {
+              "type": "border",
+              "value": {
+                "color": "{form.controls.checkbox.indeterminate.pressed.border-color}",
+                "width": "{form.controls.checkbox.border-width}",
+                "style": "solid"
+              }
             }
           },
           "disabled": {
@@ -347,6 +371,14 @@
                 "type": "color",
                 "value": "{surface.color.interactive.disabled.foreground.default}"
               }
+            },
+            "border": {
+              "type": "border",
+              "value": {
+                "color": "{form.controls.checkbox.indeterminate.disabled.border-color}",
+                "width": "{form.controls.checkbox.border-width}",
+                "style": "solid"
+              }
             }
           },
           "inactive": {
@@ -362,6 +394,14 @@
               "color": {
                 "type": "color",
                 "value": "{surface.color.interactive.disabled.foreground.on-inverse}"
+              }
+            },
+            "border": {
+              "type": "border",
+              "value": {
+                "color": "{form.controls.checkbox.indeterminate.inactive.border-color}",
+                "width": "{form.controls.checkbox.border-width}",
+                "style": "solid"
               }
             }
           }
