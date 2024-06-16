@@ -249,13 +249,7 @@
           "text": {
             "color": {
               "type": "color",
-              "value": "{surface.color.foreground.neutral.default}"
-            }
-          },
-          "icon": {
-            "color": {
-              "type": "color",
-              "value": "{surface.color.foreground.neutral.default}"
+              "value": "{surface.color.foreground.neutral.minimal}"
             }
           }
         }
