@@ -304,6 +304,46 @@
             "type": "boxShadow",
             "value": "{surface.elevation.panels.small-overlay.low}"
           }
+        },
+        "input": {
+          "content-wrapper": {
+            "padding-vertical": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {}
+                }
+              },
+              "type": "dimension",
+              "value": "{density.dimensions.interaction.space.none}"
+            },
+            "padding-start": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {}
+                }
+              },
+              "type": "dimension",
+              "value": "{density.dimensions.interaction.space.sm}"
+            },
+            "padding-end": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {}
+                }
+              },
+              "type": "dimension",
+              "value": "{density.dimensions.interaction.space.xs}"
+            },
+            "gap": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {}
+                }
+              },
+              "type": "dimension",
+              "value": "{density.dimensions.interaction.space.sm}"
+            }
+          }
         }
       }
     }
