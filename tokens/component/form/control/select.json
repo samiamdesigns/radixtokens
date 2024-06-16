@@ -263,46 +263,46 @@
             "value": "200px"
           },
           "padding-vertical": {
-            "value": "{density.dimensions.interaction.space.none}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.none}"
           },
           "padding-horizontal": {
-            "value": "{density.dimensions.interaction.space.none}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.none}"
           },
           "gap": {
-            "value": "{density.dimensions.interaction.space.none}",
-            "type": "dimension"
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.none}"
           },
           "background-color": {
-            "value": "{surface.color.input.background.default}",
-            "type": "color"
+            "type": "color",
+            "value": "{surface.color.input.background.default}"
           },
           "border-color": {
-            "value": "{surface.color.input.border.default}",
-            "type": "color"
+            "type": "color",
+            "value": "{surface.color.input.border.default}"
           },
           "border": {
+            "type": "border",
             "value": {
               "color": "{form.controls.select.content.border-color}",
               "width": "{form.controls.select.content.border-width}",
               "style": "solid"
-            },
-            "type": "border"
+            }
           },
           "wrapper": {
             "padding-horizontal": {
-              "value": "{density.dimensions.interaction.space.xs}",
-              "type": "dimension"
+              "type": "dimension",
+              "value": "{density.dimensions.interaction.space.xs}"
             },
             "padding-vertical": {
-              "value": "{density.dimensions.interaction.space.xs}",
-              "type": "dimension"
+              "type": "dimension",
+              "value": "{density.dimensions.interaction.space.xs}"
             }
           },
           "elevation": {
-            "value": "{surface.elevation.panels.small-overlay.low}",
-            "type": "boxShadow"
+            "type": "boxShadow",
+            "value": "{surface.elevation.panels.small-overlay.low}"
           }
         }
       }

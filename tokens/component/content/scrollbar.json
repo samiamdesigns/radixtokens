@@ -54,7 +54,7 @@
         "default": {
           "bg-color": {
             "type": "color",
-            "value": "{surface.color.interactive.neutral.emphasis}"
+            "value": "{surface.color.interactive.neutral.muted}"
           }
         }
       }
