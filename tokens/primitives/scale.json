@@ -75,12 +75,20 @@
       "10xl": {
         "type": "number",
         "value": "ceil(roundTo({scale.unitless.9xl} * {scale.multiplier}, 0) / {scale.factor}) * {scale.factor}"
+      },
+      "3xs": {
+        "type": "number",
+        "value": "{scale.unitless.2xs} / 2"
       }
     },
     "rem": {
       "2xs": {
         "type": "number",
         "value": "{scale.unitless.2xs} / {rem-base} * 1rem"
+      },
+      "3xs": {
+        "type": "number",
+        "value": "{scale.unitless.3xs} / {rem-base} * 1rem"
       },
       "xs": {
         "type": "number",

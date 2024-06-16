@@ -31,6 +31,10 @@
             "type": "dimension",
             "value": "{brand.scale-dimensions.unitless.2xs}px"
           },
+          "2xs": {
+            "type": "dimension",
+            "value": "({brand.scale-dimensions.unitless.2xs} / 2)px"
+          },
           "sm": {
             "type": "dimension",
             "value": "{brand.scale-dimensions.unitless.xs}px"
