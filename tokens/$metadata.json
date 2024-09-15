@@ -24,6 +24,7 @@
     "component/actions/icon_button",
     "component/actions/toggle_button",
     "component/actions/split-button",
+    "component/actions/toggle-group",
     "component/feedback/tooltip",
     "component/form/form-field",
     "component/form/control/radio",
@@ -34,7 +35,6 @@
     "component/form/control/select",
     "notes/names",
     "notes/color map",
-    "content/name-templates",
-    "component-toggle-group"
+    "content/name-templates"
   ]
 }
