@@ -324,6 +324,10 @@
         "medium": {
           "type": "dimension",
           "value": "{scale.rem.3xl}"
+        },
+        "thumb-offset": {
+          "value": "0.125rem",
+          "type": "dimension"
         }
       },
       "fixed": {

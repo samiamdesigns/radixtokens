@@ -184,7 +184,7 @@
             },
             "background-color": {
               "type": "color",
-              "value": "{surface.color.interactive.info.glass}"
+              "value": "{surface.color.input.background.selected}"
             },
             "border-color": {
               "type": "color",
@@ -273,15 +273,10 @@
           "type": "dimension",
           "value": "{density.dimensions.interaction.control.default.size}"
         },
-        "icon": {
+        "thumb": {
           "size": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
-            "value": "{density.dimensions.interaction.control.default.size}"
+            "value": "{density.dimensions.interaction.control.default.size} - {brand.dimensions.control.thumb-offset} - {brand.dimensions.control.thumb-offset}"
           }
         },
         "width": {
