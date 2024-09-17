@@ -21,7 +21,7 @@
       },
       "color": {
         "type": "color",
-        "value": "{surface.color.border.neutral.mid-emphasis}"
+        "value": "{surface.color.border.neutral.emphasis}"
       }
     }
   }

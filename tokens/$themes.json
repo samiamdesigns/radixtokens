@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "52acfad4f62b588db5a3c8a1a38b8c987e109453",
+    "name": "all",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "typeface/satoshi": "enabled",
+      "typeface/inter": "enabled",
+      "typeface/fk-grotesk-neue": "enabled",
+      "typeface/fk-display": "enabled",
+      "primitives/scale": "enabled",
+      "primitives/radix-colors-v2": "enabled",
+      "primitives/dimensions": "enabled",
+      "primitives/radix-shadows": "enabled"
+    },
+    "group": "primitives"
+  },
+  {
+    "id": "749cfdb30363338edd1a25d157d4e7bee8c34d2b",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "modes/light": "enabled"
+    },
+    "group": "color-modes"
+  },
+  {
+    "id": "2604702b89bc1fb7664902ce9be1f16549d74015",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "modes/dark": "enabled"
+    },
+    "group": "color-modes"
+  }
+]
