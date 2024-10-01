@@ -201,11 +201,11 @@
       },
       "padding-horizontal": {
         "type": "dimension",
-        "value": "{density.dimensions.interaction.space.xs}"
+        "value": "{density.dimensions.interaction.space.none}"
       },
       "padding-vertical": {
         "type": "dimension",
-        "value": "{density.dimensions.interaction.space.xs}"
+        "value": "{density.dimensions.interaction.space.none}"
       }
     }
   }
