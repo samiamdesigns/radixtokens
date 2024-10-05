@@ -13,7 +13,7 @@
           },
           "compact": {
             "type": "typography",
-            "value": "{brand-typography.p2.default}"
+            "value": "{brand-typography.p3.default}"
           },
           "interaction": {
             "type": "typography",

@@ -2088,7 +2088,7 @@
       "icon": {
         "size": {
           "type": "dimension",
-          "value": "16px"
+          "value": "{scale.rem.md}"
         }
       },
       "focus": {
@@ -2113,7 +2113,7 @@
         "icon": {
           "size": {
             "type": "dimension",
-            "value": "16px"
+            "value": "{scale.rem.sm}"
           }
         }
       }
