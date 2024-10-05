@@ -701,7 +701,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.neutral.tier2.default.border-color}",
+                "color": "{actions.chip.neutral.default.border-color}",
                 "width": "{actions.chip.border-width}",
                 "style": "solid"
               }
@@ -729,7 +729,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.neutral.tier2.hover.border-color}",
+                "color": "{actions.chip.neutral.tier2.hover.border-color}",
                 "width": "{actions.chip.border-width}",
                 "style": "solid"
               }
@@ -757,7 +757,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.neutral.tier2.pressed.border-color}",
+                "color": "{actions.chip.neutral.tier2.pressed.border-color}",
                 "width": "{actions.chip.border-width}",
                 "style": "solid"
               }
@@ -785,7 +785,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.neutral.tier2.disabled.border-color}",
+                "color": "{actions.chip.neutral.tier2.disabled.border-color}",
                 "width": "{actions.chip.border-width}",
                 "style": "solid"
               }
@@ -813,7 +813,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.neutral.tier2.inactive.border-color}",
+                "color": "{actions.chip.neutral.tier2.inactive.border-color}",
                 "width": "{actions.chip.border-width}",
                 "style": "solid"
               }
@@ -841,7 +841,7 @@
             "border": {
               "type": "border",
               "value": {
-                "color": "{actions.icon-button.neutral.tier2.loading.border-color}",
+                "color": "{actions.chip.neutral.tier2.loading.border-color}",
                 "width": "{actions.chip.border-width}",
                 "style": "solid"
               }
