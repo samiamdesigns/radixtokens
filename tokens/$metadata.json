@@ -24,6 +24,7 @@
     "component/actions/icon_button",
     "component/actions/toggle_button",
     "component/actions/split-button",
+    "component/actions/chip",
     "component/actions/toggle-group",
     "component/feedback/tooltip",
     "component/form/form-field",
