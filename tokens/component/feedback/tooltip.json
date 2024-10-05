@@ -39,7 +39,7 @@
       },
       "border-radius": {
         "type": "dimension",
-        "value": "{device.dimensions.border-radius.xs}"
+        "value": "{density.dimensions.interaction.border-radius.sm}"
       },
       "border-width": {
         "type": "dimension",
@@ -47,15 +47,19 @@
       },
       "gap": {
         "type": "dimension",
-        "value": "{density.dimensions.interaction.space.sm}"
+        "value": "{density.dimensions.interaction.space.xs}"
       },
       "height-max": {
         "type": "dimension",
         "value": "300px"
       },
-      "padding": {
+      "padding-horizontal": {
         "type": "dimension",
-        "value": "{density.dimensions.interaction.space.md}, {device.dimensions.space.lg}"
+        "value": "{density.dimensions.interaction.space.md}"
+      },
+      "padding-vertical": {
+        "type": "dimension",
+        "value": "{density.dimensions.interaction.space.sm}"
       },
       "width-max": {
         "type": "dimension",

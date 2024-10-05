@@ -79,6 +79,12 @@
         "compact": {
           "type": "typography",
           "value": "{brand-typography.p3.emphasis}"
+        },
+        "character-count": {
+          "sm": {
+            "value": "{brand-typography.p3.mono}",
+            "type": "typography"
+          }
         }
       },
       "content": {

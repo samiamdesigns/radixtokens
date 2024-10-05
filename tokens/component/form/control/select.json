@@ -280,7 +280,7 @@
           },
           "border-color": {
             "type": "color",
-            "value": "{surface.color.input.border.default}"
+            "value": "{surface.color.input.border.subtle}"
           },
           "border": {
             "type": "border",
@@ -335,13 +335,8 @@
               "value": "{density.dimensions.interaction.space.xs}"
             },
             "gap": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
-              "value": "{density.dimensions.interaction.space.sm}"
+              "value": "{density.dimensions.interaction.space.xs}"
             }
           }
         }

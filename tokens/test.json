@@ -1,0 +1,58 @@
+{
+  "proportion": {
+    "scale": {
+      "minor-second": {
+        "type": "number",
+        "value": "1.067"
+      },
+      "major-second": {
+        "type": "number",
+        "value": "1.125"
+      },
+      "minor-third": {
+        "type": "number",
+        "value": "1.2"
+      },
+      "major-third": {
+        "type": "number",
+        "value": "1.25"
+      },
+      "perfect-fourth": {
+        "type": "number",
+        "value": "1.333"
+      },
+      "augmented-fourth": {
+        "type": "number",
+        "value": "1.414"
+      },
+      "perfect-fifth": {
+        "type": "number",
+        "value": "1.5"
+      },
+      "minor-sixth": {
+        "type": "number",
+        "value": "1.6"
+      },
+      "golden-ratio": {
+        "type": "number",
+        "value": "1.618"
+      },
+      "major-sixth": {
+        "type": "number",
+        "value": "1.667"
+      },
+      "minor-seventh": {
+        "type": "number",
+        "value": "1.778"
+      },
+      "major-seventh": {
+        "type": "number",
+        "value": "1.875"
+      },
+      "octave": {
+        "type": "number",
+        "value": "2"
+      }
+    }
+  }
+}

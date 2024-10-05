@@ -169,6 +169,36 @@
             }
           }
         },
+        "filled": {
+          "border": {
+            "type": "border",
+            "value": {
+              "color": "{form.controls.input.filled.border-color}",
+              "width": "{form.controls.select.content.border-width}",
+              "style": "solid"
+            }
+          },
+          "background-color": {
+            "type": "color",
+            "value": "{surface.color.input.background.filled}"
+          },
+          "border-color": {
+            "type": "color",
+            "value": "{surface.color.input.border.filled}"
+          },
+          "slot": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.filled}"
+            }
+          },
+          "text": {
+            "color": {
+              "type": "color",
+              "value": "{surface.color.input.foreground.filled}"
+            }
+          }
+        },
         "disabled": {
           "border": {
             "$extensions": {
@@ -296,7 +326,7 @@
           "content-slot": {
             "size": {
               "type": "dimension",
-              "value": "{form.controls.select.content.text-field.size} - 1.5rem"
+              "value": "{form.controls.input.text-field.size} - 1.5rem"
             }
           }
         },

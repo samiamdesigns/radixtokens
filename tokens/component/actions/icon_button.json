@@ -2096,6 +2096,26 @@
           "type": "dimension",
           "value": "{actions.icon-button.border-radius} + {density.dimensions.interaction.focus.offset}"
         }
+      },
+      "contained": {
+        "border-width": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.border-width.default}"
+        },
+        "gap": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.xs}"
+        },
+        "padding": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.xs}"
+        },
+        "icon": {
+          "size": {
+            "type": "dimension",
+            "value": "16px"
+          }
+        }
       }
     }
   }

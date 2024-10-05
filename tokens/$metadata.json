@@ -33,6 +33,8 @@
     "component/form/control/input",
     "component/form/control/group",
     "component/form/control/select",
-    "notes/names"
+    "notes/names",
+    "test",
+    "toggle-group_DEPRECATED"
   ]
 }
