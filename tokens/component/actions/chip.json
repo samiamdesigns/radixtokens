@@ -246,6 +246,26 @@
           "type": "typography",
           "value": "{theme.text-style.actions.label.compact}"
         }
+      },
+      "group": {
+        "gap": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.xs}"
+        },
+        "padding-hotizontal": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.none}"
+        },
+        "padding-vertical": {
+          "type": "dimension",
+          "value": "{density.dimensions.interaction.space.none}"
+        },
+        "icon": {
+          "size": {
+            "type": "dimension",
+            "value": "{scale.rem.sm}"
+          }
+        }
       }
     }
   }
