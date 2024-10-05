@@ -68,29 +68,29 @@
               "value": "{density.dimensions.interaction.control.default.icon.size}"
             }
           },
-          "selected": {
-            "default": {
-              "bg-color": {
+          "default": {
+            "bg-color": {
+              "type": "color",
+              "value": "{surface.color.interactive.neutral.transparent}"
+            },
+            "label": {
+              "color": {
                 "type": "color",
-                "value": "{surface.color.interactive.neutral.transparent}"
-              },
-              "label": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.foreground.neutral.default}"
-                }
-              },
-              "icon": {
-                "color": {
-                  "type": "color",
-                  "value": "{surface.color.foreground.neutral.default}"
-                }
+                "value": "{surface.color.foreground.neutral.default}"
               }
             },
+            "icon": {
+              "color": {
+                "type": "color",
+                "value": "{surface.color.foreground.neutral.default}"
+              }
+            }
+          },
+          "selected": {
             "hover": {
               "bg-color": {
                 "type": "color",
-                "value": "{surface.color.input.background.selected}"
+                "value": "{surface.color.input.background.hover}"
               },
               "label": {
                 "color": {

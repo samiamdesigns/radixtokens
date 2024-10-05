@@ -154,7 +154,7 @@
           },
           "minimal": {
             "type": "color",
-            "value": "{brand-colors.neutral.11}"
+            "value": "{brand-colors.neutral-alpha.11}"
           },
           "inverse": {
             "type": "color",
@@ -180,7 +180,7 @@
           },
           "hover": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.7}"
+            "value": "{brand-colors.neutral-alpha.8}"
           },
           "pressed": {
             "type": "color",
@@ -192,15 +192,15 @@
           },
           "filled": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.8}"
+            "value": "{brand-colors.neutral-alpha.6}"
           },
           "inactive": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.7}"
+            "value": "{brand-colors.neutral-alpha.5}"
           },
           "disabled": {
             "type": "color",
-            "value": "{brand-colors.neutral-alpha.6}"
+            "value": "{brand-colors.neutral-alpha.5}"
           },
           "subtle": {
             "value": "{brand-colors.neutral-alpha.1}",
@@ -210,19 +210,23 @@
         "background": {
           "default": {
             "type": "color",
-            "value": "{brand-colors.neutral.2}"
+            "value": "{brand-colors.neutral-alpha.3}"
           },
           "hover": {
             "type": "color",
-            "value": "{brand-colors.neutral.4}"
+            "value": "{brand-colors.neutral.5}"
           },
           "pressed": {
             "type": "color",
-            "value": "{brand-colors.neutral.3}"
+            "value": "{brand-colors.info-alpha.3}"
           },
           "selected": {
             "type": "color",
-            "value": "{brand-colors.info.3}"
+            "value": "{brand-colors.info-alpha.3}"
+          },
+          "selected-minimal": {
+            "type": "color",
+            "value": "{brand-colors.info-alpha.2}"
           },
           "selected-emphasis": {
             "type": "color",
@@ -230,7 +234,7 @@
           },
           "filled": {
             "type": "color",
-            "value": "{brand-colors.neutral.2}"
+            "value": "{brand-colors.neutral-alpha.2}"
           },
           "transparent": {
             "type": "color",
