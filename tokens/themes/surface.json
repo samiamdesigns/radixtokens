@@ -133,6 +133,10 @@
           "inverse": {
             "type": "color",
             "value": "{brand-colors.neutral.12}"
+          },
+          "transparent": {
+            "value": "{colors.gray.light-alpha.6}",
+            "type": "color"
           }
         },
         "overlay": {
