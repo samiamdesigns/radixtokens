@@ -47,7 +47,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.interactive.info.on-inverse}"
+                "value": "{surface.color.interactive.neutral.on-neutral}"
               }
             }
           },
@@ -193,7 +193,7 @@
             "icon": {
               "color": {
                 "type": "color",
-                "value": "{surface.color.interactive.info.on-inverse}"
+                "value": "{surface.color.interactive.neutral.on-neutral}"
               }
             }
           },

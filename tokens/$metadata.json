@@ -36,6 +36,7 @@
     "component/form/control/select",
     "notes/names",
     "test",
-    "toggle-group_DEPRECATED"
+    "toggle-group_DEPRECATED",
+    "documentation"
   ]
 }

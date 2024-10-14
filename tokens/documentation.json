@@ -1,0 +1,20 @@
+{
+  "surface": {
+    "color": {
+      "background": {
+        "neutral": {
+          "transparent": {
+            "value": "{colors.gray.light-alpha.6}",
+            "type": "color"
+          }
+        },
+        "accent": {
+          "default": {
+            "value": "{surface.color.background.neutral.transparent}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
