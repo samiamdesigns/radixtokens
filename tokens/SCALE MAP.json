@@ -5,6 +5,16 @@
         "type": "number",
         "value": "{proportion.scale.minor-third}",
         "description": "Change the value of this token to modify every token in the scales."
+      },
+      "display": {
+        "type": "number",
+        "value": "{proportion.scale.minor-third}",
+        "description": "Change the value of this token to modify every token in the D-scales."
+      },
+      "headline": {
+        "type": "number",
+        "value": "{proportion.scale.minor-third}",
+        "description": "Change the value of this token to modify every token in the H-scales."
       }
     },
     "font-size": {
@@ -18,6 +28,42 @@
       },
       "p1": {
         "value": "{scale.unitless.lg}",
+        "type": "number"
+      },
+      "h6": {
+        "value": "{scale.unitless.lg}",
+        "type": "number"
+      },
+      "h5": {
+        "value": "{scale.unitless.xl}",
+        "type": "number"
+      },
+      "h4": {
+        "value": "{scale.unitless.2xl}",
+        "type": "number"
+      },
+      "h3": {
+        "value": "{scale.unitless.3xl}",
+        "type": "number"
+      },
+      "h2": {
+        "value": "{scale.unitless.4xl}",
+        "type": "number"
+      },
+      "h1": {
+        "value": "{scale.unitless.5xl}",
+        "type": "number"
+      },
+      "d3": {
+        "value": "{scale.unitless.6xl}",
+        "type": "number"
+      },
+      "d2": {
+        "value": "{scale.unitless.7xl}",
+        "type": "number"
+      },
+      "d1": {
+        "value": "{scale.unitless.8xl}",
         "type": "number"
       }
     },
@@ -40,8 +86,7 @@
       },
       "md": {
         "type": "number",
-        "value": "{scale-text.font-size.p2}",
-        "description": "Smallest body size"
+        "value": "{scale-text.font-size.p2}"
       },
       "lg": {
         "type": "number",
@@ -49,7 +94,7 @@
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p2.lg} * {scale.multiplier}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p2.lg} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
       },
       "2xl": {
         "type": "number",
@@ -71,8 +116,7 @@
       },
       "md": {
         "type": "number",
-        "value": "{scale-text.font-size.p1}",
-        "description": "Smallest body size"
+        "value": "{scale-text.font-size.p1}"
       },
       "lg": {
         "type": "number",
@@ -103,8 +147,7 @@
       },
       "md": {
         "type": "number",
-        "value": "{scale-text.font-size.p3}",
-        "description": "Smallest body size"
+        "value": "{scale-text.font-size.p3}"
       },
       "lg": {
         "type": "number",
@@ -112,11 +155,101 @@
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p3.lg} * {scale.multiplier}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p3.lg} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
       },
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.p3.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      }
+    },
+    "h6": {
+      "2xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+      },
+      "xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale-text.font-size.h6}"
+      },
+      "lg": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      }
+    },
+    "h5": {
+      "2xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+      },
+      "xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale-text.font-size.h5}"
+      },
+      "lg": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      }
+    },
+    "d1": {
+      "2xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+      },
+      "xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale-text.font-size.d1}"
+      },
+      "lg": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
       }
     }
   },
@@ -209,6 +342,36 @@
         },
         "2xl": {
           "value": "{scale-text.p3.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "h6": {
+        "2xs": {
+          "value": "{scale-text.h6.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.h6.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.h6.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.h6.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.h6.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.h6.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.h6.2xl}  / {rem-base} * 1rem",
           "type": "dimension"
         }
       }
