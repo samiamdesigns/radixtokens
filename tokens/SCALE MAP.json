@@ -105,6 +105,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.p2.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.p2} * {line-heights.unitless.paragraph.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p2}, 3)",
+          "type": "number"
+        }
       }
     },
     "p1": {
@@ -135,6 +141,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.p1.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.p1} * {line-heights.unitless.paragraph.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p1}, 3)",
+          "type": "number"
+        }
       }
     },
     "p3": {
@@ -166,6 +178,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.p3.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.p3} * {line-heights.unitless.paragraph.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p3}, 3)",
+          "type": "number"
+        }
       }
     },
     "h6": {
@@ -196,6 +214,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.h6} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h6}, 3)",
+          "type": "number"
+        }
       }
     },
     "h5": {
@@ -226,36 +250,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
-      }
-    },
-    "d1": {
-      "2xs": {
-        "type": "number",
-        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
-      "xs": {
-        "type": "number",
-        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
-      },
-      "sm": {
-        "type": "number",
-        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
-      },
-      "md": {
-        "type": "number",
-        "value": "{scale-text.font-size.d1}"
-      },
-      "lg": {
-        "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
-      },
-      "xl": {
-        "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
-      },
-      "2xl": {
-        "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.h5} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h5}, 3)",
+          "type": "number"
+        }
       }
     },
     "h4": {
@@ -286,6 +286,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.h4.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.h4} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h4}, 3)",
+          "type": "number"
+        }
       }
     },
     "h3": {
@@ -316,6 +322,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.h3.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.h3} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h3}, 3)",
+          "type": "number"
+        }
       }
     },
     "h2": {
@@ -346,6 +358,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.h2.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.h2} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h2}, 3)",
+          "type": "number"
+        }
       }
     },
     "h1": {
@@ -376,6 +394,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.h1.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.h1} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h1}, 3)",
+          "type": "number"
+        }
       }
     },
     "d3": {
@@ -406,6 +430,12 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.d3.xl} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.d3} * {line-heights.unitless.display.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d3}, 3)",
+          "type": "number"
+        }
       }
     },
     "d2": {
@@ -436,6 +466,48 @@
       "2xl": {
         "type": "number",
         "value": "ceil(roundTo({scale-text.d2.xl} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.d2} * {line-heights.unitless.display.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d2}, 3)",
+          "type": "number"
+        }
+      }
+    },
+    "d1": {
+      "2xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale-text.font-size.d1}"
+      },
+      "lg": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+      },
+      "line-height": {
+        "default": {
+          "value": "roundTo(ceil((({scale-text.font-size.d1} * {line-heights.unitless.display.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d1}, 3)",
+          "type": "number"
+        }
       }
     }
   },
@@ -822,6 +894,52 @@
       "d1": {
         "type": "fontSizes",
         "value": "{scale-text.font-size.d1}  / {rem-base} * 1rem"
+      }
+    }
+  },
+  "line-heights": {
+    "unitless": {
+      "paragraph": {
+        "tight": {
+          "type": "number",
+          "value": "1.4"
+        },
+        "default": {
+          "type": "number",
+          "value": "1.5"
+        },
+        "relaxed": {
+          "type": "number",
+          "value": "1.6"
+        }
+      },
+      "heading": {
+        "tight": {
+          "type": "number",
+          "value": "1.1"
+        },
+        "default": {
+          "type": "number",
+          "value": "1.2"
+        },
+        "relaxed": {
+          "type": "number",
+          "value": "1.3"
+        }
+      },
+      "display": {
+        "tight": {
+          "type": "number",
+          "value": "1.1"
+        },
+        "default": {
+          "type": "number",
+          "value": "1.2"
+        },
+        "relaxed": {
+          "type": "number",
+          "value": "1.3"
+        }
       }
     }
   }
