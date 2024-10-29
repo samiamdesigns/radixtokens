@@ -68,21 +68,27 @@
       }
     },
     "factor": {
-      "type": "number",
-      "value": "2"
+      "font-size": {
+        "type": "number",
+        "value": "2"
+      },
+      "line-height": {
+        "value": "4",
+        "type": "number"
+      }
     },
     "p2": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.p2.xs} / {scale-text.multiplier.paragraph} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.p2.xs} / {scale-text.multiplier.paragraph} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.p2.sm} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.p2.sm} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.p2.md} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.p2.md} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -90,29 +96,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p2.md} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p2.md} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p2.lg} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p2.lg} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p2.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p2.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "p1": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.p1.xs} / {scale-text.multiplier.paragraph} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.p1.xs} / {scale-text.multiplier.paragraph} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.p1.sm} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.p1.sm} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.p1.md} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.p1.md} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -120,15 +126,15 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p1.md} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p1.md} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p1.lg} * {scale.multiplier}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p1.lg} * {scale.multiplier}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p1.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p1.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "p3": {
@@ -139,11 +145,11 @@
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.p3.sm} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.p3.sm} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.p3.md} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.p3.md} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -151,29 +157,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p3.md} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p3.md} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p3.lg} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p3.lg} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.p3.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.p3.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "h6": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -181,29 +187,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "h5": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -211,29 +217,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "d1": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -241,29 +247,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "h4": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h4.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h4.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h4.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h4.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h4.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h4.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -271,29 +277,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h4.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h4.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h4.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h4.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h4.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h4.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "h3": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h3.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h3.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h3.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h3.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h3.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h3.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -301,29 +307,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h3.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h3.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h3.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h3.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h3.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h3.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "h2": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h2.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h2.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h2.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h2.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h2.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h2.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -331,29 +337,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h2.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h2.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h2.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h2.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h2.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h2.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "h1": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h1.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h1.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h1.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h1.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h1.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.h1.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -361,29 +367,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h1.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h1.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h1.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h1.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h1.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.h1.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "d3": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.d3.xs} / {scale-text.multiplier.display} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.d3.xs} / {scale-text.multiplier.display} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.d3.sm} / {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.d3.sm} / {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.d3.md} / {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.d3.md} / {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -391,29 +397,29 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.d3.md} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.d3.md} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.d3.lg} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.d3.lg} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.d3.xl} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.d3.xl} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     },
     "d2": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.d2.xs} / {scale-text.multiplier.display} , 0) /{scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.d2.xs} / {scale-text.multiplier.display} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.d2.sm} / {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.d2.sm} / {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.d2.md} / {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "floor(roundTo({scale-text.d2.md} / {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -421,15 +427,15 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.d2.md} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.d2.md} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.d2.lg} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.d2.lg} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.d2.xl} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+        "value": "ceil(roundTo({scale-text.d2.xl} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       }
     }
   },
