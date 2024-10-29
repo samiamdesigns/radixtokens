@@ -10,8 +10,7 @@
       "typeface/fk-display": "enabled",
       "primitives/radix-colors-v2": "enabled",
       "primitives/dimensions": "enabled",
-      "primitives/radix-shadows": "enabled",
-      "scale - claude": "disabled"
+      "primitives/radix-shadows": "enabled"
     },
     "group": "primitives"
   },
@@ -20,8 +19,7 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "modes/light": "enabled",
-      "scale - claude": "disabled"
+      "modes/light": "enabled"
     },
     "group": "color-modes"
   },
@@ -30,8 +28,7 @@
     "name": "dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "modes/dark": "enabled",
-      "scale - claude": "disabled"
+      "modes/dark": "enabled"
     },
     "group": "color-modes"
   }

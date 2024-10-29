@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
-    "template/typography-full",
     "template/tailwind",
     "template/shadows",
+    "template/typography-full",
     "typeface/satoshi",
     "typeface/inter",
     "typeface/fk-grotesk-neue",
@@ -38,7 +38,8 @@
     "test",
     "toggle-group_DEPRECATED",
     "documentation",
-    "SCALE MAP",
-    "scale - claude"
+    "claude-font-sizes",
+    "TYPOGRAPHY",
+    "SCALE MAP"
   ]
 }

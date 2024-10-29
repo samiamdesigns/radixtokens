@@ -371,6 +371,66 @@
         "type": "number",
         "value": "ceil(roundTo({scale-text.h1.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor}) * {scale-text.factor}"
       }
+    },
+    "d3": {
+      "2xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.d3.xs} / {scale-text.multiplier.display} , 0) /{scale-text.factor}) * {scale-text.factor}"
+      },
+      "xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.d3.sm} / {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.d3.md} / {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale-text.font-size.d3}"
+      },
+      "lg": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.d3.md} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.d3.lg} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.d3.xl} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      }
+    },
+    "d2": {
+      "2xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.d2.xs} / {scale-text.multiplier.display} , 0) /{scale-text.factor}) * {scale-text.factor}"
+      },
+      "xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.d2.sm} / {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.d2.md} / {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale-text.font-size.d2}"
+      },
+      "lg": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.d2.md} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.d2.lg} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.d2.xl} * {scale-text.multiplier.display}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      }
     }
   },
   "text-style": {
@@ -494,6 +554,268 @@
           "value": "{scale-text.h6.2xl}  / {rem-base} * 1rem",
           "type": "dimension"
         }
+      },
+      "h5": {
+        "2xs": {
+          "value": "{scale-text.h5.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.h5.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.h5.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.h5.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.h5.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.h5.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.h5.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "h3": {
+        "2xs": {
+          "value": "{scale-text.h3.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.h3.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.h3.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.h3.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.h3.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.h3.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.h3.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "h2": {
+        "2xs": {
+          "value": "{scale-text.h2.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.h2.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.h2.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.h2.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.h2.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.h2.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.h2.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "h1": {
+        "2xs": {
+          "value": "{scale-text.h1.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.h1.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.h1.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.h1.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.h1.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.h1.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.h1.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "d3": {
+        "2xs": {
+          "value": "{scale-text.d3.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.d3.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.d3.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.d3.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.d3.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.d3.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.d3.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "d2": {
+        "2xs": {
+          "value": "{scale-text.d2.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.d2.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.d2.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.d2.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.d2.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.d2.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.d2.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "d1": {
+        "2xs": {
+          "value": "{scale-text.d1.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.d1.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.d1.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.d1.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.d1.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.d1.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.d1.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      }
+    }
+  },
+  "scale": {
+    "font-size": {
+      "p3": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.p3}  / {rem-base} * 1rem"
+      },
+      "p2": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.p2}  / {rem-base} * 1rem"
+      },
+      "p1": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.p1}  / {rem-base} * 1rem"
+      },
+      "h6": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h6}  / {rem-base} * 1rem"
+      },
+      "h5": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h5}  / {rem-base} * 1rem"
+      },
+      "h4": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h4}  / {rem-base} * 1rem"
+      },
+      "h3": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h3}  / {rem-base} * 1rem"
+      },
+      "h2": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h2}  / {rem-base} * 1rem"
+      },
+      "h1": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h1}  / {rem-base} * 1rem"
+      },
+      "d3": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.d3}  / {rem-base} * 1rem"
+      },
+      "d2": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.d2}  / {rem-base} * 1rem"
+      },
+      "d1": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.d1}  / {rem-base} * 1rem"
       }
     }
   }

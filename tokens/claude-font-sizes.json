@@ -1,0 +1,54 @@
+{
+  "brand": {
+    "fontSize": {
+      "p3": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.p3}  / {rem-base} * 1rem"
+      },
+      "p2": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.p2}  / {rem-base} * 1rem"
+      },
+      "p1": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.p1}  / {rem-base} * 1rem"
+      },
+      "h6": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h6}  / {rem-base} * 1rem"
+      },
+      "h5": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h5}  / {rem-base} * 1rem"
+      },
+      "h4": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h4}  / {rem-base} * 1rem"
+      },
+      "h3": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h3}  / {rem-base} * 1rem"
+      },
+      "h2": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h2}  / {rem-base} * 1rem"
+      },
+      "h1": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.h1}  / {rem-base} * 1rem"
+      },
+      "d3": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.d3}  / {rem-base} * 1rem"
+      },
+      "d2": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.d2}  / {rem-base} * 1rem"
+      },
+      "d1": {
+        "type": "fontSizes",
+        "value": "{scale-text.font-size.d1}  / {rem-base} * 1rem"
+      }
+    }
+  }
+}
