@@ -17,7 +17,8 @@
     "unitless": {
       "3xs": {
         "type": "number",
-        "value": "{scale.unitless.2xs} / 2"
+        "value": "{scale.unitless.2xs} / 2",
+        "description": "This calculation is modified to avoid a zero value at this very small size. "
       },
       "2xs": {
         "type": "number",

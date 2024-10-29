@@ -1,74 +1,186 @@
 {
   "scale-text": {
     "multiplier": {
-      "type": "number",
-      "value": "{proportion.scale.minor-third}",
-      "description": "Change the value of this token to modify every token in the scales."
-    },
-    "unitless": {
-      "sm": {
+      "paragraph": {
         "type": "number",
-        "value": "floor(roundTo({scale-TEXT.unitless.md} / {scale.multiplier}, 0) / {scale.factor}) * {scale.factor}"
+        "value": "{proportion.scale.minor-third}",
+        "description": "Change the value of this token to modify every token in the scales."
       }
-    }
-  },
-  "scale-TEXT": {
-    "base": {
-      "type": "number",
-      "value": "16",
-      "description": "Tokens used as the default or \"mid-point\" in your scale will have this value without any changes. So when you adjust only the multiplier token, this is not affected."
+    },
+    "font-size": {
+      "p2": {
+        "type": "number",
+        "value": "{scale.unitless.md}"
+      },
+      "p3": {
+        "type": "number",
+        "value": "{scale.unitless.sm}"
+      },
+      "p1": {
+        "value": "{scale.unitless.lg}",
+        "type": "number"
+      }
     },
     "factor": {
       "type": "number",
-      "value": "4"
+      "value": "2"
     },
-    "unitless": {
+    "p2": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-TEXT.unitless.xs} / {scale.multiplier}, 0) /{scale.factor}) * {scale.factor}"
+        "value": "floor(roundTo({scale-text.p2.xs} / {scale-text.multiplier.paragraph} , 0) /{scale-text.factor}) * {scale-text.factor}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.unitless.sm} / {scale-text.multiplier} , 0) / {scale-TEXT.factor}) * {scale-TEXT.factor}"
-      },
-      "md": {
-        "type": "number",
-        "value": "{brand.fontSize.p2}"
-      },
-      "lg": {
-        "type": "number",
-        "value": "{scale-TEXT.unitless.md} * {scale-text.multiplier}",
-        "description": "roundTo({scale-TEXT.unitless.lg} * {scale.multiplier}, 0"
-      },
-      "xl": {
-        "type": "number",
-        "value": "ceil(roundTo({scale-TEXT.unitless.lg} * {scale.multiplier}, 0) / {scale.factor}) * {scale.factor}"
-      },
-      "2xl": {
-        "type": "number",
-        "value": "ceil(roundTo({scale-TEXT.unitless.xl} * {scale.multiplier}, 0) / {scale.factor}) * {scale.factor}"
-      }
-    },
-    "radius-factor": {
-      "none": {
-        "type": "number",
-        "value": "0"
+        "value": "floor(roundTo({scale-text.p2.sm} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
       },
       "sm": {
         "type": "number",
-        "value": "0.75"
+        "value": "floor(roundTo({scale-text.p2.md} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
       },
       "md": {
         "type": "number",
-        "value": "1"
+        "value": "{scale-text.font-size.p2}",
+        "description": "Smallest body size"
       },
       "lg": {
         "type": "number",
-        "value": "1.5"
+        "value": "ceil(roundTo({scale-text.p2.md} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
       },
-      "full": {
+      "xl": {
         "type": "number",
-        "value": "1.5"
+        "value": "ceil(roundTo({scale-text.p2.lg} * {scale.multiplier}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.p2.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      }
+    },
+    "p1": {
+      "2xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.p1.xs} / {scale-text.multiplier.paragraph} , 0) /{scale-text.factor}) * {scale-text.factor}"
+      },
+      "xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.p1.sm} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.p1.md} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale-text.font-size.p1}",
+        "description": "Smallest body size"
+      },
+      "lg": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.p1.md} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.p1.lg} * {scale.multiplier}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.p1.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      }
+    },
+    "p3": {
+      "2xs": {
+        "type": "number",
+        "value": "{scale-text.p3.xs} / 2",
+        "description": "This calculation is modified to avoid a zero value at this very small size. "
+      },
+      "xs": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.p3.sm} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "sm": {
+        "type": "number",
+        "value": "floor(roundTo({scale-text.p3.md} / {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "md": {
+        "type": "number",
+        "value": "{scale-text.font-size.p3}",
+        "description": "Smallest body size"
+      },
+      "lg": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.p3.md} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.p3.lg} * {scale.multiplier}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      },
+      "2xl": {
+        "type": "number",
+        "value": "ceil(roundTo({scale-text.p3.xl} * {scale-text.multiplier.paragraph}, 0) / {scale-text.factor}) * {scale-text.factor}"
+      }
+    }
+  },
+  "text-style": {
+    "spacing": {
+      "p2": {
+        "2xs": {
+          "value": "{scale-text.p2.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.p2.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.p2.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.p2.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.p2.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.p2.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.p2.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "p1": {
+        "2xs": {
+          "value": "{scale-text.p1.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.p1.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.p1.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.p1.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.p1.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.p1.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.p1.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
       }
     }
   }
