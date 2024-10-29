@@ -4,20 +4,10 @@
       "text-input": {
         "slot": {
           "left": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "boolean",
             "value": "false"
           },
           "right": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "boolean",
             "value": "false"
           }
@@ -26,11 +16,6 @@
       "input": {
         "default": {
           "border": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "border",
             "value": {
               "color": "{form.controls.input.default.border-color}",
@@ -61,11 +46,6 @@
         },
         "hover": {
           "border": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "border",
             "value": {
               "color": "{form.controls.input.hover.border-color}",
@@ -83,11 +63,6 @@
           },
           "slot": {
             "color": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "color",
               "value": "{surface.color.input.foreground.default}"
             }
@@ -101,11 +76,6 @@
         },
         "pressed": {
           "border": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "border",
             "value": {
               "color": "{form.controls.input.pressed.border-color}",
@@ -136,11 +106,6 @@
         },
         "selected": {
           "border": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "border",
             "value": {
               "color": "{form.controls.input.selected.border-color}",
@@ -201,11 +166,6 @@
         },
         "disabled": {
           "border": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "border",
             "value": {
               "color": "{form.controls.input.disabled.border-color}",
@@ -236,11 +196,6 @@
         },
         "inactive": {
           "border": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "border",
             "value": {
               "color": "{form.controls.input.inactive.border-color}",
@@ -258,11 +213,6 @@
           },
           "slot": {
             "color": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "color",
               "value": "{surface.color.input.foreground.inactive}"
             }
@@ -284,11 +234,6 @@
         },
         "content": {
           "text": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "typography",
             "value": "{theme.text-style.actions.form.text-input}"
           }
@@ -309,11 +254,6 @@
         },
         "text-area": {
           "size": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{density.dimensions.interaction.size.4}"
           }
@@ -332,20 +272,10 @@
         },
         "content-wrapper": {
           "padding": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{density.dimensions.interaction.space.sm}"
           },
           "gap": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{density.dimensions.interaction.space.sm}"
           }

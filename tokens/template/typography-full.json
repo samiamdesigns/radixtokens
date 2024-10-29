@@ -664,58 +664,28 @@
   "fontWeight": {
     "heading": {
       "default": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "fontWeights",
         "value": "{fontWeights.fk-display-regular}"
       },
       "emphasis": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "fontWeights",
         "value": "{fontWeights.fk-display-regular}"
       },
       "subtle": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "fontWeights",
         "value": "{fontWeights.fk-display-regular}"
       }
     },
     "body": {
       "default": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "fontWeights",
         "value": "{fontWeights.fk-grotesk-neue-regular}"
       },
       "emphasis": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "fontWeights",
         "value": "{fontWeights.fk-grotesk-neue-medium}"
       },
       "subtle": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "fontWeights",
         "value": "{fontWeights.fk-grotesk-neue-medium}"
       }
@@ -723,20 +693,10 @@
   },
   "fontFamily": {
     "heading": {
-      "$extensions": {
-        "studio.tokens": {
-          "modify": {}
-        }
-      },
       "type": "fontFamilies",
       "value": "{fontFamilies.fk-display}"
     },
     "body": {
-      "$extensions": {
-        "studio.tokens": {
-          "modify": {}
-        }
-      },
       "type": "fontFamilies",
       "value": "{fontFamilies.fk-grotesk-neue}"
     }

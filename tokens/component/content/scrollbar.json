@@ -3,51 +3,26 @@
     "scrollbar": {
       "track": {
         "padding": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "dimension",
           "value": "{density.dimensions.interaction.space.2xs}"
         },
         "size": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "dimension",
           "value": "{density.dimensions.interaction.size.05}"
         },
         "default": {
           "background-color": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "color",
             "value": "{surface.color.interactive.neutral.glass}"
           }
         },
         "border-width": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "dimension",
           "value": "{density.dimensions.interaction.border-width.default}"
         }
       },
       "thumb": {
         "border-radius": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "dimension",
           "value": "{density.dimensions.interaction.border-radius.full}"
         },

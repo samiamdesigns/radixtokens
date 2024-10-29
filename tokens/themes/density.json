@@ -4,40 +4,20 @@
       "interaction": {
         "border-width": {
           "default": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "1px"
           }
         },
         "focus": {
           "border-width": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "2px"
           },
           "offset": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "2px"
           },
           "position": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "-{density.dimensions.interaction.focus.offset}"
           }
@@ -100,56 +80,26 @@
         },
         "border-radius": {
           "none": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "0px"
           },
           "sm": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{brand.scale-dimensions.unitless.2xs}px"
           },
           "md": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{brand.scale-dimensions.unitless.xs}px"
           },
           "lg": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{brand.scale-dimensions.unitless.sm}px"
           },
           "xl": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{brand.scale-dimensions.unitless.md}px"
           },
           "full": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "9999px"
           }

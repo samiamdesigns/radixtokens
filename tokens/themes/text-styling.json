@@ -22,20 +22,10 @@
         },
         "form": {
           "text-input": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "typography",
             "value": "{brand-typography.p2.default}"
           },
           "label": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "typography",
             "value": "{brand-typography.p2.emphasis}"
           },

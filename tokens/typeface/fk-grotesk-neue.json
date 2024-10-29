@@ -7,11 +7,6 @@
   },
   "fontWeights": {
     "fk-grotesk-neue-regular": {
-      "$extensions": {
-        "studio.tokens": {
-          "modify": {}
-        }
-      },
       "type": "fontWeights",
       "value": "Regular"
     },

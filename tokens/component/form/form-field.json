@@ -43,22 +43,12 @@
       },
       "label": {
         "typography": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "typography",
           "value": "{theme.text-style.actions.form.label}"
         }
       },
       "helper": {
         "typography": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "typography",
           "value": "{theme.text-style.actions.form.helper}"
         }
@@ -71,11 +61,6 @@
       },
       "validation-message": {
         "typography": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "typography",
           "value": "{theme.text-style.actions.form.validation-message}"
         },
@@ -161,31 +146,16 @@
         },
         "icon": {
           "size": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{density.dimensions.interaction.size.05}"
           }
         },
         "icon-wrapper": {
           "padding-vertical": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{density.dimensions.interaction.space.xs}"
           },
           "padding-horizontal": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{density.dimensions.interaction.space.none}"
           }
@@ -200,11 +170,6 @@
             "value": "{density.dimensions.interaction.space.xs}"
           },
           "padding-horizontal": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{density.dimensions.interaction.space.none}"
           }

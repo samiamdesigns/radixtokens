@@ -1350,11 +1350,6 @@
         },
         "inactive": {
           "typography": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "typography",
             "value": "{theme.text-style.actions.label.interaction}"
           }
@@ -1368,11 +1363,6 @@
       },
       "focus": {
         "border-radius": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "dimension",
           "value": "{actions.toggle-button.border-radius} + {density.dimensions.interaction.focus.offset}"
         }

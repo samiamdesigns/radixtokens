@@ -2,20 +2,10 @@
   "content": {
     "separator": {
       "margin": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "dimension",
         "value": "{density.dimensions.interaction.space.sm}"
       },
       "size": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "dimension",
         "value": "{density.dimensions.interaction.border-width.default}"
       },

@@ -448,11 +448,6 @@
         }
       },
       "lg": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "boxShadow",
         "value": [
           {
@@ -474,11 +469,6 @@
         ]
       },
       "sm": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "boxShadow",
         "value": {
           "x": "0",
@@ -490,11 +480,6 @@
         }
       },
       "none": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "boxShadow",
         "value": {
           "x": "0",
@@ -506,11 +491,6 @@
         }
       },
       "floating": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "boxShadow",
         "value": {
           "x": "0",

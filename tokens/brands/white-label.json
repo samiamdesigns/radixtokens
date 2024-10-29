@@ -163,31 +163,16 @@
     "fontWeight": {
       "heading": {
         "default": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "fontWeights",
           "value": "{fontWeights.fk-display-regular}"
         }
       },
       "body": {
         "default": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "fontWeights",
           "value": "{fontWeights.fk-grotesk-neue-regular}"
         },
         "emphasis": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "fontWeights",
           "value": "{fontWeights.fk-grotesk-neue-medium}"
         }
@@ -195,20 +180,10 @@
     },
     "fontFamily": {
       "heading": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "fontFamilies",
         "value": "{fontFamilies.fk-display}"
       },
       "body": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {}
-          }
-        },
         "type": "fontFamilies",
         "value": "{fontFamilies.fk-grotesk-neue}"
       }
@@ -303,11 +278,6 @@
           "value": "{scale.rem.4xl}"
         },
         "10": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "dimension",
           "value": "{scale.rem.5xl}"
         }
@@ -368,11 +338,6 @@
           "value": "{scale.unitless.4xl}px"
         },
         "10": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "dimension",
           "value": "{scale.unitless.5xl}px"
         }

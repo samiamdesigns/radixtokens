@@ -20,50 +20,25 @@
             "value": "{density.dimensions.interaction.border-radius.sm}"
           },
           "typography": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "typography",
             "value": "{theme.text-style.actions.form.select-item}"
           },
           "focus": {
             "border-radius": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{form.controls.select.item.border-radius} + {density.dimensions.interaction.focus.offset}"
             }
           },
           "indicator": {
             "padding-horizontal": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{density.dimensions.interaction.space.none}"
             },
             "padding-vertical": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{density.dimensions.interaction.space.2xs}"
             },
             "size": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{density.dimensions.interaction.control.default.icon.size}"
             }
@@ -164,57 +139,27 @@
         "group": {
           "label": {
             "typography": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "typography",
               "value": "{theme.text-style.actions.form.select-label}"
             },
             "gap": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{density.dimensions.interaction.space.xs}"
             },
             "padding-horizontal": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{density.dimensions.interaction.space.xs}"
             },
             "padding-vertical": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{density.dimensions.interaction.space.xs}"
             },
             "control": {
               "padding-horizontal": {
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {}
-                  }
-                },
                 "type": "dimension",
                 "value": "{density.dimensions.interaction.space.xs}"
               },
               "padding-vertical": {
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {}
-                  }
-                },
                 "type": "dimension",
                 "value": "{density.dimensions.interaction.space.xs}"
               }
@@ -308,29 +253,14 @@
         "input": {
           "content-wrapper": {
             "padding-vertical": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{density.dimensions.interaction.space.none}"
             },
             "padding-start": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{density.dimensions.interaction.space.sm}"
             },
             "padding-end": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "dimension",
               "value": "{density.dimensions.interaction.space.xs}"
             },

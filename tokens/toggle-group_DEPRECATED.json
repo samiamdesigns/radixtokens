@@ -461,11 +461,6 @@
               "value": "{surface.elevation.interaction.none}"
             },
             "typography": {
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {}
-                }
-              },
               "type": "typography",
               "value": "{theme.text-style.actions.label.interaction}"
             }
@@ -541,11 +536,6 @@
         },
         "focus": {
           "border-radius": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "dimension",
             "value": "{actions.toggle-group.item.border-radius} + {density.dimensions.interaction.focus.offset}"
           }

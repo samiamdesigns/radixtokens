@@ -82,11 +82,6 @@
             "value": "{brand-colors.info.8}"
           },
           "minimal": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {}
-              }
-            },
             "type": "color",
             "value": "{brand-colors.info.5}"
           },
@@ -429,38 +424,18 @@
     "elevation": {
       "interaction": {
         "none": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "boxShadow",
           "value": "{mode-colors.shadows.none}"
         },
         "default": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "boxShadow",
           "value": "{mode-colors.shadows.1}"
         },
         "hover": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "boxShadow",
           "value": "{mode-colors.shadows.1}"
         },
         "pressed": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "boxShadow",
           "value": "{mode-colors.shadows.1}"
         },
@@ -471,11 +446,6 @@
       },
       "panels": {
         "sm": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "boxShadow",
           "value": {
             "x": "0",
@@ -487,11 +457,6 @@
           }
         },
         "none": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "boxShadow",
           "value": {
             "x": "0",
@@ -503,11 +468,6 @@
           }
         },
         "floating": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "boxShadow",
           "value": {
             "x": "0",

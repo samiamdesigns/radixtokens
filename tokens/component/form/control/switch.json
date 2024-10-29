@@ -265,11 +265,6 @@
           }
         },
         "height": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "dimension",
           "value": "{density.dimensions.interaction.control.default.size}"
         },
@@ -280,11 +275,6 @@
           }
         },
         "width": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {}
-            }
-          },
           "type": "dimension",
           "value": "{density.dimensions.interaction.control.default.size} * 2"
         }
