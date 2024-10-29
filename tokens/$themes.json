@@ -11,7 +11,7 @@
       "primitives/radix-colors-v2": "enabled",
       "primitives/dimensions": "enabled",
       "primitives/radix-shadows": "enabled",
-      "primitives/scale": "disabled"
+      "SCALE MAP": "disabled"
     },
     "group": "primitives"
   },
@@ -21,7 +21,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "modes/light": "enabled",
-      "primitives/scale": "disabled"
+      "SCALE MAP": "disabled"
     },
     "group": "color-modes"
   },
@@ -31,7 +31,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "modes/dark": "enabled",
-      "primitives/scale": "disabled"
+      "SCALE MAP": "disabled"
     },
     "group": "color-modes"
   }
