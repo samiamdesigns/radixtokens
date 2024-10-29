@@ -1,0 +1,28 @@
+{
+  "Clauds equations": {
+    "value": "roundTo(ceil((({scale-text.font-size.p2} * {line-height-test}) / 2)) * 2 / {scale-text.font-size.p2}, 3)",
+    "type": "other"
+  },
+  "testing-lineheight": {
+    "value": "{Clauds equations} * 100%",
+    "type": "lineHeights"
+  },
+  "testing-lineheight-copy": {
+    "value": "{clauds equations 2} * 100%",
+    "type": "lineHeights"
+  },
+  "line-height-test": {
+    "value": "1.33",
+    "type": "number"
+  },
+  "clauds equations 2": {
+    "value": "roundTo(ceil((({scale-text.font-size.p2} * {line-height-test}) / {scale-text.factor-lineheight})) * {scale-text.factor-lineheight} / {scale-text.font-size.p2}, 3)",
+    "type": "other"
+  },
+  "scale-text": {
+    "factor-lineheight": {
+      "value": "4",
+      "type": "number"
+    }
+  }
+}
