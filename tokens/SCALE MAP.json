@@ -181,6 +181,36 @@
           "value": "{scale-text.p1.2xl}  / {rem-base} * 1rem",
           "type": "dimension"
         }
+      },
+      "p3": {
+        "2xs": {
+          "value": "{scale-text.p3.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.p3.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.p3.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.p3.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.p3.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.p3.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.p3.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
       }
     }
   }
