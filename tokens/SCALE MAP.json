@@ -110,6 +110,14 @@
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.p2} * {line-heights.unitless.paragraph.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p2}, 3)",
           "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.p2} * {line-heights.unitless.paragraph.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p2}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.p2} * {line-heights.unitless.paragraph.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p2}, 3)",
+          "type": "number"
         }
       }
     },
@@ -145,6 +153,14 @@
       "line-height": {
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.p1} * {line-heights.unitless.paragraph.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p1}, 3)",
+          "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.p1} * {line-heights.unitless.paragraph.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p1}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.p1} * {line-heights.unitless.paragraph.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p1}, 3)",
           "type": "number"
         }
       }
@@ -183,6 +199,14 @@
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.p3} * {line-heights.unitless.paragraph.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p3}, 3)",
           "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.p3} * {line-heights.unitless.paragraph.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p3}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.p3} * {line-heights.unitless.paragraph.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.p3}, 3)",
+          "type": "number"
         }
       }
     },
@@ -218,6 +242,14 @@
       "line-height": {
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.h6} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h6}, 3)",
+          "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.h6} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h6}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.h6} * {line-heights.unitless.heading.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h6}, 3)",
           "type": "number"
         }
       }
@@ -255,6 +287,14 @@
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.h5} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h5}, 3)",
           "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.h5} * {line-heights.unitless.heading.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h5}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.h5} * {line-heights.unitless.heading.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h5}, 3)",
+          "type": "number"
         }
       }
     },
@@ -290,6 +330,14 @@
       "line-height": {
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.h4} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h4}, 3)",
+          "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.h4} * {line-heights.unitless.heading.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h4}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.h4} * {line-heights.unitless.heading.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h4}, 3)",
           "type": "number"
         }
       }
@@ -327,6 +375,14 @@
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.h3} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h3}, 3)",
           "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.h3} * {line-heights.unitless.heading.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h3}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.h3} * {line-heights.unitless.heading.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h3}, 3)",
+          "type": "number"
         }
       }
     },
@@ -362,6 +418,14 @@
       "line-height": {
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.h2} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h2}, 3)",
+          "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.h2} * {line-heights.unitless.heading.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h2}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.h2} * {line-heights.unitless.heading.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h2}, 3)",
           "type": "number"
         }
       }
@@ -399,6 +463,14 @@
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.h1} * {line-heights.unitless.heading.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h1}, 3)",
           "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.h1} * {line-heights.unitless.heading.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h1}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.h1} * {line-heights.unitless.heading.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.h1}, 3)",
+          "type": "number"
         }
       }
     },
@@ -434,6 +506,14 @@
       "line-height": {
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.d3} * {line-heights.unitless.display.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d3}, 3)",
+          "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.d3} * {line-heights.unitless.display.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d3}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.d3} * {line-heights.unitless.display.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d3}, 3)",
           "type": "number"
         }
       }
@@ -471,6 +551,14 @@
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.d2} * {line-heights.unitless.display.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d2}, 3)",
           "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.d2} * {line-heights.unitless.display.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d2}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.d2} * {line-heights.unitless.display.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d2}, 3)",
+          "type": "number"
         }
       }
     },
@@ -506,6 +594,14 @@
       "line-height": {
         "default": {
           "value": "roundTo(ceil((({scale-text.font-size.d1} * {line-heights.unitless.display.default}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d1}, 3)",
+          "type": "number"
+        },
+        "tight": {
+          "value": "roundTo(ceil((({scale-text.font-size.d1} * {line-heights.unitless.display.tight}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d1}, 3)",
+          "type": "number"
+        },
+        "relaxed": {
+          "value": "roundTo(ceil((({scale-text.font-size.d1} * {line-heights.unitless.display.relaxed}) / {scale-text.factor.line-height})) * {scale-text.factor.line-height} / {scale-text.font-size.d1}, 3)",
           "type": "number"
         }
       }
