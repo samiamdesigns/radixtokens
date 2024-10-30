@@ -612,15 +612,15 @@
     "d1": {
       "2xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.xs} / {scale-text.multiplier.headline} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+        "value": "floor(roundTo({scale-text.d1.xs} / {scale-text.multiplier.display} , 0) /{scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xs": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.sm} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+        "value": "floor(roundTo({scale-text.d1.sm} / {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "sm": {
         "type": "number",
-        "value": "floor(roundTo({scale-text.h6.md} / {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+        "value": "floor(roundTo({scale-text.d1.md} / {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "md": {
         "type": "number",
@@ -628,15 +628,15 @@
       },
       "lg": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.md} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+        "value": "ceil(roundTo({scale-text.d1.md} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.lg} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+        "value": "ceil(roundTo({scale-text.d1.lg} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "2xl": {
         "type": "number",
-        "value": "ceil(roundTo({scale-text.h6.xl} * {scale-text.multiplier.headline}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
+        "value": "ceil(roundTo({scale-text.d1.xl} * {scale-text.multiplier.display}, 0) / {scale-text.factor.font-size}) * {scale-text.factor.font-size}"
       },
       "line-height": {
         "default": {
