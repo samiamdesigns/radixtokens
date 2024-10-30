@@ -985,6 +985,36 @@
           "value": "{scale-text.d1.2xl}  / {rem-base} * 1rem",
           "type": "dimension"
         }
+      },
+      "h4": {
+        "2xs": {
+          "value": "{scale-text.h4.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.h4.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.h4.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.h4.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.h4.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.h4.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.h4.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
       }
     }
   },
