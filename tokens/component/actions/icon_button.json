@@ -2097,7 +2097,7 @@
           "value": "{actions.chip.border-radius} + {density.dimensions.interaction.focus.offset}"
         }
       },
-      "contained": {
+      "inline": {
         "border-width": {
           "type": "dimension",
           "value": "{density.dimensions.interaction.border-width.default}"
