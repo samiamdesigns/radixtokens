@@ -698,5 +698,99 @@
         "value": "{scale.font-size.d1}"
       }
     }
+  },
+  "text-style": {
+    "spacing": {
+      "d1": {
+        "2xs": {
+          "value": "{scale-text.d1.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.d1.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.d1.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.d1.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.d1.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.d1.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.d1.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "d2": {
+        "2xs": {
+          "value": "{scale-text.d2.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.d2.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.d2.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.d2.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.d2.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.d2.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.d2.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      },
+      "d3": {
+        "2xs": {
+          "value": "{scale-text.d3.2xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xs": {
+          "value": "{scale-text.d3.xs}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{scale-text.d3.sm}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{scale-text.d3.md}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{scale-text.d3.lg}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{scale-text.d3.xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        },
+        "2xl": {
+          "value": "{scale-text.d3.2xl}  / {rem-base} * 1rem",
+          "type": "dimension"
+        }
+      }
+    }
   }
 }
