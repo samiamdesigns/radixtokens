@@ -272,6 +272,10 @@
           "size": {
             "type": "dimension",
             "value": "{density.dimensions.interaction.control.default.size} - {brand.dimensions.control.thumb-offset} - {brand.dimensions.control.thumb-offset}"
+          },
+          "icon-size": {
+            "type": "dimension",
+            "value": "{form.controls.switch.thumb.size} - {brand.dimensions.control.thumb-offset} - {brand.dimensions.control.thumb-offset}"
           }
         },
         "width": {
