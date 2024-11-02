@@ -51,6 +51,20 @@
           "paragraphIndent": "{brand.paragraphIndent.default}"
         }
       },
+      "emphasis": {
+        "type": "typography",
+        "value": {
+          "letterSpacing": "{brand.letterSpacing.unitless.paragraph.relaxed} * 100%",
+          "lineHeight": "{brand.lineHeights.unitless.paragraph.relaxed} * 100%",
+          "fontFamily": "{brand.fontFamily.body}",
+          "fontWeight": "{brand.fontWeight.body.default}",
+          "fontSize": "{brand.font-size.p3}",
+          "paragraphSpacing": "{brand.paragraphSpacing.default}",
+          "textDecoration": "{brand.textDecoration.default}",
+          "textCase": "{brand.textCase.default}",
+          "paragraphIndent": "{brand.paragraphIndent.default}"
+        }
+      },
       "interactive": {
         "type": "typography",
         "value": {
@@ -81,6 +95,20 @@
           "paragraphIndent": "{brand.paragraphIndent.default}"
         }
       },
+      "emphasis": {
+        "type": "typography",
+        "value": {
+          "letterSpacing": "{brand.letterSpacing.unitless.paragraph.default} * 100%",
+          "lineHeight": "{brand.lineHeights.unitless.paragraph.default} * 100%",
+          "fontFamily": "{brand.fontFamily.body}",
+          "fontWeight": "{brand.fontWeight.body.default}",
+          "fontSize": "{brand.font-size.p2}",
+          "paragraphSpacing": "{brand.paragraphSpacing.default}",
+          "textDecoration": "{brand.textDecoration.default}",
+          "textCase": "{brand.textCase.default}",
+          "paragraphIndent": "{brand.paragraphIndent.default}"
+        }
+      },
       "interactive": {
         "type": "typography",
         "value": {
@@ -98,6 +126,20 @@
     },
     "p1": {
       "default": {
+        "type": "typography",
+        "value": {
+          "letterSpacing": "{brand.letterSpacing.unitless.paragraph.default} * 100%",
+          "lineHeight": "{brand.lineHeights.unitless.paragraph.default} * 100%",
+          "fontFamily": "{brand.fontFamily.body}",
+          "fontWeight": "{brand.fontWeight.body.default}",
+          "fontSize": "{brand.font-size.p1}",
+          "paragraphSpacing": "{brand.paragraphSpacing.default}",
+          "textDecoration": "{brand.textDecoration.default}",
+          "textCase": "{brand.textCase.default}",
+          "paragraphIndent": "{brand.paragraphIndent.default}"
+        }
+      },
+      "emphasis": {
         "type": "typography",
         "value": {
           "letterSpacing": "{brand.letterSpacing.unitless.paragraph.default} * 100%",
