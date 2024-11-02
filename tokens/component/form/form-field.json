@@ -114,11 +114,11 @@
           "type": "dimension",
           "value": "{density.dimensions.interaction.border-width.default}"
         },
-        "subtle": {
+        "info": {
           "border": {
             "type": "border",
             "value": {
-              "color": "{form.field.validation-message.subtle.border-color}",
+              "color": "{form.field.validation-message.info.border-color}",
               "width": "{form.field.validation-message.border-width}",
               "style": "solid"
             }
