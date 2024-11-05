@@ -236,6 +236,14 @@
           "text": {
             "type": "typography",
             "value": "{theme.text-style.actions.form.text-input}"
+          },
+          "padding": {
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
+          },
+          "gap": {
+            "type": "dimension",
+            "value": "{density.dimensions.interaction.space.sm}"
           }
         },
         "height-min": {
@@ -268,16 +276,6 @@
               "type": "dimension",
               "value": "{form.controls.input.text-field.size} - 1.5rem"
             }
-          }
-        },
-        "content-wrapper": {
-          "padding": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.space.sm}"
-          },
-          "gap": {
-            "type": "dimension",
-            "value": "{density.dimensions.interaction.space.sm}"
           }
         }
       }
